@@ -1,0 +1,103 @@
+ID: <Id del texto>
+=====================TEXTO======================
+¿Pensamos con el cerebro o con el corazón? Como tantos otros enigmas
+científicos podemos rastrear el debate en la antigua Grecia, y los adalides de uno y otro
+punto de vista fueron Aristóteles de Estagira (384 – 322 a. C.), el padre de la lógica y
+fundador de la escuela per ipatética, e Hipócrates de Cos (c. 460 – 370 a. C.), padre de la
+medicina científica. El primero, interesado en investigar la sensibilidad del cerebro, probó
+en animales y no halló ninguna respuesta. Además, al cortar el cerebro, encontró que no
+sangraba. Concluyó, entonces, correctamente, que la víscera cerebral es insensible, pero
+equivocadamente le negó toda participación en la actividad mental. Su desdén por el
+cerebro fue tal que alguna vez afirmó: «El cerebro no puede ser causa de sensación
+alguna, ya que en sí mismo es tan inerte como cualquier excreción». El estagirita declaró
+al corazón como el asiento de las sensaciones, aserto con el cual contradecía a su
+maestro Platón, quien consideraba al cerebro como el órgano del pensamiento.
+Hipócrates, en cambio, buscando explicaciones racionales sobre el origen de las
+enfermedades, se interesó por la epilepsia, conocida como la «enfermedad sagrada»
+porque las terribles convulsiones propias de ese mal se atribuían a la visita de un dios en
+el cuerpo de la v íctima. A Hipócrates le impresionó lo generalizado de las convulsiones y
+trató de explicarlas basándose en las observaciones anatómicas que Alcmeón y sus
+discípulos habían realizado un siglo antes en Crotona. Los anatomistas de Crotona
+habían demostrado la continuidad del cerebro con los nervios que llegan a todas las
+partes del cuerpo. Así, en su famoso libro sobre la epilepsia, Hipócrates la despojaba de
+todo atributo divino y la explicó como un trastorno del cerebro, tal como se acepta
+actualmente. Es más, Hipócrates aseveró que «los ojos, los oídos, la lengua, las manos y
+los pies ejecutan acciones planeadas por el cerebro» y sostuvo que éste era el órgano del
+entendimiento.
+La controversia no se resolvió sino hasta cinco siglos después. Un médico de
+Pérgamo, llamado Claudio Galeno, reunió una impresionante cantidad de pruebas de la
+participación del cerebro en las funciones conductuales, de tal manera que fue imposible
+poner en duda que el cerebro es la sede del intelecto.
+=====================PREGUNTA 1======================
+¿Cuál es la mejor síntesis del texto?
+=====================ALTERNATIVAS======================
+A. Aristóteles de Estagira llegó a una conclusión contraria a la de Hipócrates de
+Cos, por cuanto determinó correctamente que el cerebro carecía de sensibilidad.
+B. Tanto Hipócrates como los anatomistas de Crotona llegaron a la conclusión de
+que el cerebro es un órgano involucrado con las funciones del entendimiento.
+C. En la disputa entre Aristóteles e Hipócrates sobre el papel desempeñado por el
+corazón o el cerebro en el pensamiento, Galeno validó la posición de Hipócrates.
+D. A diferencia de Aristóteles, Hipócrates refutó la tesis de la epilepsia como un mal
+sagrado y determinó concluyentemente que ese mal era un trastorno del cerebro.
+E. Hipócrates, los anatomistas de Crotona y Claudio Galeno establecieron
+fehacientemente que el cerebro es el responsable de las funciones conductuales.
+=====================ALTERNATIVA CORRECTA======================
+C. En la disputa entre Aristóteles e Hipócrates sobre el papel desempeñado por el
+corazón o el cerebro en el pensamiento, Galeno validó la posición de Hipócrates.
+=====================RAZONAMIENTO======================
+En resumen, el texto presenta la controversia entre Aristóteles (el corazón) e
+Hipócrates (el cerebro), y señala la solución de Claudio Galeno (el cerebro como
+órgano del intelecto).
+=====================PREGUNTA 2======================
+En el texto, la palabra ENIGMA designa
+=====================ALTERNATIVAS======================
+A. método. 
+B. tesis. 
+C. historia. 
+D. problema. 
+E. ficción.
+=====================ALTERNATIVA CORRECTA======================
+D. problema. 
+=====================RAZONAMIENTO======================
+La palabra ENIGMA se usa en el sentido de una cuestión planteada para la
+investigación, esto es, un problema.
+=====================PREGUNTA 3======================
+Resulta incompatible con el texto decir que
+=====================ALTERNATIVAS======================
+A. Hipócrates de Cos y Claudio Galeno fueron médicos coetáneos.
+B. Aristóteles basó sus ideas en algunas observaciones anatómicas.
+C. el trabajo de los anatomistas de Crotona fue corroborado por Galeno.
+D. Hipócrates recusó el carácter sagrado del mal de la epilepsia.
+E. el estagirita determinó que el cerebro carecía de sensibilidad.
+=====================ALTERNATIVA CORRECTA======================
+A. Hipócrates de Cos y Claudio Galeno fueron médicos coetáneos.
+=====================RAZONAMIENTO======================
+Galeno resolvió la cuestión después de cinco siglos. Ergo, vivió aproximadamente
+en el siglo II de nuestra era. Por lo tanto, no es coetáneo de Hipócrates.
+=====================PREGUNTA 4======================
+Se infiere del texto que, para Hipócrates, hablar de males sagrados
+=====================ALTERNATIVAS======================
+A. equivalía a una explicación de tipo anatómico.
+B. revelaba la importancia del corazón en el cuerpo.
+C. significaba un avance para la ciencia de la época.
+D. se podía refutar haciendo cortes en el corazón.
+E. constituía un modo irracional de pensamiento.
+=====================ALTERNATIVA CORRECTA======================
+E. constituía un modo irracional de pensamiento.
+=====================RAZONAMIENTO======================
+Hipócrates buscaba explicaciones racionales y descartó de plano la doctrina del mal
+sagrado. Ergo, esta última doctrina era considerada irracional por Hipócrates.
+=====================PREGUNTA 5======================
+Si Galeno hubiese objetado todo lo que decía Platón, habría
+=====================ALTERNATIVAS======================
+A. modificado su punto de vista sobre el cerebro.
+B. sostenido que la víscera cerebral es sensible.
+C. dicho que el pensamiento se anida en el cerebro.
+D. corroborado las conclusiones de Hipócrates.
+E. hablado de la epilepsia como mal cerebral.
+=====================ALTERNATIVA CORRECTA======================
+A. modificado su punto de vista sobre el cerebro.
+=====================RAZONAMIENTO======================
+Platón decía que el cerebro era el órgano del pensamiento, lo que el mismo Galeno
+confirmó científicamente. Ahora bien, si Galeno hubiese objetado lo defendido por
+Platón, habría tenido que plantear algo diferente sobre el cerebro.
