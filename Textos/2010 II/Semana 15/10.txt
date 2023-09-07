@@ -1,0 +1,77 @@
+ID: <Id del texto>
+=====================TEXTO======================
+La teoría del desarrollo de la conciencia moral, elaborada por L. Kohlberg y sus colaboradores, propone que el desarrollo del juicio moral va desde la niñez hasta la edad adulta, pasando por la juventud, según un modelo invariable. El punto normativo de referencia de la vía evolutiva empíricamente analizada está constituida por una moral orientada en función de los principios: en ello puede reconocerse la ética discursiva en sus rasgos esenciales. En este caso, la congruencia de la teoría normativa (por ejemplo, la formulada por Kant) con la psicológica, considerada desde la perspectiva de la ética, consiste en lo siguiente: frente a las éticas universalistas suele argumentarse, en general, que otras culturas disponen de otras concepciones m orales.
+En contra de las reservas relativistas de este tipo, la teoría del desarrollo moral de Kohlberg ofrece la posibilidad de a) remitir la multiplicidad empírica de las concepciones morales preexistentes a una variación de contenidos frente a formas de l juicio moral, y b) explicar las diferencias estructurales que sigue habiendo en las etapas del desarrollo del juicio moral.
+La congruencia de los resultados parece desvalorizarse debido a las relaciones internas que se dan entre ambas teorías, puesto que la teoría de Kohlberg acerca del desarrollo moral utiliza los resultados de la ética filosófica para la descripción de las estructuras cognitivas que se encuentran en la base de los juicios morales formulados en virtud de principios. En la medida en que el psicólogo convierte una teoría normativa en una parte esencial de una teoría empírica, lo que hace, al propio tiempo, es someterla a una comprobación indirecta. La confirmación empírica de los supuestos psicológico–evolutivos se transfiere a todas las partes componentes de la teoría, de las que se han derivado las hipótesis confirmadas. Entre las teorías morales competitivas concederemos la primacía a la que mejor resista esta prueba. Las reservas a causa del carácter circular de esta comprobación no son sólidas.
+=====================PREGUNTA 1======================
+Para Kohlber, la tesis relativista morales
+=====================ALTERNATIVAS======================
+A) aproximada. 
+B) implausible. 
+C) fundamentalista.
+D) axiomática. 
+E) formalista.
+=====================ALTERNATIVA CORRECTA======================
+B) implausible. 
+=====================RAZONAMIENTO======================
+Kohlberg postula principios universales. Ergo, está en contra del relativismo.
+=====================PREGUNTA 2======================
+Determine la alternativa que contenga la idea principal del texto.
+=====================ALTERNATIVAS======================
+A) El desarrollo del juicio moral, según Kohlberg, es paulatino y está regido por criterios universales.
+B) Las teorías estructuralistas sostienen que el desarrollo moral en los niños es de carácter heteróclito.
+C) La constatación de la consistencia teórica entre Kohlberg y Kant se sostiene en una relación de circularidad.
+D) La teoría de la estructuración cognitiva se basa en aspectos incontrastables empíricamente.
+E) Kohlberg permite explicar las diversas etapas de desarrollo cognitivo que involucra el juicio moral.
+=====================ALTERNATIVA CORRECTA======================
+A) El desarrollo del juicio moral, según Kohlberg, es paulatino y está regido por criterios universales.
+=====================RAZONAMIENTO======================
+La teoría del desarrollo moral, a diferencia de las corrientes relativistas, propone que tal evolución es paulatina e involucra aspectos universales que, incluso, permiten explicar las diferencias en el desarrollo moral de cada cultura.
+=====================PREGUNTA 3======================
+El término COMPETITIVA significa
+=====================ALTERNATIVAS======================
+A) intelectual. 
+B) competente. 
+C) rival.
+D) homogénea. 
+E) asimétrica.
+=====================ALTERNATIVA CORRECTA======================
+C) rival.
+=====================RAZONAMIENTO======================
+Al hablar de teorías competitivas, se alude a su rivalidad entorno a brindar la mejor explicación del fenómeno moral.
+=====================PREGUNTA 4======================
+Determine la aserción incompatible con el texto.
+=====================ALTERNATIVAS======================
+A) El modelo de desarrollo moral de Kohlberg es contrario al relativismo.
+B) Los relativistas plantean div ergencias culturales en el desarrollo moral.
+C) La propuesta de desarrollo moral está definida por su carácter ecuménico.
+D) La propuesta de Kohlberg relativiza las diferencias por ser inabarcables.
+E) Los juicios morales poseen un trasfondo de tipo co gnitivo según Kohlberg.
+=====================ALTERNATIVA CORRECTA======================
+A) El modelo de desarrollo moral de Kohlberg es contrario al relativismo.
+=====================RAZONAMIENTO======================
+Las diferencias morales de cultura a cultura son claramente explicables a partir de un patrón cognitivo universal según Kohlberg.
+=====================PREGUNTA 5======================
+Se deduce del texto que las propuestas relativistas
+=====================ALTERNATIVAS======================
+A) rechazan la multiplicidad a partir de una propuesta de tipo universal.
+B) asumen que cada cultura realiza operaciones mentales equivalentes.
+C) analizan las costumbres morales en términos de la idiosincrasia.
+D) plantean la coocurrencia de operaciones cognitivas muy similares.
+E) concilian plenamente con la propuesta moral asumida por Kant.
+=====================ALTERNATIVA CORRECTA======================
+C) analizan las costumbres morales en términos de la idiosincrasia.
+=====================RAZONAMIENTO======================
+Las propuestas relativistas asumen que el desarrollo morales distinto, y se manifiesta como tal, de acuerdo con cada cultura.
+=====================PREGUNTA 6======================
+Si Kohlberg planteara que las culturas definen desarrollos morales divergentes e irreconciliables,
+=====================ALTERNATIVAS======================
+A) se contaría con un método heurístico muy relevante.
+B) los datos que corroborarían tal teoría serían abstrusos.
+C) la universalidad en el desarrollo moral sería inconcusa.
+D) su propuesta sería acorde con la orientación relativista.
+E) estaría en las antípodas del relativismo en el plano moral.
+=====================ALTERNATIVA CORRECTA======================
+D) su propuesta sería acorde con la orientación relativista.
+=====================RAZONAMIENTO======================
+Kohlberg plantea universales en su propuesta de desarrollo paulatino de la conciencia moral. Asumir desarrollos divergentes supondría una mayor afinidad con las corrientes relativistas.
