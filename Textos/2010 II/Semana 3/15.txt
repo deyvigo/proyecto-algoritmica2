@@ -21,38 +21,38 @@ nanotecnología.
 =====================PREGUNTA 1======================
 Medularmente, el texto trata sobre
 =====================ALTERNATIVAS======================
-A. el nacimiento de la nanociencia en los EE.UU.
-B. las nanopartículas magnéticas para tratar tumores.
-C. el suministro de fármacos en diversas clínicas.
-D. la nanotecnología y sus aplicaciones médicas.
-E. los perfeccionamientos en la lucha contra el cáncer.
+A) el nacimiento de la nanociencia en los EE.UU.
+B) las nanopartículas magnéticas para tratar tumores.
+C) el suministro de fármacos en diversas clínicas.
+D) la nanotecnología y sus aplicaciones médicas.
+E) los perfeccionamientos en la lucha contra el cáncer.
 =====================ALTERNATIVA CORRECTA======================
-B. las nanopartículas magnéticas para tratar tumores.
+B) las nanopartículas magnéticas para tratar tumores.
 =====================RAZONAMIENTO======================
 La capacidad de funcionalizar estas nanopartículas con determinadas
 biomoléculas permite, en principio, detectar un determinado marcador tumoral.
 =====================PREGUNTA 2======================
 En el texto, el término INCIPIENTES significa
 =====================ALTERNATIVAS======================
-A. iniciales.
-B. rudimentarios. 
-C. remotos .
-D. elementales. 
-E. primordiales.
+A) iniciales.
+B) rudimentarios. 
+C) remotos .
+D) elementales. 
+E) primordiales.
 =====================ALTERNATIVA CORRECTA======================
-A. iniciales.
+A) iniciales.
 =====================RAZONAMIENTO======================
 Como se habla de tumores incipientes, „ iniciales es el término correcto.
 =====================PREGUNTA 3======================
 Resulta falso afirmar que las nanopartículas
 =====================ALTERNATIVAS======================
-A. se describen como materiales nanoestructurados.
-B. son parte de un método terapéutico innovador .
-C. absorben cierta energía electromagnética.
-D. se aplican con determinadas bi omoléculas.
-E. producen fuerte calentamiento en la zona tumoral.
+A) se describen como materiales nanoestructurados.
+B) son parte de un método terapéutico innovador .
+C) absorben cierta energía electromagnética.
+D) se aplican con determinadas bi omoléculas.
+E) producen fuerte calentamiento en la zona tumoral.
 =====================ALTERNATIVA CORRECTA======================
-E. producen fuerte calentamiento en la zona tumoral.
+E) producen fuerte calentamiento en la zona tumoral.
 =====================RAZONAMIENTO======================
 Luego de inyectar nanopartículas magnéticas en la zona del tumor,
 posteriormente se aplica un campo electromagnético de radiofrecuencias que produce un
@@ -60,13 +60,13 @@ calentamiento local de la zona tumoral .
 =====================PREGUNTA 4======================
 Se colige del texto que la nanotecnología permite
 =====================ALTERNATIVAS======================
-A. el desarrollo de nuevas teorías.
-B. una comprensión más elaborada.
-C. el estudio histórico de los átomos.
-D. una detección exacta y puntual.
-E. la cura definitiva del cáncer.
+A) el desarrollo de nuevas teorías.
+B) una comprensión más elaborada.
+C) el estudio histórico de los átomos.
+D) una detección exacta y puntual.
+E) la cura definitiva del cáncer.
 =====================ALTERNATIVA CORRECTA======================
-D. una detección exacta y puntual.
+D) una detección exacta y puntual.
 =====================RAZONAMIENTO======================
 La fineza de las nanopartículas permite una detección puntual de tumores, lo
 que es importante para desarrollar terapias contra el cáncer.

@@ -36,65 +36,65 @@ memoria y el aprendizaje en los seres humanos.
 =====================PREGUNTA 1======================
 El tema central del texto es
 =====================ALTERNATIVAS======================
-A. al ámbito de estudio de la cibernética.
-B. a las máquinas que procesan información.
-C. a la investigación de la inteligencia artificial.
-D. a la confección de máquinas inteligentes.
-E. al estudio artificial del pensamiento humano.
+A) al ámbito de estudio de la cibernética.
+B) a las máquinas que procesan información.
+C) a la investigación de la inteligencia artificial.
+D) a la confección de máquinas inteligentes.
+E) al estudio artificial del pensamiento humano.
 =====================ALTERNATIVA CORRECTA======================
-A. al ámbito de estudio de la cibernética.
+A) al ámbito de estudio de la cibernética.
 =====================RAZONAMIENTO======================
 El texto define la cibernética como una investigación de la inteligencia
 humana para reproducirla y explica como la lleva a cabo.
 =====================PREGUNTA 2======================
 En el texto el termino REFLEJA tiene el sentido de
 =====================ALTERNATIVAS======================
-A. reproduce. 
-B. realiza. 
-C. manifiesta.
-D. actualiza. 
-E. materializa.
+A) reproduce. 
+B) realiza. 
+C) manifiesta.
+D) actualiza. 
+E) materializa.
 =====================ALTERNATIVA CORRECTA======================
-C. manifiesta.
+C) manifiesta.
 =====================RAZONAMIENTO======================
 La inteligencia humana se refleja en la compleja conducta global del hombre;
 es decir, se manifiesta o se aprecia e n la conducta del hombre.
 =====================PREGUNTA 3======================
 En el texto el termino SONDEO tiene el sentido de
 =====================ALTERNATIVAS======================
-A. cálculo. 
-B. estudio.
-C. estimación.
-D. experimento. 
-E. hipótesis.
+A) cálculo. 
+B) estudio.
+C) estimación.
+D) experimento. 
+E) hipótesis.
 =====================ALTERNATIVA CORRECTA======================
-B. estudio.
+B) estudio.
 =====================RAZONAMIENTO======================
 La frase «estos sondeos introspectivos» se refiere a estudios u
 observaciones introspe ctivas.
 =====================PREGUNTA 4======================
 Marque la alternativa incompatible con el texto.
 =====================ALTERNATIVAS======================
-A. La cibernética busca reproducir la inteligencia humana.
-B. Las máquinas se comunican mediante códigos –máquina.
-C. Para operar la cibernética recurre a varias disciplinas.
-D. La inteligencia humana se manifiesta en la conducta.
-E. El lenguaje cotidiano basta para procesar información.
+A) La cibernética busca reproducir la inteligencia humana.
+B) Las máquinas se comunican mediante códigos –máquina.
+C) Para operar la cibernética recurre a varias disciplinas.
+D) La inteligencia humana se manifiesta en la conducta.
+E) El lenguaje cotidiano basta para procesar información.
 =====================ALTERNATIVA CORRECTA======================
-E. El lenguaje cotidiano basta para procesar información.
+E) El lenguaje cotidiano basta para procesar información.
 =====================RAZONAMIENTO======================
 La capacidad de absorber información con el lenguaje diario es muy limitada,
 por eso se utilizan lenguajes código máquina.
 =====================PREGUNTA 5======================
 Con respecto a la cibernética se colige del texto que esta ha contribuido a
 =====================ALTERNATIVAS======================
-A. evaluar la relevancia de lo social. 
-B. conocer los procesos cognitivos.
-C. corregir la economía en crisis. 
-D. desterrar las sicopatologías.
-E. incrementar la delincuencia.
+A) evaluar la relevancia de lo social. 
+B) conocer los procesos cognitivos.
+C) corregir la economía en crisis. 
+D) desterrar las sicopatologías.
+E) incrementar la delincuencia.
 =====================ALTERNATIVA CORRECTA======================
-B. conocer los procesos cognitivos.
+B) conocer los procesos cognitivos.
 =====================RAZONAMIENTO======================
 Se dic e que el estudio de estos tipos de máquinas ha llevado inevitablemente
 a un conocimiento nuevo del mecanismo del lenguaje, la comunicación, la memoria y el
@@ -103,26 +103,26 @@ aprendizaje en los seres humanos.
 Se colige que para diseñar un mecanismo con cierta complejidad de comportamiento
 es necesario
 =====================ALTERNATIVAS======================
-A. contar con la información exacta .
-B. procesar información de forma veloz.
-C. disponer de una memoria muy amplia.
-D. que estos no dependan del lenguaje.
-E. hacer uso de un lenguaje apropiado.
+A) contar con la información exacta .
+B) procesar información de forma veloz.
+C) disponer de una memoria muy amplia.
+D) que estos no dependan del lenguaje.
+E) hacer uso de un lenguaje apropiado.
 =====================ALTERNATIVA CORRECTA======================
-E. hacer uso de un lenguaje apropiado.
+E) hacer uso de un lenguaje apropiado.
 =====================RAZONAMIENTO======================
 La complejidad de un sistema está limitada por nuestra capacidad para
 procesar información transmitida a través del lenguaje.
 =====================PREGUNTA 7======================
 Se colige del texto que entre sistemas complejos y códigos -máquina
 =====================ALTERNATIVAS======================
-A. los imprescindibles son los códigos máquina.
-B. sólo los sistemas complejos se desarrollan.
-C. hay una relación inequívoca de exclusión.
-D. hay un perfeccionamiento de cariz recíproco.
-E. hay un desarrollo gradual e independiente.
+A) los imprescindibles son los códigos máquina.
+B) sólo los sistemas complejos se desarrollan.
+C) hay una relación inequívoca de exclusión.
+D) hay un perfeccionamiento de cariz recíproco.
+E) hay un desarrollo gradual e independiente.
 =====================ALTERNATIVA CORRECTA======================
-D. hay un perfeccionamiento de cariz recíproco.
+D) hay un perfeccionamiento de cariz recíproco.
 =====================RAZONAMIENTO======================
 Los progresos hechos en, por ejemplo, la potencia del lenguaje permiten
 especificar sistemas más complejos, mientras que la construcción de estos sistemas más
@@ -130,13 +130,13 @@ complejos lleva a su vez a la creación de lenguajes o códigos –máquina más
 =====================PREGUNTA 8======================
 Si nuestro lenguaje tuviese una gran capacidad para procesar información, entonces
 =====================ALTERNATIVAS======================
-A. la cibernética se convertiría en una disciplina superflua.
-B. la complejidad del sistema no dependería del lenguaje usado.
-C. se usaría para sistemas de gran complejidad de comportamiento.
-D. los sistemas que imitan el comportamiento humano fracasar ían.
-E. serían innecesarias las máquinas que se comunican con memoria.
+A) la cibernética se convertiría en una disciplina superflua.
+B) la complejidad del sistema no dependería del lenguaje usado.
+C) se usaría para sistemas de gran complejidad de comportamiento.
+D) los sistemas que imitan el comportamiento humano fracasar ían.
+E) serían innecesarias las máquinas que se comunican con memoria.
 =====================ALTERNATIVA CORRECTA======================
-C. se usaría para sistemas de gran complejidad de comportamiento.
+C) se usaría para sistemas de gran complejidad de comportamiento.
 =====================RAZONAMIENTO======================
 La complejidad del sistema depende de la capacidad de codificación del
 lenguaje; si nuestro lenguaje tuviese gran capacidad para procesar información,

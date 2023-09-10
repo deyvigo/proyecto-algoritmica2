@@ -24,18 +24,18 @@ el número de donantes.
 =====================PREGUNTA 1======================
 ¿Cuál es la idea principal del texto?
 =====================ALTERNATIVAS======================
-A. Un nuevo rostro tras 30 horas de quirófano implica una gran responsabilidad
+A) Un nuevo rostro tras 30 horas de quirófano implica una gran responsabilidad
 médica.
-B. El trasplante facial reclama que se extreme la confidencialidad de donante y
+B) El trasplante facial reclama que se extreme la confidencialidad de donante y
 receptor.
-C. La intervención de rostro ( Sevilla )es la más larga de este tipo realizada hasta la
+C) La intervención de rostro ( Sevilla )es la más larga de este tipo realizada hasta la
 fecha.
-D. Las comisiones médicas deben garantiza r la seguridad de los pacientes
+D) Las comisiones médicas deben garantiza r la seguridad de los pacientes
 afectados .
-E. El segundo trasplante de rostro en Sevilla es considerado el más exitoso del
+E) El segundo trasplante de rostro en Sevilla es considerado el más exitoso del
 mundo.
 =====================ALTERNATIVA CORRECTA======================
-B. El trasplante facial reclama que se extreme la confidencialidad de donante y
+B) El trasplante facial reclama que se extreme la confidencialidad de donante y
 receptor.
 =====================RAZONAMIENTO======================
 En efecto, el anuncio de este importante logro de la cirugía de trasplantes no
@@ -44,25 +44,25 @@ personales de donante y receptor, una identificación prohibida expresamente por
 =====================PREGUNTA 2======================
 En el texto, el término CAUTELA puede s er reemplazado por
 =====================ALTERNATIVAS======================
-A. emoción. 
-B. reflexión. 
-C. prudencia.
-D. resquemor. 
-E. conmoción.
+A) emoción. 
+B) reflexión. 
+C) prudencia.
+D) resquemor. 
+E) conmoción.
 =====================ALTERNATIVA CORRECTA======================
-C. prudencia.
+C) prudencia.
 =====================RAZONAMIENTO======================
 A pesar del resultado exitoso ,los médicos se mostraron prudentes.
 =====================PREGUNTA 3======================
 Con respecto al trasplante de rostro es posible afirmar que
 =====================ALTERNATIVAS======================
-A. implica una capacidad asistencial y un nivel de organización muy alto.
-B. la filtración de datos afectaría solamente la intimidad del receptor.
-C. es fácil man tenerlo oculto, pues no suscita interés para el periodismo.
-D. en Sevilla es tan exitoso que no tiene un alto costo emocional.
-E. existe una gran madurez social que garantiza la continuidad del apoyo.
+A) implica una capacidad asistencial y un nivel de organización muy alto.
+B) la filtración de datos afectaría solamente la intimidad del receptor.
+C) es fácil man tenerlo oculto, pues no suscita interés para el periodismo.
+D) en Sevilla es tan exitoso que no tiene un alto costo emocional.
+E) existe una gran madurez social que garantiza la continuidad del apoyo.
 =====================ALTERNATIVA CORRECTA======================
-A. implica una capacidad asistencial y un nivel de organización muy alto.
+A) implica una capacidad asistencial y un nivel de organización muy alto.
 =====================RAZONAMIENTO======================
 La cirugía ha sido extremadamente compleja. Tanto, que ha necesitado la
 colaboración de más de 40 profesionales, que, con mucha cautela, se mostraban en la
@@ -70,26 +70,26 @@ mañana de ayer "satisfechos con el resultado".
 =====================PREGUNTA 4======================
 Resulta incompatible con el texto aseverar que
 =====================ALTERNATIVAS======================
-A. muy pocas veces los tejidos se adaptan a la estructura ósea del receptor.
-B. los galenos estuvieron en quirófano 30 horas para hacer la intervención .
-C. la Comisión de Trasplantes analiza cada caso concreto y da el visto bueno.
-D. es bastante recomendable que el paciente muestre a la prensa su nuevo rostro.
-E. concierne a las autoridades sanitarias sancionar a los médicos negligentes.
+A) muy pocas veces los tejidos se adaptan a la estructura ósea del receptor.
+B) los galenos estuvieron en quirófano 30 horas para hacer la intervención .
+C) la Comisión de Trasplantes analiza cada caso concreto y da el visto bueno.
+D) es bastante recomendable que el paciente muestre a la prensa su nuevo rostro.
+E) concierne a las autoridades sanitarias sancionar a los médicos negligentes.
 =====================ALTERNATIVA CORRECTA======================
-D. es bastante recomendable que el paciente muestre a la prensa su nuevo rostro.
+D) es bastante recomendable que el paciente muestre a la prensa su nuevo rostro.
 =====================RAZONAMIENTO======================
 Más bien ,es necesario redoblar los esfuerzos para garantizar hasta el último
 detalle de la intimidad de los afectados .
 =====================PREGUNTA 5======================
 Si se re velaran continuamente datos personales de donante y receptor,
 =====================ALTERNATIVAS======================
-A. se llegaría a realizar numerosas intervenciones.
-B. seguramente el número de donantes disminuiría.
-C. la legislación en Sevilla cambiaría radicalmente.
-D. los científicos darían a conocer sus proezas.
-E. los comités éticos médicos desaparecerían.
+A) se llegaría a realizar numerosas intervenciones.
+B) seguramente el número de donantes disminuiría.
+C) la legislación en Sevilla cambiaría radicalmente.
+D) los científicos darían a conocer sus proezas.
+E) los comités éticos médicos desaparecerían.
 =====================ALTERNATIVA CORRECTA======================
-B. seguramente el número de donantes disminuiría.
+B) seguramente el número de donantes disminuiría.
 =====================RAZONAMIENTO======================
 En este sentido, todos los especialistas consultados coinciden en subrayar la
 importancia de respetar la confidencialidad del proceso y el anonimato de donante y

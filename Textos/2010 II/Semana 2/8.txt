@@ -31,18 +31,18 @@ poner en duda que el cerebro es la sede del intelecto.
 =====================PREGUNTA 1======================
 ¿Cuál es la mejor síntesis del texto?
 =====================ALTERNATIVAS======================
-A. Aristóteles de Estagira llegó a una conclusión contraria a la de Hipócrates de
+A) Aristóteles de Estagira llegó a una conclusión contraria a la de Hipócrates de
 Cos, por cuanto determinó correctamente que el cerebro carecía de sensibilidad.
-B. Tanto Hipócrates como los anatomistas de Crotona llegaron a la conclusión de
+B) Tanto Hipócrates como los anatomistas de Crotona llegaron a la conclusión de
 que el cerebro es un órgano involucrado con las funciones del entendimiento.
-C. En la disputa entre Aristóteles e Hipócrates sobre el papel desempeñado por el
+C) En la disputa entre Aristóteles e Hipócrates sobre el papel desempeñado por el
 corazón o el cerebro en el pensamiento, Galeno validó la posición de Hipócrates.
-D. A diferencia de Aristóteles, Hipócrates refutó la tesis de la epilepsia como un mal
+D) A diferencia de Aristóteles, Hipócrates refutó la tesis de la epilepsia como un mal
 sagrado y determinó concluyentemente que ese mal era un trastorno del cerebro.
-E. Hipócrates, los anatomistas de Crotona y Claudio Galeno establecieron
+E) Hipócrates, los anatomistas de Crotona y Claudio Galeno establecieron
 fehacientemente que el cerebro es el responsable de las funciones conductuales.
 =====================ALTERNATIVA CORRECTA======================
-C. En la disputa entre Aristóteles e Hipócrates sobre el papel desempeñado por el
+C) En la disputa entre Aristóteles e Hipócrates sobre el papel desempeñado por el
 corazón o el cerebro en el pensamiento, Galeno validó la posición de Hipócrates.
 =====================RAZONAMIENTO======================
 En resumen, el texto presenta la controversia entre Aristóteles (el corazón) e
@@ -51,52 +51,52 @@ Hipócrates (el cerebro), y señala la solución de Claudio Galeno (el cerebro c
 =====================PREGUNTA 2======================
 En el texto, la palabra ENIGMA designa
 =====================ALTERNATIVAS======================
-A. método. 
-B. tesis. 
-C. historia. 
-D. problema. 
-E. ficción.
+A) método. 
+B) tesis. 
+C) historia. 
+D) problema. 
+E) ficción.
 =====================ALTERNATIVA CORRECTA======================
-D. problema. 
+D) problema. 
 =====================RAZONAMIENTO======================
 La palabra ENIGMA se usa en el sentido de una cuestión planteada para la
 investigación, esto es, un problema.
 =====================PREGUNTA 3======================
 Resulta incompatible con el texto decir que
 =====================ALTERNATIVAS======================
-A. Hipócrates de Cos y Claudio Galeno fueron médicos coetáneos.
-B. Aristóteles basó sus ideas en algunas observaciones anatómicas.
-C. el trabajo de los anatomistas de Crotona fue corroborado por Galeno.
-D. Hipócrates recusó el carácter sagrado del mal de la epilepsia.
-E. el estagirita determinó que el cerebro carecía de sensibilidad.
+A) Hipócrates de Cos y Claudio Galeno fueron médicos coetáneos.
+B) Aristóteles basó sus ideas en algunas observaciones anatómicas.
+C) el trabajo de los anatomistas de Crotona fue corroborado por Galeno.
+D) Hipócrates recusó el carácter sagrado del mal de la epilepsia.
+E) el estagirita determinó que el cerebro carecía de sensibilidad.
 =====================ALTERNATIVA CORRECTA======================
-A. Hipócrates de Cos y Claudio Galeno fueron médicos coetáneos.
+A) Hipócrates de Cos y Claudio Galeno fueron médicos coetáneos.
 =====================RAZONAMIENTO======================
 Galeno resolvió la cuestión después de cinco siglos. Ergo, vivió aproximadamente
 en el siglo II de nuestra era. Por lo tanto, no es coetáneo de Hipócrates.
 =====================PREGUNTA 4======================
 Se infiere del texto que, para Hipócrates, hablar de males sagrados
 =====================ALTERNATIVAS======================
-A. equivalía a una explicación de tipo anatómico.
-B. revelaba la importancia del corazón en el cuerpo.
-C. significaba un avance para la ciencia de la época.
-D. se podía refutar haciendo cortes en el corazón.
-E. constituía un modo irracional de pensamiento.
+A) equivalía a una explicación de tipo anatómico.
+B) revelaba la importancia del corazón en el cuerpo.
+C) significaba un avance para la ciencia de la época.
+D) se podía refutar haciendo cortes en el corazón.
+E) constituía un modo irracional de pensamiento.
 =====================ALTERNATIVA CORRECTA======================
-E. constituía un modo irracional de pensamiento.
+E) constituía un modo irracional de pensamiento.
 =====================RAZONAMIENTO======================
 Hipócrates buscaba explicaciones racionales y descartó de plano la doctrina del mal
 sagrado. Ergo, esta última doctrina era considerada irracional por Hipócrates.
 =====================PREGUNTA 5======================
 Si Galeno hubiese objetado todo lo que decía Platón, habría
 =====================ALTERNATIVAS======================
-A. modificado su punto de vista sobre el cerebro.
-B. sostenido que la víscera cerebral es sensible.
-C. dicho que el pensamiento se anida en el cerebro.
-D. corroborado las conclusiones de Hipócrates.
-E. hablado de la epilepsia como mal cerebral.
+A) modificado su punto de vista sobre el cerebro.
+B) sostenido que la víscera cerebral es sensible.
+C) dicho que el pensamiento se anida en el cerebro.
+D) corroborado las conclusiones de Hipócrates.
+E) hablado de la epilepsia como mal cerebral.
 =====================ALTERNATIVA CORRECTA======================
-A. modificado su punto de vista sobre el cerebro.
+A) modificado su punto de vista sobre el cerebro.
 =====================RAZONAMIENTO======================
 Platón decía que el cerebro era el órgano del pensamiento, lo que el mismo Galeno
 confirmó científicamente. Ahora bien, si Galeno hubiese objetado lo defendido por

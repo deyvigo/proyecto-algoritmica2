@@ -22,24 +22,24 @@ que gane. Ganaré mi última batalla, pero no veré nunca los dulces frutos de l
 =====================PREGUNTA 1======================
 Se infiere del texto que Galois
 =====================ALTERNATIVAS======================
-A. fue un buen amigo de Cauchy. 
-B. hizo cursos en la universidad.
-C. guardaba aprecio por Dinet. 
-D. murió a la edad de 20 años.
-E. confiaba en ganar el duelo.
+A) fue un buen amigo de Cauchy. 
+B) hizo cursos en la universidad.
+C) guardaba aprecio por Dinet. 
+D) murió a la edad de 20 años.
+E) confiaba en ganar el duelo.
 =====================ALTERNATIVA CORRECTA======================
-D. murió a la edad de 20 años.
+D) murió a la edad de 20 años.
 =====================RAZONAMIENTO======================
 Gracias a las fechas se determina que Galois murió a los 20 años ya que nació en
 octubre de 1811 y murió en mayo de 1832.
 =====================PREGUNTA 2======================
 Por lo que sabemos actualmente de Evariste Galois, cabe inferir que
 =====================ALTERNATIVAS======================
-A. Cauchy tuvo razón al desdeñar su monografía.
-B. era un tanto conservador en temas políticos.
-C. Dinet acertó en el criterio de la evaluación.
-D. sus matemáticas se basaban en la filosofía.
-E. hizo un buen pronóstico acerca de su gloria.
+A) Cauchy tuvo razón al desdeñar su monografía.
+B) era un tanto conservador en temas políticos.
+C) Dinet acertó en el criterio de la evaluación.
+D) sus matemáticas se basaban en la filosofía.
+E) hizo un buen pronóstico acerca de su gloria.
 =====================ALTERNATIVA CORRECTA======================
 En efecto, Galois ganó la batalla por la inmortalidad y no vio los dulces frutos de su
 victoria.
@@ -48,38 +48,38 @@ E) hizo un buen pronóstico acerca de su gloria.
 =====================PREGUNTA 3======================
 Sobre la personalidad de Galois, se puede colegir que era
 =====================ALTERNATIVAS======================
-A. indolente. 
-B. irascible. 
-C. timorato.
-D. ensimismado. 
-E. contemporizador.
+A) indolente. 
+B) irascible. 
+C) timorato.
+D) ensimismado. 
+E) contemporizador.
 =====================ALTERNATIVA CORRECTA======================
-B. irascible. 
+B) irascible. 
 =====================RAZONAMIENTO======================
 La anécdota con Dinet revela el carácter irascible del joven Galois.
 =====================PREGUNTA 4======================
 Cabe inferir que, en el duelo, Galois
 =====================ALTERNATIVAS======================
-A. se enfrentó con un contendor muy experto.
-B. buscaba una forma segura de suicidarse.
-C. se burló acremente de sus rivales políticos.
-D. cometió un exabrupto y huyó de la escena.
-E. quería ser reconocido como genio matemático.
+A) se enfrentó con un contendor muy experto.
+B) buscaba una forma segura de suicidarse.
+C) se burló acremente de sus rivales políticos.
+D) cometió un exabrupto y huyó de la escena.
+E) quería ser reconocido como genio matemático.
 =====================ALTERNATIVA CORRECTA======================
-A. se enfrentó con un contendor muy experto.
+A) se enfrentó con un contendor muy experto.
 =====================RAZONAMIENTO======================
 Galois sabía que iba a morir. Ergo, sabía que se enfrentaba con alguien muy
 experto.
 =====================PREGUNTA 5======================
 Podemos inferir, sobre la base del texto, que Galois
 =====================ALTERNATIVAS======================
-A. había logrado muchos honores en su joven trayectoria vital.
-B. solamente vivía para el universo teórico de las matemáticas.
-C. habría guardado simpatía por un movimiento revolucionario.
-D. pensaba que el conspicuo Cauchy era una mente estólida.
-E. tenía poca consideración sobre los aspectos de la ciencia.
+A) había logrado muchos honores en su joven trayectoria vital.
+B) solamente vivía para el universo teórico de las matemáticas.
+C) habría guardado simpatía por un movimiento revolucionario.
+D) pensaba que el conspicuo Cauchy era una mente estólida.
+E) tenía poca consideración sobre los aspectos de la ciencia.
 =====================ALTERNATIVA CORRECTA======================
-C. habría guardado simpatía por un movimiento revolucionario.
+C) habría guardado simpatía por un movimiento revolucionario.
 =====================RAZONAMIENTO======================
 En virtud de su carácter contestatario y espíritu iconoclasta, podemos colegir el
 aprecio de Galois por los movimientos revolucionarios.

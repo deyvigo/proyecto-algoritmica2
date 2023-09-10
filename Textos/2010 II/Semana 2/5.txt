@@ -34,24 +34,24 @@ resultó casi completamente invertido.
 =====================PREGUNTA 1======================
 El texto trata fundamentalmente sobre
 =====================ALTERNATIVAS======================
-A. dos teorías contrarias sobre el comportamiento de la luz.
-B. la explicación de la naturaleza de la luz en la época de Newton.
-C. la dualidad onda -partícula y su aplicación al caso de la luz.
-D. la crítica científica contra la teoría corpuscular de la luz.
-E. el desarrollo progresivo de la teoría del holandés Huygens.
+A) dos teorías contrarias sobre el comportamiento de la luz.
+B) la explicación de la naturaleza de la luz en la época de Newton.
+C) la dualidad onda -partícula y su aplicación al caso de la luz.
+D) la crítica científica contra la teoría corpuscular de la luz.
+E) el desarrollo progresivo de la teoría del holandés Huygens.
 =====================ALTERNATIVA CORRECTA======================
-A. dos teorías contrarias sobre el comportamiento de la luz.
+A) dos teorías contrarias sobre el comportamiento de la luz.
 =====================RAZONAMIENTO======================
 El texto presenta la controversia entre dos teorías físicas acerca de la naturaleza de
 la luz.
 =====================PREGUNTA 2======================
 Se infiere que ,a comienzos del siglo XIX ,
 =====================ALTERNATIVAS======================
-A. la teoría corpuscular logró sus éxitos más espectaculares.
-B. se dio una síntesis entre las dos concepciones sobre la luz.
-C. Christiaan Huygens se adhirió a la ex plicación de I. Newton.
-D. la teoría ondulatoria de la luz logró más adeptos científicos.
-E. la hipótesis del éter lumínico se descartó definitivamente.
+A) la teoría corpuscular logró sus éxitos más espectaculares.
+B) se dio una síntesis entre las dos concepciones sobre la luz.
+C) Christiaan Huygens se adhirió a la ex plicación de I. Newton.
+D) la teoría ondulatoria de la luz logró más adeptos científicos.
+E) la hipótesis del éter lumínico se descartó definitivamente.
 =====================ALTERNATIVA CORRECTA======================
 D) la teoría ondulatoria de la luz logró más adeptos científicos.
 =====================RAZONAMIENTO======================
@@ -61,38 +61,38 @@ principios del siglo XIX. En consecuencia, la teoría ondulatoria cobra vigencia
 =====================PREGUNTA 3======================
 En el texto, el término ALTERNATIVA significa
 =====================ALTERNATIVAS======================
-A. verdadera. 
-B. compatible. 
-C. subyacente.
-D. rival. 
-E. relativa.
+A) verdadera. 
+B) compatible. 
+C) subyacente.
+D) rival. 
+E) relativa.
 =====================ALTERNATIVA CORRECTA======================
-D. rival. 
+D) rival. 
 =====================RAZONAMIENTO======================
 La teoría ondulatoria es una forma alternativa a la teoría newtoniana, esto es, se
 trata de una rivalidad científica.
 =====================PREGUNTA 4======================
 Se infiere del texto que la dinámica newtoniana
 =====================ALTERNATIVAS======================
-A. se basaba en la teoría del éter lumínico.
-B. explicaba la reflexión, pero no la refracción.
-C. se sustentaba en una física de tipo atomista.
-D. predecía una velocidad infinita de la luz.
-E. no podía explicar el fenómeno del arco iris.
+A) se basaba en la teoría del éter lumínico.
+B) explicaba la reflexión, pero no la refracción.
+C) se sustentaba en una física de tipo atomista.
+D) predecía una velocidad infinita de la luz.
+E) no podía explicar el fenómeno del arco iris.
 =====================ALTERNATIVA CORRECTA======================
-C. se sustentaba en una física de tipo atomista.
+C) se sustentaba en una física de tipo atomista.
 =====================RAZONAMIENTO======================
 Dado que era una física de partículas, tenía una índole atomista.
 =====================PREGUNTA 5======================
 Si se confirmase que la luz se mueve más rápido en el aire que en el agua,
 =====================ALTERNATIVAS======================
-A. la teoría corpuscular explicaría el hecho válidamente.
-B. se verificaría experimentalmente la teoría ondu latoria.
-C. las ideas de Newton recibirían una buena confirmación.
-D. el apoyo a Huygens disminuiría de manera radical.
-E. la luz se aceleraría en las sustancias de mayor densidad.
+A) la teoría corpuscular explicaría el hecho válidamente.
+B) se verificaría experimentalmente la teoría ondu latoria.
+C) las ideas de Newton recibirían una buena confirmación.
+D) el apoyo a Huygens disminuiría de manera radical.
+E) la luz se aceleraría en las sustancias de mayor densidad.
 =====================ALTERNATIVA CORRECTA======================
-B. se verificaría experimentalmente la teoría ondu latoria.
+B) se verificaría experimentalmente la teoría ondu latoria.
 =====================RAZONAMIENTO======================
 Dado que el aire es menos denso que el agua, se com probaría la teoría ondulatoria
 de la luz.
