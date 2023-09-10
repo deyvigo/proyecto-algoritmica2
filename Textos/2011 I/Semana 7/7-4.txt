@@ -1,0 +1,182 @@
+ID: <Id del texto>
+=====================TEXTO======================
+En los primeros treinta años del siglo XX surgieron tres teorías que alteraron
+radicalmente la visión que el hombre tenía de la física y de la propia realidad: la teoría
+especial de la relatividad (1905), la teoría general de la relatividad (1915) y la teoría de la
+mecánica cuántica (aproximadamente, 1926). Albert Einstein fue en gran medida el
+responsable de la primera, enteramente responsable de la segunda y desempeñó un papel
+fundamental en el desarrollo de la tercera. Sin embargo, Einstein jamás aceptó la mecánica
+cuántica, a causa de su elemento aleatorio y de indeterminación. Resumió su opinión en
+una frase citada con frecuencia: "Dios no juega a los dados". La mayoría de los físicos
+pronto admitió tanto la re latividad especial como la mecánica cuántica porque describían
+efectos que podían ser observados directamente. Por otro lado, la relatividad general fue en
+gran parte ignorada porque matemáticamente resultaba demasiado compleja, no era
+susceptible de compr obación en el laboratorio y se trataba de una teoría en verdad clásica
+que no parecía compatible con la mecánica cuántica. De ese modo, la relatividad general
+permaneció en el limbo casi cincuenta años. UNMSM – CENTRO PREUNIVERSITARIO Ciclo 2011 -I
+SOLUCIONARIO Nº 7 Pág. 83 El gran desarrollo de las observaciones astronómicas iniciado al principio de la
+década de los sesenta suscitó una renovación del interés por la teoría clásica de la
+relatividad general porque parecía que muchos de los nuevos fenómenos descubiertos,
+como quásares, púlsares y fuentes compactas de rayos X, indicaban la existencia de
+campos gravitatorios muy intensos que solo cabía describir por medio de la relatividad
+general. Los quásares son objetos de apariencia estática que deben ser mucho más
+brillantes que galaxias enteras si se hallan tan lejanos como indica el desplazamiento hacia
+el rojo de sus espectros; los púlsares son los restos en veloz parpadeo de explosiones de
+supernovas, a los que se considera estrellas muy densas de neutrones; las fuentes
+compactas de rayos X, reveladas por instrumentos instalados en vehículos espaciales,
+pueden ser también estrellas de neutrones o quizá objetos hipotéticos de densidad aun
+mayor, es decir, agujeros negros.
+Uno de los problemas a los que se enfrentaron los físicos que trataron de aplicar la
+relatividad general a esos objetos recientemente descubiertos o hipotéticos fue el de
+hacerlos compatibles con la mecánica cuántica. En los últimos años se han registrado
+progresos que alientan la esperanza de que en un plazo no demasiado largo contemos con
+una teoría cuántica de la gravedad, plenamente consistente, compatible con la teoría
+general de la relatividad para los objetos macroscópicos y libre, confío, de las infinitudes
+matemáticas que han agobiado durante largo tiempo otras teorías cuánticas de campo.
+Estos avances guardan relación con ciertos efectos cuánticos recientemente descubiertos y
+asociados a los agujeros negros. Estos efectos cuánticos revelan una notable relación entre
+los agujeros negros y las leyes de la termodinámica.
+Describiré brevemente como puede surgir un agujero negro. Imaginemos una estrella
+con una masa diez veces mayor que la del Sol. Durante la mayor parte de su existencia,
+unos mil millones de años, la estrella generará calor en su núcleo, transformando hidrógeno
+en helio. La energía liberada creará presión suficiente para que la estrella soporte su propia
+gravedad, dando lugar a un objeto de un radio cinco veces mayor que el del Sol. La
+velocidad de escape de una estrella semejante sería de unos mil kilómetros por segundo, es
+decir, un objeto disparado verticalmente desde la superficie del astro sería retenido por su
+gravedad y retomaría a la superficie si su velocidad fuese inferior a los mil kilómetros por
+segundo, mientras que un objeto a velocidad superior escaparía hacia el infinito.
+Cuando la estrella haya consumido su combustible nuclear, nada quedará para
+mantener la presión exterior y el astro comenzará a contraerse por obra de su propia
+gravedad. Al encogerse la estrella, el campo gravitatorio de su superficie será más fuerte y
+la velocidad de escape ascenderá a los trescientos mil kilómetros por segundo, la velocidad
+de la luz. A partir de ese momento, la luz emitida por esa estrella no podrá escapar al infinito
+porque será retenida por el campo gravitatorio. De acuerdo con la teoría especial de la
+relatividad, nada puede desplazarse a una velocidad superior a la de la luz, así que nada
+escapará, si la luz no consigue salir. El resultado será un agujero negro: una región del
+espacio -tiempo de la que no es posible escapar hacia el infinito. Existen suficientes datos
+indicadores de que hay agujeros negros de este tamaño aproximado en sistemas estelares
+dobles como la fuente de rayos X, a la que se conoce con el nombre de Cisne X -I. Además,
+puede que haya dispersos por el universo cierto n úmero de agujeros negros mucho más
+pequeños y cuyo origen no sea el colapso de estrellas, sino regiones muy comprimidas del
+medio denso y caliente que se cree que existió poco después del Big Bang que dio origen al
+universo.
+=====================PREGUNTA 1======================
+Al decir que Einstein “fue en gran medida responsable de la primera, enteramente
+responsable de la segunda y desempeñó un papel fundamental en el desarrollo de la
+tercera” se quiere decir que Einstein fue un científico
+=====================ALTERNATIVAS======================
+A) revolucionario. 
+B) sistemático. 
+C) observador.
+D) erudito. 
+E) contestatario.
+=====================ALTERNATIVA CORRECTA======================
+A) revolucionario.
+=====================RAZONAMIENTO======================
+Así se indican las revoluciones científicas en las que tuvo participación Einstein.
+=====================PREGUNTA 2======================
+Al decir “Dios no juega a los dados”, Einstein quiere decir que
+=====================ALTERNATIVAS======================
+A) el universo es ininteligible. 
+B) Dios es un ser impersonal.
+C) Dios es un ser omnipotente. 
+D) Dios creó todo el universo.
+E) no hay azar en el universo.
+=====================ALTERNATIVA CORRECTA======================
+E) no hay azar en el universo.
+=====================RAZONAMIENTO======================
+La referencia a los dados es una forma de negar el azar en el cosmos.
+=====================PREGUNTA 3======================
+Determine el valor de verdad de los siguientes enunciados, de acuerdo con el
+contenido del texto.
+I. Al final de sus días, Einstein aceptó la verdad de la mecánica cuántica.
+II. Los quásares aparentan estar estáticos en virtud de su gran lejanía.
+III. Actualmente, ya contamos con una teoría cuántica de la gravedad.
+IV. Tenemos indicios de la existencia de agujeros negros en Cisne X -1.
+=====================ALTERNATIVAS======================
+A) VVVF B) FFFV C) VVFF D) FVFV E) FVFF
+=====================ALTERNATIVA CORRECTA======================
+D) FVFV
+=====================RAZONAMIENTO======================
+Son los valores de verdad que se establecen con una lectura atenta del texto .
+=====================PREGUNTA 4======================
+¿Cuál es la idea principal del texto?
+=====================ALTERNATIVAS======================
+A) Los agujeros negros surgen a partir de la evolución de estrellas con una masa
+como la del Sol.
+B) Los efectos cuánticos relativistas revelan una notable relación entre agujeros
+negros y la termodinámica.
+C) Existen suficientes datos indicadores de que hay agujeros negros parecidos a
+sistemas dobles.
+D) Los agujeros negros son regiones del espacio -tiempo de las que la luz no puede
+escapar.
+E) Los agujeros negros son estados de una evolución estelar determinada por la teoría
+de probabilidades.
+=====================ALTERNATIVA CORRECTA======================
+D) Los agujeros negros son regiones del espacio -tiempo de las que la luz no puede
+escapar.
+=====================RAZONAMIENTO======================
+Centralmente, se definen los agujeros negros en el marco de la cosmología de la
+relatividad general.
+=====================PREGUNTA 5======================
+Se deduce que, en la década del 20 del siglo XX, la teoría de la relatividad general
+=====================ALTERNATIVAS======================
+A) podía explicar fenómenos como los púlsares.
+B) no tenía un soporte matemático riguroso.
+C) merecía la ace ptación general de los científicos.
+D) era la teoría más confirmada de la ciencia.
+E) no contaba con evidencia empírica suficiente.
+=====================ALTERNATIVA CORRECTA======================
+E) no contaba con evidencia empírica suficiente.
+=====================RAZONAMIENTO======================
+No suscitaba mucha adhesión. Se deduce que por su falta de pruebas.
+=====================PREGUNTA 6======================
+Se infiere que una teoría clásica tiene un carácter
+=====================ALTERNATIVAS======================
+A) aleatorio. 
+B) infinito. 
+C) determinista.
+D) subjetivo. 
+E) estocástico.
+=====================ALTERNATIVA CORRECTA======================
+C) determinista.
+=====================RAZONAMIENTO======================
+Una teoría clásica tiene control sobre las condiciones iniciales para la predicción .
+=====================PREGUNTA 7======================
+Si se observa un púlsar, se deduce que
+=====================ALTERNATIVAS======================
+A) se acaba de formar un gran agujero negro.
+B) ha habido una explosión de una supernova.
+C) ha logrado constituirse un quásar original.
+D) la termodinámica quedaría ya refutada.
+E) el universo no tendrá un fin en el tiempo.
+=====================ALTERNATIVA CORRECTA======================
+B) ha habido una explosión de una supernova.
+=====================RAZONAMIENTO======================
+Por las condiciones explicitadas en el texto, se deriva que ha ocurrido la explosión de
+una supernova.
+=====================PREGUNTA 8======================
+Se deduce del texto que los científicos aceptan
+=====================ALTERNATIVAS======================
+A) una hipótesis si predice algo espectacular.
+B) conocimientos que se basan en la idea de Dios.
+C) una teoría cuando tiene buena confirmación.
+D) un método cuando da muchos dividendos.
+E) una predicción cuando tiene base matemática.
+=====================ALTERNATIVA CORRECTA======================
+C) una teoría cuando tiene buena confirmación.
+=====================RAZONAMIENTO======================
+La piedra de toque en la ciencia son las observaciones.
+=====================PREGUNTA 9======================
+Si un objeto pudiese moverse con más velocidad que la luz,
+=====================ALTERNATIVAS======================
+A) se refutaría el Big Bang original del cosmos.
+B) ocasionaría un colapso de dos estrellas.
+C) podría escaparse de un agujero negro.
+D) se podría definir con una masa infinita.
+E) se refutaría todo principio de la ciencia.
+=====================ALTERNATIVA CORRECTA======================
+C) podría escaparse de un agujero negro.
+=====================RAZONAMIENTO======================
+Dado que es el límite planteado en el texto, el objeto podría salir del horizonte definido
+por un agujero negro.

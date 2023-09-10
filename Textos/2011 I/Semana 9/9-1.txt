@@ -1,0 +1,27 @@
+ID: <Id del texto>
+=====================TEXTO======================
+En 1543 Nicolás Copérnico se propuso incrementar la precisión y sencillez de la
+teoría astronómica vigente transfiriendo al Sol muchas de las funciones que hasta
+entonces se atribuían a la Tierra. Con anterioridad a su propuesta, la Tierra había sido el
+centro fijo con respecto al cual los astrónomos calculaban los movimientos de planetas y
+estrellas . Un siglo más tarde, el Sol, al menos en lo que hace referencia a la astronomía,
+había reemplazado a la Tierra como marco de referencia , y ésta había perdido su
+privilegiado estatuto astronómico para convertirse en un planeta más de entre los que se
+mueve n alrededor del Sol. Una gran parte de los resultados más importantes alcanzados
+por la astronomía moderna reposa sobre dicha transposición. Así, pues, y ante todo, la
+revolución copernicana significa una reforma en los conceptos fundamentales de la
+astronomía.
+=====================PREGUNTA 1======================
+Con respecto al Sol, se colige que a partir de Copérnico
+=====================ALTERNATIVAS======================
+A) dejo de considerársele como una estrella para ser el astro principal .
+B) dejo de ser considerado como un astro y tuvo un estatus especial .
+C) se le usó para calcular los movimientos de otras estrellas .
+D) se le atribuyó un movimiento de traslación y otro de rotación .
+E) no representó un mayor cambio en la astronomía de la época .
+=====================ALTERNATIVA CORRECTA======================
+C) se le usó para calcular los movimientos de otras estrellas .
+=====================RAZONAMIENTO======================
+Al Sol se le transfirieron muchas funciones que hasta entonces se le atribuían a la
+Tierra, como ser el centro fijo con respecto al cual se calculaban los movimientos de
+planetas y estrellas.

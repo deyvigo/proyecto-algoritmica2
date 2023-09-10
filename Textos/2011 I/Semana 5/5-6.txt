@@ -1,0 +1,111 @@
+ID: <Id del texto>
+=====================TEXTO======================
+Una de las utilizaciones más interesantes de las huellas moleculares del DNA en un
+caso criminal no implicó al DNA del sospechoso, sino al DNA de unas plantas
+encontradas en el escenario del crimen. La noche del 2 de mayo de 1992, una mujer de
+Phoenix fue estrangulada y su cuerpo fue arrojado cerca de una fábrica abandonada. La
+policía descubrió un beeper cerca del cuerpo, haciendo de su propietario el principal
+sospechoso del asesinato. Cuando se le interrogó, el sospechoso admitió haber estado
+con la mujer el día del asesinato, pero dijo que nunca había estado cerca de la fábrica y
+sugirió que la mujer debería haberle robado el beeper de su camioneta. Una búsqueda en
+la camioneta proporcionó la pista principal que situaba al sospechoso en la fábrica: en la
+parte trasera de la camioneta había dos vainas de semillas de palo verde. Los
+investigadores del homicidio asignados al caso se preguntaron si podía probarse que las
+vainas encontradas en la caja de la camioneta habían caído de uno de los palo verdes
+cercanos al sitio donde se h abía encontrado el cuerpo. Si fuese así, sería una buena
+prueba, que colocaría al sospechoso en el escenario del crimen. Pero, ¿cómo podía
+demostrarse?
+Los investigadores contactaron con el Dr. Timothy Helentjaris, por aquel entonces en
+la Universidad de Arizona, cerca de Tucson. Helentjaris debía determinar si el perfil de
+DNA de las vainas de la caja de la camioneta encajaba con el de las vainas de los palo
+verdes del escenario del crimen. Entonces dieron a Helentjaris las dos vainas de semillas
+de la camioneta del sospechoso junto con 12 vainas más recogidas de los 12 palo verdes
+presentes en las inmediaciones de la fábrica. Los investigadores sabían cuál de los 12
+arbustos era la clave del escenario del crimen, pero no se lo dijeron a Helentjaris.
+Los resultados de este experimento «a ciegas » fueron inconfundibles: el patrón de
+una de las vainas encontradas en la camioneta encajaba exactamente con sólo uno de los
+12 arbustos, el más cercano al sitio donde fue hallado el cuerpo. En una prueba adicional
+importante, Helentjaris encontró que este patrón era diferente al de vainas recogidas de
+18 arbustos localizados en sitios aleatorios de Phoenix. En conjunto, el análisis realizado
+por Helentjaris permitió estimar que la probabilidad de una concordancia a leatoria era de
+un poco menos de 1 en 1 000000. El análisis de Helentjaris fue admitido como prueba en
+el juicio, lo que permitió situar al sospechoso en la escena del crimen. Al final del juicio,
+que duró cinco semanas, el sospechoso fue encontrado culpable de asesinato en primer
+grado. Su condena se mantuvo tras una apelación, y actualmente cumple cadena
+perpetua sin posibilidad de libertad condicional.
+=====================PREGUNTA 1======================
+Fundamentalmente, el texto trata sobre
+=====================ALTERNATIVAS======================
+A) el papel crucial de la experimentación científica en la biología molecular.
+B) la eficiente administración de justicia en los Estados Unidos de América.
+C) el esclarecimiento de un crimen gracias a las huellas moleculares de DNA.
+D) la importancia del palo verde para el equilibrio del ecosistema en Phoenix.
+E) el caso de la biología molecular como la disciplina científica de vanguardia.
+=====================ALTERNATIVA CORRECTA======================
+C) el esclarecimiento de un crimen gracias a las huellas moleculares de DNA.
+=====================RAZONAMIENTO======================
+El caso criminal de un asesinato en Phoenix es resuelto gracias a las pruebas de
+DNA practicadas en una planta conocida como palo verde.
+=====================PREGUNTA 2======================
+La expresión «A CIEGAS» connota
+=====================ALTERNATIVAS======================
+A) oscuridad. 
+B) ininteligibilidad. 
+C) tendenciosidad.
+D) objetividad. 
+E) abstracción.
+=====================ALTERNATIVA CORRECTA======================
+D) objetividad. 
+=====================RAZONAMIENTO======================
+Helentjaris desconoce la procedencia de las vainas que está analizando para darle
+objetividad al estudio y evitar cualquier tipo de sesgo.
+=====================PREGUNTA 3======================
+Resulta incompatible con el texto afirmar que
+=====================ALTERNATIVAS======================
+A) El Dr. T. Helentjaris, de la universidad de Arizona en Estados Unidos, es un
+experto en biología molecular.
+B) desde la perspectiva estrictamente científica la culpabilidad del sospechoso es
+absolutamente concluyente.
+C) el homicida no actuó con acuciosidad después de haber perpetrado el crimen por
+el que fue juzgado.
+D) el desarrollo de la ciencia puede, en algunas ocasiones, contribuir
+sustantivamen te a la judicatura.
+E) también fue significativo estudiar los arbustos de palo verde que no estaban en
+las proximidades de la fábrica.
+=====================ALTERNATIVA CORRECTA======================
+B) desde la perspectiva estrictamente científica la culpabilidad del sospechoso es
+absolutamente concluyente.
+=====================RAZONAMIENTO======================
+Estrictamente hablando hay una posibilidad muy remota (poco menos de 1 en
+1 000000) de que la concordancia entre la vaina de la camioneta y la del arbusto
+más cercano al cuerpo sea aleatoria.
+=====================PREGUNTA 4======================
+Del texto se infiere que las plantas de palo verde
+=====================ALTERNATIVAS======================
+A) evidencian variación genética entre ellas.
+B) son las preferidas para la experimentación.
+C) no son útiles para elaborar una coartada.
+D) presentan un ciclo reproductivo muy breve.
+E) tienen una propagación muy poco eficiente.
+=====================ALTERNATIVA CORRECTA======================
+A) evidencian variación genética entre ellas.
+=====================RAZONAMIENTO======================
+Si no existiera variación genética entre los especímenes de palo verde, sería
+imposible asignar sin ambigüedades una vaina dada a un arbusto concreto.
+=====================PREGUNTA 5======================
+Si el perfil de las vainas de la camioneta no encajara con el del arbusto más cercano
+al cuerpo sino con el de otro de los 11 arbustos restantes,
+=====================ALTERNATIVAS======================
+A) las pruebas científicas serían ignoradas por quienes se encargan de juzgar un
+delito.
+B) el experimento científico de Helentjaris sería visto como un estudio tendencioso.
+C) sería totalmente imposible demostrar que el sospechoso estuvo cerca de la
+fábrica.
+D) se probaría que los e specímenes de palo verde carecen de variabilidad genética.
+E) aún podría probarse que el sospechoso estuvo cerca de la escena del crimen.
+=====================ALTERNATIVA CORRECTA======================
+E) aún podría probarse que el sospechoso estuvo cerca de la escena del crimen.
+=====================RAZONAMIENTO======================
+Los 11 arbustos restantes estaban situados en las inmediaciones de la fábrica. Que
+el arbusto más cercano al cuerpo sea el que encaje agrava la situación del
+sospechoso y lo coloca en la escena misma del crimen.

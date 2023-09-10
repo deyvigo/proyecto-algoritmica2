@@ -1,0 +1,85 @@
+ID: <Id del texto>
+=====================TEXTO======================
+Estudiando el modo de hablar de los seres humanos, Chomsky llegó a la
+conclusión de que todas las lenguas tenían semejanzas de fondo que daban testimonio
+de una gramática humana universal. Todos sabemos cómo utilizarla, si bien raras veces
+somos conscientes de esa habilidad. Esto debe significar que los genes d otan a una parte
+del cerebro humano de una capacidad modular para desarrollar el lenguaje. Está claro
+que el vocabulario no puede ser innato o todos hablaríamos un lenguaje único, sin
+variaciones.
+Chomsky halló regularidades en nuestra forma de hablar que los padres nunca
+enseñaron y que podían deducirse, no sin gran dificultad, de los ejemplos del lenguaje
+cotidiano. Por ejemplo, a partir de una estructura como «La bodega de Sarita está en la
+esquina de mi barrio», el niño puede decir «En la esquina de mi barrio está la bodega de
+Sarita». Ningún niño desplaza solo la frase «mi barrio» porque sabe intuitivamente que el
+constituyente pertinente es global: «en la esquina de mi barrio». Nadie le enseña este
+conocimiento al niño y en ello reside la potencialidad creativa del lenguaje. Se puede
+llegar a la conclusión de que la capacidad sintáctica (responsable, por ejemplo, de los
+desplazamientos de constituyentes) es innata. El proceso de adquisición de una lengua
+natural (el aimara, el castellano, el inglés, et c.) es un desarrollo a partir de un componente
+innato: el instinto del lenguaje humano, al decir de Steven Pinker.
+=====================PREGUNTA 1======================
+¿Cuál es el tema central del texto?
+=====================ALTERNATIVAS======================
+A) Las bases genéticas y los lenguajes humanos.
+B) Los desplazamientos estructurales en las lengua s.
+C) Las regularidades lingüísticas, según Chomsky.
+D) El estudio del lenguaje y su valor psicológico.
+E) Chomsky y su concepción innatista del lenguaje.
+=====================ALTERNATIVA CORRECTA======================
+E) Chomsky y su concepción innatista del lenguaje.
+=====================RAZONAMIENTO======================
+Desde su inicio el texto gira entorno a las ideas de Chomsky. En ese marco, la
+concepción innat ista cobra primacía.
+=====================PREGUNTA 2======================
+En el texto, la palabra MODULAR significa
+=====================ALTERNATIVAS======================
+A) estructural. 
+B) universal. 
+C) espontánea.
+D) profunda. 
+E) especializada.
+=====================ALTERNATIVA CORRECTA======================
+E) especializada.
+=====================RAZONAMIENTO======================
+El término MODULAR se refiere a módulo especializado.
+=====================PREGUNTA 3======================
+Dada la argumentación planteada en el texto, se puede conjeturar que Chomsky
+estaría muy interesado relacionar los estudios del lenguaje con
+=====================ALTERNATIVAS======================
+A) la biología.
+B) la historia. 
+C) la sociología.
+D) la lógica. 
+E) la antropología.
+=====================ALTERNATIVA CORRECTA======================
+A) la biología.
+=====================RAZONAMIENTO======================
+Por el peso que se le da al innatismo y al instinto, las reflexiones chomskianas
+apuntan a la biolingüística, al nexo entre lenguaje y biología.
+=====================PREGUNTA 4======================
+Según Chomsky, las lenguas humanas difieren principalmente en
+=====================ALTERNATIVAS======================
+A) la sintaxis. 
+B) las categorías. 
+C) el léxico.
+D) las reglas. 
+E) los principios.
+=====================ALTERNATIVA CORRECTA======================
+C) el léxico.
+=====================RAZONAMIENTO======================
+Dice el autor que e stá claro que el vocabulario no puede ser innato y, por ende, varía
+mucho.
+=====================PREGUNTA 5======================
+Se infiere que Chomsky rechazaría un modelo gramatical basado en el
+=====================ALTERNATIVAS======================
+A) el aprendizaje.
+B) el desarrollo. 
+C) la sintaxis.
+D) el innatismo. 
+E) las representaciones.
+=====================ALTERNATIVA CORRECTA======================
+A) el aprendizaje.
+=====================RAZONAMIENTO======================
+Se recusa la posibilidad teórica de la enseñanza o aprendizaje como una manera de
+desarrollar el sistema lingüístico.
