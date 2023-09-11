@@ -1,0 +1,164 @@
+ID: <Id del texto>
+=====================TEXTO======================
+El álgebra ha nacido históricamente del intento de resolver los problemas inversos
+de la aritmética común, esto es, aquellos en los que tenemos que encontrar un número
+desconocido tal que realizadas ciertas operaciones sobre él nos lleva a un resultado
+predeterminado. El razonamiento en estos problemas se sirvió primero del lenguaje
+ordinario. Por eso esta primera álgebra se llama álgebra retórica. El procedimiento era
+tan fatigoso que pronto fueron introduciéndose símbolos diversos de las palabras
+comunes, con finalidades, ante todo, de abreviatura. Esos símbolos no eran, pues, más
+que abreviaturas aplicadas a algo que esencialmente seguía siendo lenguaje ordinario
+literario. Se observaban las reglas comunes de la sintaxis natural, pero palabras que se
+presentaban regular y repetidamente podían sustituirse más concisamente por ciertos
+símbolos especiales. El resultado fue un tipo de álgebra que se llama álgebra sincopada.
+La síncopa era útil en la medida en que reducía el trabajo material de escribir expresiones
+largas, ola lectura de argumentaciones algo extensas, pero no facilitaba el proceso de
+razonamiento mismo. La mera abreviatura de nombres, o su sustitución por signos y
+letras, no era suficiente para eso. Era necesaria una ruptura clara con la tradición
+lingüística común. En aquel momento el verdadero progreso dependía, no de la
+elaboración de un vocabulario más conveniente, sino de una drástica modificación del
+modo de combinar las palabras o los signos. Sólo cuando el álgebra desarrolló su propia
+sintaxis, libre de las irregularidades de la sintaxis del lenguaje común, empezó a alcanzar
+su madurez. El álgebra moderna, en la que la sintaxis especial está construida de tal
+modo que cada variación de la estructura lingüística corresponde a un modo de pensar y
+sólo a uno, de tal modo que la manipulación mecánica del lenguaje puede efectivamente
+ayudar a elaborar la argumentación, se llama álgebra simbólica.
+El nacimiento del álgebra simbólica a partir del álgebra retórica de Diofanto, los
+hindúes y los árabes, ha sido obra colectiva de varios competentes matemáticos
+renacentistas, principalmente italianos. Los más eminentes de ellos, cuyos nombres vale
+la pena citar fueron Regiomontanus, Paccioli, Stifel, Tartaglia , Cardano, Record, Ferrari,
+Bombelli, Stevin y, sobre todo, Vieta. Sus vidas cubren el período 1436 -1620. No pueden
+compararse con los grandes matemáticos del siglo XVII, pero todos ellos contribuyeron
+suprema y decisivamente al progreso científico. La matemática moderna sería
+sencillamente imposible sin su extenso, hermoso y adaptado simbolismo.Aquella pléyade
+de algebristas del Renacimiento puso los fundamentos de ese simbolismo básico a la
+matemática moderna. El origen de la matemática moderna puede situarse en Descartes.
+Pero él y sus inmediatos sucesores pudieron dar las grandes zancadas que dieron gracias
+al álgebra elemental que encontraron, esencialmente análoga a la nuestra, ya preparada
+por los matemáticos renacentistas.
+=====================PREGUNTA 1======================
+El texto trata fundamentalmente sobre
+=====================ALTERNATIVAS======================
+A) el reemplazo del lenguaje habitual por la simbología en el álgebra.
+B) el origen de la matemática moderna a partir del filósofo Descartes.
+C) el surgimiento del álgebra simbólica a partir del álgebra retórica.
+D) un análisis histórico y doctrinal del fundamento del álgebra moderna.
+E) cómo fue la creación de una sintaxis propia del álgebra moderna.
+=====================ALTERNATIVA CORRECTA======================
+C) el surgimiento del álgebra simbólica a partir del álgebra retórica.
+=====================RAZONAMIENTO======================
+Se trata de una historia del álgebra enmarcada en dos momentos .
+=====================PREGUNTA 2======================
+En el texto, el sentido del término OBSERVABAN es
+=====================ALTERNATIVAS======================
+A) miraban. 
+B) destinaban. 
+C) incorporaban.
+D) aplicaban.
+E) codificaban.
+=====================ALTERNATIVA CORRECTA======================
+D) aplicaban.
+=====================RAZONAMIENTO======================
+Tal como se usa la palabra, el referido verbo se entiende como aplicación .
+=====================PREGUNTA 3======================
+Es incompatible con el texto afirmar que
+=====================ALTERNATIVAS======================
+A) el álgebra moderna se liberó de las irregularidades de la sintaxis común.
+B) el álgebra sincopada reduce las expresiones largas a expresiones simples.
+C) el álgebra sincopada logró desarrollar un nivel autónomo de sintaxis.
+D) la matemática moderna sería imposible sin un simbolismo abstracto.
+E) el á lgebra surgió del intento de resolver los problemas de la aritmética.
+=====================ALTERNATIVA CORRECTA======================
+C) el álgebra sincopada logró desarrollar un nivel autónomo de sintaxis.
+=====================RAZONAMIENTO======================
+El álgebra sincopada todavía se enmarca en el lenguaje corriente .
+=====================PREGUNTA 4======================
+Resulta incongruente con el texto aseverar que
+=====================ALTERNATIVAS======================
+A) en sus inicios, el álgebra recurría al lenguaje común para sus representaciones.
+B) hay cierta continuidad histórica entre los matemáticos renacentistas y Descartes.
+C) sin el desarrollo de una nueva sintaxis, habría sido imposible el álgebra simbólica.
+D) los hindúes y los árabes llegaron a desarrollar una forma de álgebra retórica.
+E) las sintaxis del lenguaje común y del álgebra actual tienen la misma estructura.
+=====================ALTERNATIVA CORRECTA======================
+E) las sintaxis del lenguaje común y del álgebra actual tienen la misma estructura.
+=====================RAZONAMIENTO======================
+El álgebra actual ha desarrollado un nuevo lenguaje, diferente al ordinario .
+=====================PREGUNTA 5======================
+En relación al álgebra sincopada, se puede inferir que
+=====================ALTERNATIVAS======================
+A) seguía g uiándose por la estructura del lenguaje ordinario.
+B) resultó ser un álgebra inapropiada porque era muy trabajosa.
+C) en ella se elaboró la sintaxis que utiliza el álgebra simbólica.
+D) con ella el álgebra llega a alcanzar su madurez simbólica.
+E) su peró las limitaciones de la tradición lingüística común.
+=====================ALTERNATIVA CORRECTA======================
+A) seguía g uiándose por la estructura del lenguaje ordinario.
+=====================RAZONAMIENTO======================
+El álgebra sincopada solamente es una abreviación. Por ello todavía depende del
+lenguaje ordinario.
+=====================PREGUNTA 6======================
+Se infiere del texto que la sintaxis del álgebra simbólica
+=====================ALTERNATIVAS======================
+A) fue una conquista alcanzada por los griegos de la Antigüedad.
+B) tenía la finalidad de facilitar el proceso de razonamiento.
+C) se creó para perfeccionar a la sintaxis del lenguaje común.
+D) incrementaba todas las irregularidades del lenguaje cotidiano.
+E) se creó con el fin de coadyuvar en el proceso de razonamiento.
+=====================ALTERNATIVA CORRECTA======================
+E) se creó con el fin de coadyuvar en el proceso de razonamiento
+=====================RAZONAMIENTO======================
+El razonamiento se torna más poderoso con el simbolismo matemático especial .
+=====================PREGUNTA 7======================
+Si el álgebra sincopada hubiera construido una nueva sintaxis,
+=====================ALTERNATIVAS======================
+A) el origen de la matemática moderna tendría que re montarse a la retórica.
+B) la sintaxis del álgebra moderna tendría que haberse complicado más.
+C) habría sido de ayuda eficaz en el mismo proceso de razonamiento.
+D) el inicio de la matemática moderna se fijaría en el retórico Diofanto.
+E) la sin taxis del álgebra no tendría necesidad de usar signos y letras.
+=====================ALTERNATIVA CORRECTA======================
+C) habría sido de ayuda eficaz en el mismo proceso de razonamiento.
+=====================RAZONAMIENTO======================
+Se puede deducir que una nueva sintaxis era vital para potenciar las inferencias
+matemáticas.Por ende, se puede hacer la extrapolación indicada en la opción C.
+=====================PREGUNTA 8======================
+Se infiere del texto que la sintaxis del álgebra simbólica
+=====================ALTERNATIVAS======================
+A) emplea los giros y símbolos del lenguaje cotidiano.
+B) generaliza la técnica del álgebra sincopada.
+C) consiste en una abreviatura de palabras.
+D) conlleva la presencia de términos coloquiales.
+E) está determinada por el criterio de simetría.
+=====================ALTERNATIVA CORRECTA======================
+E) está determinada por el criterio de simetría. 
+=====================RAZONAMIENTO======================
+El principio de orden y simetría es esencial en el nuevo simbolismo matemático.
+=====================PREGUNTA 9======================
+Si Descartes hubiese creado la matemática moderna sobre la base exclusiva de
+Diofanto,
+=====================ALTERNATIVAS======================
+A) habría tenido que hacer un esfuerzo verdaderamente titánico.
+B) su labor podría considerarse como un epítome simplificador.
+C) no habría tenido que desarrollar nuevas reglas sintácticas.
+D) el álgebra moderna sería esencialmente una obra hindú.
+E) solamente habría empleado la síncopa como procedimiento.
+
+=====================ALTERNATIVA CORRECTA======================
+A) habría tenido que hacer un esfuerzo verdaderamente titánico.
+=====================RAZONAMIENTO======================
+Descartes se benefició por los grandes avances intermedios entre la obra de
+Diofanto y la propia empresa cartesiana. Sin estos avances intermedios, la empresa
+hubiese sido titánica por el ingente esfuerzo que implicaría llevarla a cabo .
+=====================PREGUNTA 10======================
+En la matemática moderna, las reglas combinatorias de signos deben garantizar
+=====================ALTERNATIVAS======================
+A) la creatividad. 
+B) la abreviación. 
+C) la univocidad.
+D) la extensión. 
+E) la variación.
+=====================ALTERNATIVA CORRECTA======================
+C) la univocidad.
+=====================RAZONAMIENTO======================
+Se trata de una forma de escapar de la multivocidad del lenguaje ordinario.
