@@ -1,0 +1,235 @@
+ID: <Id del texto>
+=====================TEXTO======================
+La comunicación es transmisión de información. En este sentido amplio, todos los animales
+se comunican. Los perros, por ejemplo, se comunican unos con otros mediante toda una serie de
+gestos y movimientos, sonidos y micciones. Incluso nosotros mismos podemos aprender
+fácilmente a interpretar los mensajes que sobre su estado de ánimo emiten los canes mediante
+la posición y el movimiento de su cola.
+La comunicación es un fenómeno mucho más amplio y frecuente que el lenguaje. La
+comunicación animal abarca tanto la comunicación mediante señales químicas o feromonas
+como el «lenguaje» corporal y los gestos faciales (tan importantes en los perros y los primates),
+así como la comunicación sonora o acústica, que incluye los sonidos de contacto, los reclamos
+de búsqueda de pareja, las llamadas, las señales de advertencia, las amenazas, las expresiones
+afectivas y los gemidos de dolor.
+Dentro de cada animal unos órganos se comunican con otros. El cerebro, por ejemplo, envía
+sus mensajes electroquímicos a través del sistema nervioso y sus mensajes hormonales a través
+del sistema circulatorio. Las generaciones anteriores se comunican con las siguientes (en todos
+los casos) mediante el código genético y (en algunos casos) mediante la tradición cultural. 
+En todo acto de comunicación hay un emisor, un receptor (ovarios), un objeto o evento físico
+(la señal) que sirve de soporte material a la información transmitida, y un código e n función del
+cual esa señal transmite precisamente esa información, y no otra. Ese código puede ser natural o
+convencional. Los humanos disponemos de algunos sistemas innatos de comunicación gestual,
+como, por ejemplo, la sonrisa, que expresa bienestar y bienvenida en individuos de los más
+diversos grupos culturales e incluso en infantes ciegos y sordos de nacimiento. También el
+saludo de reconocimiento consistente en levantar brevemente las cejas es universal e innato.
+Además, los humanos hemos desarrolla do una gran variedad de códigos convencionales de
+comunicación.
+La mayoría de los códigos convencionales de comunicación solo pueden transmitir un
+repertorio muy reducido de mensajes. El semáforo, por ejemplo, solo es capaz de transmitir el
+mensaje de que hay que frenar y pararse (color rojo), o que hay que reducir la velocidad (color
+amarillo), o que se puede seguir avanzando sin detenerse (color verde). El semáforo transmite
+esos mensajes de un modo eficiente, y sus destinatarios (los conductores de los v ehículos) los
+captan e interpretan sin dificultad. Si el mensaje se transmitiera de viva voz, habría muchas
+dificultades para oírlo, dado el ruido de los motores y el hecho de que muchos automóviles llevan
+las ventanas cerradas. El código de toques de trompeta ha sido usado con ventaja por muchos
+ejércitos para transmitir a la tropa un repertorio limitado de mensajes (levantarse, acostarse, hora
+de comer, alarma, ataque, retirada, etc.). El sonido de la trompeta llega más lejos que el de la voz
+humana. Además, en el pasado, muchos ejércitos estaban formados por mercenarios y soldados
+procedentes de diversos países y que hablaban lenguas distintas, por lo que habría sido difícil
+hacerse entender por todos ellos en una sola lengua. En Perú y Bolivia, las mujer es del altiplano
+andino indican su lugar de procedencia mediante un código de sombreros. Cada comarca o
+población tiene su tocado característico. En el mercado, por ejemplo, todas las mujeres indígenas
+llevan puesto su sombrero, mediante el que se comunica n unas a otras el sitio en el que viven o
+del que proceden. Todos estos códigos son convencionales, como lo son el de las flores o el del
+luto. Las rosas significan amor en nuestra cultura, pero podrían significar la guerra en otra. En
+Europa el color del luto es el negro, pero en China lo es el blanco.
+Además de ser convencionales, todos los códigos mencionados soportan sistemas parciales
+de comunicación, que solo nos permiten transmitir un porcentaje pequeño de las muchas cosas
+que podemos pensar. El semáforo me permite transmitir la orden de que los coches se detengan,
+pero no la de levantarse de la cama, ni expresar la idea de que estamos enamorados o tristes. La
+trompeta militar puede transmitir la orden de levantarse de la cama, mas no la de que los coches
+pueden pasar, ola de que procedemos de Ollantaytambo. El sombrero de vendedora de
+mercado de Pisac nos informa de que procede precisamente de ese lugar, pero el código de los
+sombreros no nos permite ordenar a los coches que paren, ni a los soldados que se levanten de
+la cama. Podemos decir con rosas que estamos enamorados de alguien, mas no podemos
+expresar con flores nuestro lugar de procedencia ni indicar a los automóviles que deben
+detenerse. Podemos expresar nuestra tristeza por la muerte de un ser querido vistiéndonos de
+negro, pero no hay manera de ordenar a los soldados que se levanten de la cama mediante el
+color de la ropa.
+El lenguaje, sin embargo, nos permite expresar todos esos mensajes, como acabamos de
+hacer repetidamente. Y también nos permite expresar y transmitir otros muchos, imposibles de
+expresar mediante semáforos, tocados, flores o colores, como, por ejemplo, que en las noches
+de luna llena siento una nostalgia inexplicable, o que dos cuerpos cualesquiera se atraen con
+una fuerza directamente proporcional al producto de sus masas e inversamente proporcional al
+cuadrado de sus distancias.
+Casi todos los sistemas de comunicación se basan en un repertorio fijo, finito y bastante
+limitado de protopalabras o mensajes. Solo el lenguaje, basado en un léxico enorme y en una
+gramática recursiva, permite articular una infinidad de mensajes distintos. El lenguaje es el único
+sistema completo o universal de comunicación. Normalmente, el lenguaje humano es un sistema
+de comunicación sonora, aunque también puede realizarse mediante gestos manuales o por
+escrito (incluso en Braille, escritura para el tacto). Su peculiaridad estriba en su recursividad. El
+lenguaje humano o lenguaje en sentido estricto no está limitado a un repertorio finito y fijo de
+señales, sino que permite la formación (mediante reglas sintácticas recursivas) de una infinidad 
+potencial de mensajes distintos. Lo que lo caracteriza es, en palabras de Wilhelm Von Humboldt
+(1767 -1835), «el uso infinito de medios finitos».
+También la escritura nos permite comunicar cualesquiera ideas que tengamos, pero la
+escritura es un código derivado, que básicamente se limita a transcribir la estructura del mensaje
+previamente articulado en la lengua. Las lenguas son códigos primarios o primitivos de
+comunicación, mientras que las escrituras son códigos secundarios o derivados. La escritura
+tiene una estructura lineal, porque refleja el carácter lineal del mensaje sonoro, en que un fonema
+sigue a otro. Una representación gráfica independiente de la lengua no tiene por qué ser lineal y
+frecuentemente no lo es. Piénsese en la cartografía, o en los retratos, o en los planos de
+arquitecto de un edificio. El habla es natural mientras que la escritura es artificial, cultural, Por
+eso hace falta ir a la escuela para aprender a leer y a escribir, pero no para aprender a hablar.
+Para aprender a hablar una lengua determinada basta con oír a otros hablantes a la edad
+adecuada (entre uno y tres años); los genes, a través del cerebro, se encargan del resto. Sin
+embargo, los genes no nos programan para aprender a escribir, por muchas personas que
+veamos escribiendo; necesitamos una enseñanza explícita y laboriosa.
+=====================PREGUNTA 1======================
+El antónimo de la palabra CONSPICUO es
+=====================ALTERNATIVAS======================
+A) natural. 
+B) espontáneo. 
+C) irrelevante.
+D) económico. 
+E) superlativo.
+=====================ALTERNATIVA CORRECTA======================
+C) irrelevante.
+=====================RAZONAMIENTO======================
+El término ‘conspicuo’ se entiende como destacado o notable. El antónimo
+sería, pues, ‘irrelevante’.
+=====================PREGUNTA 2======================
+Resulta incompatible con el texto decir que el lenguaje
+=====================ALTERNATIVAS======================
+A) es el principal instrumento de comunicación de los humano s.
+B) puede generar una cantidad infinita de mensajes verbales.
+C) es un sistema que permite la inteligibilidad entre los humanos.
+D) permite traducir los mensajes generados en otros sistemas.
+E) se adquiere en virtud de un proceso muy largo y laborioso.
+=====================ALTERNATIVA CORRECTA======================
+E) se adquiere en virtud de un proceso muy largo y laborioso.
+=====================RAZONAMIENTO======================
+La adquisición del lenguaje es un proceso espontáneo.
+=====================PREGUNTA 3======================
+Resulta compatible con el texto sostener que el lenguaje
+=====================ALTERNATIVAS======================
+A) es la facultad específicamente humana para crear mensajes infinitos a base de un
+conjunto finito de símbolos.*
+B) es e l código universal que se utiliza en todo proceso comunicativo, ya sea humano o ya
+sea en el reino animal.
+C) es un sistema espontáneo e informal de la naturaleza humana que se ha transformado
+en un código convencional.
+D) se refiere a un conjunto de lenguas relacionadas entre sí, capaz de informar sobre el
+futuro, pero no sobre el pasado.
+E) permite que los grupos no humanos desarrollen una comunicación simbólica con fluidez
+y eficacia en la información.
+=====================ALTERNATIVA CORRECTA======================
+A) es la facultad específicamente humana para crear mensajes infinitos a base de un
+conjunto finito de símbolos.
+=====================RAZONAMIENTO======================
+La definición del lenguaje consiste en señalar que es una facultad humana
+peculiar y que se basa en un sistema recursivo.
+=====================PREGUNTA 4======================
+En el habla oral, los mensajes se transmiten de modo
+=====================ALTERNATIVAS======================
+A) contingente. 
+B) aleatorio. 
+C) asimétrico. 
+D) simultáneo. 
+E) lineal.
+=====================ALTERNATIVA CORRECTA======================
+E) lineal.
+=====================RAZONAMIENTO======================
+La secuencia de sonidos es lineal. Al decir ,sol, primero se pronuncia la s,
+luego la o y, finalmente, la l.
+=====================PREGUNTA 5======================
+La expresión “uso infinito de medios finitos” sirve para denotar el rasgo de
+=====================ALTERNATIVAS======================
+A) naturalidad. 
+B) convencionalidad. 
+C) semanticidad.
+D) recursividad.
+E) es pontaneidad. 
+=====================ALTERNATIVA CORRECTA======================
+D) recursividad.
+=====================RAZONAMIENTO======================
+La recursividad es el procedimiento que se puede repetir de manera cíclica y
+puede expresar secuencias infinitas con símbolos finitos. Por ejemplo, los símbolos pueden
+ser 1 y 0; y las secuencias pueden ser infinitas (un número sin fin de unos y ceros).
+=====================PREGUNTA 6======================
+¿Cuál es el tema central del texto?
+=====================ALTERNATIVAS======================
+A) La importancia de la comunicación en el mundo animal.
+B) La naturaleza específica del lenguaje de los seres humanos.
+C) Diferencias y semejanzas entre el lenguaje y la escritura.
+D) Los sistemas de comunicación naturales y los artificiales.
+E) La espontaneidad del habla y el principio de recursividad.
+=====================ALTERNATIVA CORRECTA======================
+B) La naturaleza específica del lenguaje de los seres humanos.
+=====================RAZONAMIENTO======================
+El texto se enfoca en el carácter peculiar del lenguaje como atributo
+específico de los humanos.
+=====================PREGUNTA 7======================
+En apretada síntesis, el texto establece que
+=====================ALTERNATIVAS======================
+A) la diferencia esencial entre el habla y la escritura radica en que mientras esta es un
+código técnico y secundario, aquella se sustenta en un código natural, espontáneo, que
+se adquiere sin ningún entrenamiento.
+B) todas las sociedades humanas, incluso las más atrasadas, poseen lenguas complejas y
+flexibles, lo que les permiten hablar con fluidez y eficacia, mientras que los animales
+han desarrollado sistemas pobres de comunicación.
+C) el lenguaje como sistema específico de com unicación es un atributo de la especie
+humana caracterizado por emplear un sistema recursivo de expresión, lo que le confiere
+una capacidad simbólica superlativa.
+D) la comunicación entendida como transmisión de información se observa en todas las
+especies animales, pero solamente los humanos poseen un lenguaje que puede
+canalizarse en gestos y en la escritura.
+E) la comunicación, animal o humana, admite muchas y variadas formas, desde las que
+emplean signos naturales hasta las que emplean signos convencionales como los
+utilizados por el sistema del semáforo.
+=====================ALTERNATIVA CORRECTA======================
+C) el lenguaje como sistema específico de com unicación es un atributo de la especie
+humana caracterizado por emplear un sistema recursivo de expresión, lo que le confiere
+una capacidad simbólica superlativa.
+=====================RAZONAMIENTO======================
+El lenguaje nos da el medio recursivo para la comunicación humana y, así,
+permite una riqueza simbólica digna de estudiar.
+=====================PREGUNTA 8======================
+Se infiere del texto que el habla
+=====================ALTERNATIVAS======================
+A) es la realización de un sistema de comunicación concreto y universal.
+B) reposa sobre bases biológicas exclusivas de la especie humana.
+C) es un código específico que solo permite comunicar ideas generales.
+D) es una función no instintiva que debe ser aprendida en la escuela.
+E) consiste en un acto de inteligencia que entraña combinaciones imposibles.
+=====================ALTERNATIVA CORRECTA======================
+B) reposa sobre bases biológicas exclusivas de la especie humana.
+=====================RAZONAMIENTO======================
+Dado que el habla es únicamente humana, se puede colegir un fundamento
+biológico para el lenguaje.
+=====================PREGUNTA 9======================
+Se desprende del texto que un código convencional como e l del semáforo
+=====================ALTERNATIVAS======================
+A) permite generar una infinita variedad de mensajes.
+B) es prescindible en una sociedad urbana industrial.
+C) puede traducir otros sistemas de comunicación.
+D) carece de universalidad al ser muy complicado.
+E) solamente da un número limita do de mensajes.
+=====================ALTERNATIVA CORRECTA======================
+E) solamente da un número limita do de mensajes.
+=====================RAZONAMIENTO======================
+Cualquier sistema de comunicación frente al lenguaje se debe entender como
+restringido.
+=====================PREGUNTA 10======================
+Con respecto a un código lingüístico, se infiere que los semáforos presentan la ventaja de
+=====================ALTERNATIVAS======================
+A) funcionar en distancias muy cortas.
+B) reducir su uso en las autopistas.
+C) transmitir mucha información.
+D) servir como señal de distinción.
+E) enviar mensajes con velocidad.
+=====================ALTERNATIVA CORRECTA======================
+E) enviar mensajes con velocidad.
+=====================RAZONAMIENTO======================
+En su campo específico (el tránsito de vehículos y peatones), el semáforo es
+más veloz.
