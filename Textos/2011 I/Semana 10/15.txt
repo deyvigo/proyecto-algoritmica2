@@ -1,0 +1,124 @@
+ID: <Id del texto>
+=====================TEXTO======================
+Arrastrados a las costas de Est ados Unidos por el oleaje de la tormenta del nazismo
+que se formó en Europa en los años treinta del pasado siglo, los dos hombres aparecieron
+varados en el mismo y sosegado retiro académico, el Instituto de Estudios Avanzados de
+Princeton, un exclusivo club intelectual, cuyos miembros tenían asignada una sola tarea:
+pensar. Pero Gödel y Einstein ya pertenecían a un club todavía más exclusivo; ellos dos,
+junto con otro teórico de habla alemana, Werner Heisenberg, fueron autores de los tres
+hitos científicos más importantes del siglo. Además, el descubrimiento de cada uno de
+ellos establecía una limitación profunda y perturbadora. La teoría de la relatividad de
+Einstein marcaba un límite –la velocidad de la luz -para el flujo de cualquier señal
+portadora de in formación. Y al definir el tiempo sobre la base de su medida con relojes,
+fijaba un límite al tiempo; éste ya no era absoluto sino que, en adelante, sería limitado o
+relativo a un marco de medida. En el campo de la mecánica cuántica, el principio de
+incertidumbre de Heisenberg fijaba un límite a nuestro conocimiento simultáneo de la
+posición y del momento de las partículas fundamentales de la materia. No se trataba sólo
+de una restricción sobre lo que pudiéramos saber: significaba un límite para la realidad .
+Por último, el teorema de la incompletitud de Gödel, la verdad matemática más
+significativa del siglo como poco después sería descrito en un acto académico de la
+Universidad de Harvard, fijaba un límite permanente a nuestro conocimiento sobre las
+verdades básicas de las matemáticas: el conjunto completo de éstas nunca podrá ser
+recopilado en una lista finita o recursiva de axiomas meramente formal. Ningún dispositivo
+mecánico, ningún ordenador, jamás será capaz de agotar las verdades de la matemática.
+De ello se desprende de inmediato, como Gödel se apresuró a puntualizar, que si somos
+capaces en cierta forma de captar la verdad completa en este dominio, es porque ni
+nosotros ni nuestras mentes somos máquinas u ordenadores.
+=====================PREGUNTA 1======================
+Fundamentalmente, el texto trata sobre
+=====================ALTERNATIVAS======================
+A) Gödel, Einstein y Heisenberg y sus respectivas contribuciones científicas.
+B) el prestigioso Instituto de Princeton y la presencia de Gödel y Heisenberg.
+C) un especial club de intelectuales conformado por Einstein, Heisenberg y Gödel.
+D) Gödel y las consabidas limitaciones del conocimiento matemático axiomático.
+E) el saber matemático, sus limitaciones y su acceso a través de ordenadores.
+=====================ALTERNATIVA CORRECTA======================
+A) Gödel, Einstein y Heisenberg y sus respectivas contribuciones científicas.
+=====================RAZONAMIENTO======================
+Einstein limita la transmisión de cualquier información a la velocidad de la luz; Heisen berg
+el conocimiento de una partícula a su posición o momento y Gödel el conocimiento total
+de las matemáticas basado en un conjunto de axiomas.
+=====================PREGUNTA 2======================
+El término HITO tiene el significado contextual de
+=====================ALTERNATIVAS======================
+A) señal. 
+B) límite. 
+C) signo. 
+D) logro. 
+E) método.
+=====================ALTERNATIVA CORRECTA======================
+D) logro. 
+=====================RAZONAMIENTO======================
+Un hito es un hecho trascendental.
+=====================PREGUNTA 3======================
+En el texto, el término DESPRENDE significa
+=====================ALTERNATIVAS======================
+A) aparta. 
+B) deduce. 
+C) bifurca 
+D) suelta. 
+E) disocia.
+=====================ALTERNATIVA CORRECTA======================
+B) deduce. 
+=====================RAZONAMIENTO======================
+Ningún dispositivo mecánico, ningún ordenador, jamás será capaz de agotar las verdades
+de la matemática. De ello se desprende que si somos capaces en cierta forma de captar
+la verdad completa en este dominio, es porque ni nosotros ni nuestras mentes somos
+máquinas u ordenadores.
+=====================PREGUNTA 4======================
+Es incompatible con el texto afirmar que
+=====================ALTERNATIVAS======================
+A) la teoría de la relatividad de Einstein limitaba que una señal llevara información a
+la velocidad de la luz.
+B) se puede conocer simultáneamente la posición y el momento de una partícula
+elemental de la materia.
+C) Gödel, Einstein y Heisenberg fueron los autores de los tres hitos más importantes
+en la ciencia actual.
+D) Einstein demostró que el tiempo no era absoluto, sino relativo a un marco de
+medida y medido por relojes.
+E) ningún ordenador será capaz de conocer la totalidad de los enunciados
+verdaderos de la matemática.
+=====================ALTERNATIVA CORRECTA======================
+B) se puede conocer simultáneamente la posición y el momento de una partícula
+elemental de la materia.
+=====================RAZONAMIENTO======================
+Si es un límite al conocimiento y la realidad, no es posible conocer la posición y el
+momento de una partícula.
+=====================PREGUNTA 5======================
+Se infiere que antes de lo expuesto por Einstein, Gödel y Heisenberg,
+=====================ALTERNATIVAS======================
+A) la ciencia no había mostrado un desarrollo notable.
+B) el Instituto de Princeton todavía era solo un proyecto.
+C) existía confianza en el conocimiento de la realidad.
+D) era posible medir la velocidad de la luz con precisión.
+E) la nueva matemática creó un sinnúmero de disciplinas.
+=====================ALTERNATIVA CORRECTA======================
+C) existía confianza en el conocimiento de la realidad.
+=====================RAZONAMIENTO======================
+El descubrimiento de cada uno de estos hombres establecía una profunda y perturbadora
+limitación.
+=====================PREGUNTA 6======================
+ Si se construyera un ordenador semejante al cerebro humano,
+=====================ALTERNATIVAS======================
+A) podría captar las profundas verdades matemáticas.
+B) los sistemas axiomáticos de la matemática serían inviables.
+C) la verdad matemática del siglo todavía sería válida.
+D) las limitaciones acerca del conocimiento desaparecerían.
+E) la matemática sería sustentada en un sistema axiomático.
+=====================ALTERNATIVA CORRECTA======================
+A) podría captar las profundas verdades matemáticas.
+=====================RAZONAMIENTO======================
+Si somos capaces en cierta forma de captar la verdad completa en la matemática, es
+porque ni nosotros ni nuestras mentes somos máquinas u ordenadores.
+=====================PREGUNTA 7======================
+Se puede inferir del texto que la velocidad de la luz,
+=====================ALTERNATIVAS======================
+A) no depende de la velocidad del emisor.
+B) es una constante inmutable como el tiempo.
+C) sirve de referente para otras con stantes.
+D) podría ser medida con instrumentos sofisticados.
+E) es una constante más sin mayor importancia.
+=====================ALTERNATIVA CORRECTA======================
+A) no depende de la velocidad del emisor.
+=====================RAZONAMIENTO======================
+La luz se mueve siempre a velocidad constante.

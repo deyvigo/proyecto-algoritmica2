@@ -1,0 +1,118 @@
+ID: <Id del texto>
+=====================TEXTO======================
+Si entra en Google con mi nombre verá como punto dos una noticia acerca de mí,
+de hace veinte años, nada agradable, que no quiero dejar a mis nietos. Máxime cuando
+es francamente obsoleta.(...) Le ruego tenga a bien ordenar su retiro". La carta llega
+desde Buenos Aires y está firmada por un profesor de Farmacología. Efectivamente, al
+introducir su nombre en el buscador, aparece como primera referencia un listado de
+Dialnet con los 11 libros de los que es autor, y como segunda entrada, una noticia
+publicada en EL PAÍS en 1988 sobre su ingreso en prisión por un asunto relacionado con
+ETA. No hay otras entradas que permitan saber en qué quedó aquello. En el archivo de
+EL PAÍS figuran 14 noticias con ese nombre, pero ninguna informa tampoco sobre el
+desenlace del proceso.
+La casuística es infinita y, en algunos casos, sangrante. Es el caso de un cirujano cuya
+única referencia en Google es su imputación por negligencia a causa de un error médico
+del que más tarde fue absuelto; el de un toxicómano ya rehabilitado, cuyo pasado le
+persigue por un atraco en el que participó, o el de una mujer cuyo nombre remite a una
+noticia de cuando ella era menor y tuvo que presenciar cómo su padre mataba a su
+madre. Cosas nada agradables de recordar y que aparecen en Google con luces de neón.
+Los afectados consideran que esas noticias dañan su imagen pública, y por eso
+piden que se retiren de Internet. Pero no es tan sencillo. Se trata de archivos públicos en
+cuya gestión intervienen diferentes instancias en una madeja de responsabilidades difícil
+de desenredar. La mayoría son noticias veraces, pero también las hay inexactas e
+incompletas. En estos casos, la amplificación de Internet agrava las consecuencias de los
+errores periodísticos, en una problemática que Paloma Llaneza, abogada experta en
+nuevas tecnologías, explica así: "Antes de Internet, cuando alguien quería saber algo
+sobre otra persona, tenía que ir a una hemeroteca, lo cual requería un cierto esfuerzo,
+pero cuando accedía tenía el historial completo. Ahora, buscadores como Google
+permiten acceder a los archivos de forma automática, pero no completa, y confiere
+vigencia a noticias antiguas que han dejado de ser relevantes. Si además eran erróneas,
+el perjuicio puede ser muy grave".
+Así, cuando un usuario realiza una búsqueda, Google aplica un sistema automático
+que rastrea las páginas web existentes. Y para jerarquizar la selección, aplica un
+algoritmo de búsqueda que combina más de 200 variables, en una fórmula tan secreta
+como la de la Coca -Cola. Una vez hecha la jerarquización, establece un enlace por el que
+el usuario puede acceder a cada sitio. Pero la selección es necesariamente arbitraria,
+incompleta y además variable.
+=====================PREGUNTA 1======================
+¿Cuál es la idea principal del texto?
+=====================ALTERNATIVAS======================
+A) Por su impacto, las noticias que publican los diarios suelen figurar entre los
+primeros enlaces de una búsqueda con Google.
+B) La posibilidad de acceder a una noticia a través de Google afecta la situación
+personal de manera fundada y legítima.
+C) Buscadores como Google permiten acceder a los archivos de forma automática,
+pero no completa.
+D) Es de suma urgencia para algunos cibernautas blindar el acceso a una noticia
+pública apenas corroborada.
+E) Crece el número de personas que solicitan modificar o retirar noticias de Internet
+que dañan su imagen.
+=====================ALTERNATIVA CORRECTA======================
+E) Crece el número de personas que solicitan modificar o retirar noticias de Internet
+que dañan su imagen.
+=====================RAZONAMIENTO======================
+La casuística es infinita y, en algunos casos, sangrante. Por ello, los afectados
+consideran que esas noticias dañan su imagen pública, y por eso piden que se retiren de
+Internet.
+=====================PREGUNTA 2======================
+En el texto, OBSOLETA puede ser reemplazado por
+=====================ALTERNATIVAS======================
+A) antigua.
+B) inexpugnable. 
+C) vulnerable.
+D) recia. 
+E) segura.
+=====================ALTERNATIVA CORRECTA======================
+A) antigua.
+=====================RAZONAMIENTO======================
+obsoleta se refiere a una noticia pasada.
+=====================PREGUNTA 3======================
+Es posible inferir del texto que Google
+=====================ALTERNATIVAS======================
+A) no es un buscador confiable pues siempre se equivoca en el contenido de sus
+noticias.
+B) eliminará todos los datos vejatorios de su índice e impedirá el acceso futuro a los
+mismos.
+C) predomina, sin lugar a dudas, sobre otros motores de búsqueda más populares
+de la época.
+D) trajo muchos problemas para algunos usuarios que preferían mantener en la
+sombra su pasado.
+E) no comprueba la veracidad de los contenidos informativos de cada página
+anexada.
+=====================ALTERNATIVA CORRECTA======================
+E) no comprueba la veracidad de los contenidos informativos de cada página
+anexada.
+=====================RAZONAMIENTO======================
+Ahora, buscadores como Google permiten acceder a los archivos de forma
+automática, pero no completa, y confiere vigencia a noticias antiguas que han dejado de
+ser relevantes. Si además eran erróneas, el perjuicio puede ser muy grave".
+=====================PREGUNTA 4======================
+Si alguien culpara a un diario digital por una noticia que lo afecta directamente , el
+responsable afirmaría que
+=====================ALTERNATIVAS======================
+A) esto se debe a la negligencia de sus periodistas y técnicos.
+B) la selección es necesariamente arbitraria e incompleta.
+C) se limitan a rastrear e indexar páginas web de acceso público.
+D) no poseen un filtro adecuado para la selección de noticias.
+E) el lector merece una reparación económica por la ignominia.
+=====================ALTERNATIVA CORRECTA======================
+C) se limitan a rastrear e indexar páginas web de acceso público.
+=====================RAZONAMIENTO======================
+Google aplica un sistema automático que rastrea las páginas web existentes. Y
+para jerarquizar la selección, aplica un algoritmo de búsqueda que combina más de 200
+variables. Una vez hecha la jerarquización, establece un enlace por el que el usuario
+puede acceder a cada sitio. Pero la selección es necesariamente arbitraria, incompleta y
+además variable.
+=====================PREGUNTA 5======================
+En el texto, LUCES DE NEÓN alude a
+=====================ALTERNATIVAS======================
+A) exhibición llamativa.
+B) muestra indecente. 
+C) ejemplar exagerado.
+D) vista luminiscente. 
+E) modelo brillante.
+=====================ALTERNATIVA CORRECTA======================
+A) exhibición llamativa.
+=====================RAZONAMIENTO======================
+Cosas nada agradables de recordar y que aparecen en Google con luces de
+neón.
