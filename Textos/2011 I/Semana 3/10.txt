@@ -1,0 +1,96 @@
+ID: <Id del texto>
+=====================TEXTO======================
+Bajo la denominación genérica de «afasias» se engloban las alteraciones del lenguaje
+que se producen como consecuencia de una lesión focal en el cerebro (en concreto, en las
+regiones de la corteza cerebral del hemisferio izquierdo, dominante para el lenguaje). Estas
+alteraciones implica n un trastorno o daño selectivo de las funciones lingüísticas, es decir,
+afectan el procesamiento de estímulos lingüísticos —y no al de otros tipos de estímulos — y,
+al mismo tiempo, parecen afectar selectivamente a algunos —pero no a todos — los
+componentes de tal procesamiento. Por lo general, las afasias se producen en la edad
+adulta (aunque existen casos también de afasias infantiles) e implican una pérdida de
+funciones lingüísticas previamente adquiridas por el sujeto. Su estudio sistemático, al igual
+que el de otras alteraciones cognitivas o conductuales que son consecuencia de lesiones o
+anomalías neurológicas, corresponde a la neuropsicología cognitiva del lenguaje, una rama
+disciplinar de la actual ciencia cognitiva que, por un lado, adopta las teoría s del lenguaje
+como marco de referencia para la interpretación de los datos procedentes de pacientes con
+trastornos lingüísticos y, por otro, utiliza esos mismos datos para comprobar y refinar teorías
+sobre el lenguaje.
+El estudio científico de las afasi as en la neuropsicología cognitiva suele justificarse,
+por lo general, sobre la base de dos supuestos: (1) la idea de que tanto el sistema nervioso
+como el sistema cognitivo están organizados en subsistemas funcionalmente autónomos
+que presentan una distribución anatómica discreta y que se pueden alterar de forma
+selectiva, y (2) la idea de que las pautas de comportamiento lingüístico resultantes de una
+lesión cerebral reflejan la organización de los subsistemas neurobiológicos y cognitivos que
+han quedado intactos y no la creación de nuevos subsistemas de conocimiento o
+procesamiento. Estos dos supuestos generales permiten entender por qué, desde hace más
+de cien años, la investigación de las afasias ha ido dirigida esencialmente a la búsqueda de
+disociacio nes, es decir, qué aspectos y componentes del lenguaje que se alteran de forma
+selectiva, así como de asociaciones, a saber, los aspectos que se alteran o se preservan
+juntos, con carácter sistemático.
+=====================PREGUNTA 1======================
+Medularmente, el texto aborda
+=====================ALTERNATIVAS======================
+A) los trastorno safásicos en el marco de la neuropsicología cognitiva .
+B) las teorías lingüísticas resultantes del estudio sistémico de las afasias .
+C) la naturaleza discreta de ciertas zonas cerebrales que sufren lesiones .
+D) el nacimiento de la neuropsicología cognitiva a la luz de las afasias .
+E) la relación entre la afasia y el carácter específico del lenguaje humano .
+=====================ALTERNATIVA CORRECTA======================
+A) los trastorno safásicos en el marco de la neuropsicología cognitiva .
+=====================RAZONAMIENTO======================
+El texto se centra en el estudio científico de las afasias, y su relación con el lenguaje
+humano, a la luz de la neuropsicología cognitiva .
+=====================PREGUNTA 2======================
+La palabra REFINAR implica que los modelos teóricos del lenguaje son pasibles de
+=====================ALTERNATIVAS======================
+A) refutación . 
+B) desmedro . 
+C) rechazo .
+D) parangón. 
+E) perfectibilidad .
+=====================ALTERNATIVA CORRECTA======================
+E) perfectibilidad .
+=====================RAZONAMIENTO======================
+Refinar las teorías implica que estas por naturaleza son perfectible s o mejorables .
+=====================PREGUNTA 3======================
+Se colige del texto que una afasia jamás afectaría
+=====================ALTERNATIVAS======================
+A) el conocimiento fonológico del individuo .
+B) el conocimiento sociocultural del individuo .
+C) la forma en que se construyen las frases .
+D) la corteza cerebral del hemisferio izquierdo .
+E) los usos de las palabras gramaticales.
+=====================ALTERNATIVA CORRECTA======================
+B) el conocimiento sociocultural del individuo .
+=====================RAZONAMIENTO======================
+Las afasias afectan el hemisferio izquierdo que domina el lenguaje e implican una
+lesión cerebral específica; de lo anterior se deduce que el conocimiento lingüístico se
+ve seriamente afectado, mientras que otros tipos de conocimiento quedarían
+incólumes.
+=====================PREGUNTA 4======================
+Resulta incompatible con el desarrollo textual sostener que
+=====================ALTERNATIVAS======================
+A) las afasias afectan a las personas adultas y rara vez a los niños .
+B) la ciencia cognitiva que estudia las afasias asume la modularidad .
+C) las afasias suponen trastornos específicos que afectan el lenguaje .
+D) la neuropsicología cognitiva permite corroborar las teorías lingüísticas .
+E) la neuropsicología soslaya el carácter modular del cerebro humano .
+=====================ALTERNATIVA CORRECTA======================
+E) la neuropsicología soslaya el carácter modular del cerebro humano .
+=====================RAZONAMIENTO======================
+La neuropsicología cognitiva asume que el sistema nervioso y el sistema cognitivo
+están conformados por subsistemas autónomos, ergo, aceptan que las capacidades
+cerebrales se pueden desgajar en zonas, a saber, poseen carácter discreto .
+=====================PREGUNTA 5======================
+Si un niño sufriera una afasia,
+=====================ALTERNATIVAS======================
+A) perdería toda su inteligencia. 
+B) no podría curarse nunca.
+C) sería un hecho infrecuente.
+D) perdería todo simbolismo.
+E) no experimentaría emociones.
+=====================ALTERNATIVA CORRECTA======================
+C) sería un hecho infrecuente. 
+=====================RAZONAMIENTO======================
+Las afasias ocurren generalmente en la edad a dulta, pero puede ocurrir
+excepcionalmente en infantes.
