@@ -1,0 +1,105 @@
+ID: <Id del texto>
+=====================TEXTO======================
+–Adso –dijo Guillermo –, resolver un misterio no es como deducir a partir de primeros
+principios. Y tampoco es como recoger un montón de datos particulares para inferir
+después una ley general. Equivale más bien a encontrarse con uno, dos o tres datos
+particulares que al parecer no tiene n nada en común, y tratar de imaginar si pueden ser
+otros tantos casos de una ley general que todavía no se conoce, y que quizá nunca ha
+sido enunciada. Sin duda, si sabes, como dice el filósofo, que el hombre, el caballo y el
+mulo no tienen hiel y viven m ucho tiempo, puedes tratar de enunciar el principio según el
+cual los animales que no tienen hiel viven mucho tiempo. Pero piensa en los animales con
+cuernos. ¿Por qué tienen cuernos? De pronto descubres que todos los animales con
+cuernos carecen de diente s en la mandíbula superior. Este descubrimiento sería muy
+interesante sino fuese porque, ay, existen animales sin dientes en la mandíbula superior,
+que, no obstante, también carecen de cuernos, como el camello, por ejemplo. Finalmente,
+descubres que todos los animales sin dientes en la mandíbula su perior tienen dos
+estómagos. Pues bien, puedes suponer que cuando se tienen pocos dientes se mastica
+mal y, por tanto, se necesita otro estómago para poder digerir mejor los alimentos.
+–Pero ¿a qué vienen los cuernos? –pregunté con impaciencia –. ¿Y por qué os
+ocupáis de los animales con cuernos?
+–Yo no me he ocupado nunca de ellos, pero el obispo de Lincoln sí que se ocupó, y
+mucho, siguiendo una idea de Aristóteles. Sinceramente, no sabría decirte si su
+razonamiento es correcto; tampoco me he fijado en dónde tiene los dientes el camello y
+cuántos estómagos posee. Si te he mencionado esta cuestión, era para mostrarte que la
+búsqueda de las leyes explicativas, en los hechos naturales, procede por vías muy
+tortuosa s. Cuando te enfrentas con unos hechos inexplicables, debes tratar de imaginar
+una serie de leyes generales, que aún no sabes cómo se relacionan con los hechos en
+cuestión. Hasta que de pronto, al descubrir determinada relación, uno de aquellos
+razonamientos te parece más convincente que los otros. Entonces tratas de aplicarlo a
+todos los casos similares, y de utilizarlo para formular previsiones y descubres que habías
+acertado. […]
+En aquel momento comprendí cómo razonaba mi maestro, y me pareció que su
+método tenía poco que ver con el del filósofo que razonaba partiendo de primeros
+principios […]. Comprendí que, cuando no tenía una respuesta, Guillermo imaginaba una
+multiplicidad de respuestas posibles, muy distintas unas de otras. Me quedé perplejo.
+=====================PREGUNTA 1======================
+En este diálogo se intenta explicar fundamentalmente cómo
+=====================ALTERNATIVAS======================
+A) el razonamiento puede llegar a un descubrimiento en la solución de un misterio.
+B) Guillermo llegó a refutar los primeros principios aceptados por los buenos filósofos.
+C) se procede correctamente en la cuidadosa observación de animales con cuernos.
+D) una sola respuesta puede ser muy útil cuando se razona ayudado de la observación.
+E) las preguntas y respuestas pueden aclarar el valor supremo de la deducción lógica.
+=====================ALTERNATIVA CORRECTA======================
+A) el razonamiento puede llegar a un descubrimiento en la solución de un misterio.
+=====================RAZONAMIENTO======================
+Mediante ejemplo s Guillermo le explica a Adso cómo procede la abducción, esto es, la
+formulación de hipótesis plausibles para aclarar un misterio.
+=====================PREGUNTA 2======================
+En el texto, el adjetivo TORTUOSA se puede reemplazar por
+=====================ALTERNATIVAS======================
+A) cautelosa. 
+B) atormentada. 
+C) inmoral.
+D) insondable. 
+E) alambicada.
+=====================ALTERNATIVA CORRECTA======================
+E) alambicada.
+=====================RAZONAMIENTO======================
+Tortuosa significa que da muchos rodeos. En tal sentido, se puede reemplazas por
+alambicada.
+=====================PREGUNTA 3======================
+Resulta incompatible con el discurso de Guillermo sostener que para la resolución de
+un misterio es esencial proceder mediante
+=====================ALTERNATIVAS======================
+A) la imaginación. 
+B) el análisis. 
+C) la inferencia.
+D) la especulación. 
+E) la inducción.
+=====================ALTERNATIVA CORRECTA======================
+E) la inducción.
+=====================RAZONAMIENTO======================
+Dice Guillermo que resulta inconducente recoger un montón de datos particulares para
+inferir después una ley general.
+=====================PREGUNTA 4======================
+Si los camellos tuviesen cuernos,
+=====================ALTERNATIVAS======================
+A) el arte de la deducción sería totalmente inaplicable en la tarea de resolver un
+complicado misterio.
+B) se podría demostrar concluyentemente que los cuernos son, en realidad, dientes
+atrofiados.
+C) la deducción en la ciencia de la lógica ya no podría proceder a partir de los
+primeros principios.
+D) se reforzaría la hipótesis de que los animales con cuernos carecen de mandíbula
+superior.
+E) dejarían de ser animales interesantes para tratar de explicar una serie de hechos
+insondables
+=====================ALTERNATIVA CORRECTA======================
+D) se reforzaría la hipótesis de que los animales con cuernos carecen de mandíbula
+superior.
+=====================RAZONAMIENTO======================
+En ese camello, el came llo no sería una excepción sino una confirmación adicional.
+=====================PREGUNTA 5======================
+Plantear que los animales sin dientes en la mandíbula superior tienen dos estómagos
+es un caso de
+=====================ALTERNATIVAS======================
+A) misterio. 
+B) hipótesis. 
+C) deducción. 
+D) inducción. 
+E) observación.
+=====================ALTERNATIVA CORRECTA======================
+B) hipótesis. 
+=====================RAZONAMIENTO======================
+Se trata de una hipótesis abductiva que podría explicar una regularidad entre fenómenos.
