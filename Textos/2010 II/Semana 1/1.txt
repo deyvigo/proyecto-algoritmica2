@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 1
 =====================TEXTO======================
 Quienes conocen la sierra conocen las consecuencias de la altura, las que varían
 de una persona a otra. En casos extremos, a la víctima del mal de altura, o soroche ,se le

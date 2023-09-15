@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 32
 =====================TEXTO======================
 Los reptiles no tienen pelo como los mamíferos, ni plumas como las aves, sin
 embargo, tampoco tienen la piel totalmente desnuda como los anfibios.

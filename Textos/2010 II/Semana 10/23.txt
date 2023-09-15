@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 66
 =====================TEXTO======================
 Como es sabido, la línea teórica del conductismo sostiene que toda conducta es
 adquirida a través del aprendizaje puesto que al nacer, los seres humanos son tablas en

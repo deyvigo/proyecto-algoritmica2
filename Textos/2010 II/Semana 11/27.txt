@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 70
 =====================TEXTO======================
 Debería ser evidente que la lógica no trata de describir la manera real de pensar de la
 gente. El lector podrá preguntarse, sin embargo, sino es asunto de la lógica establecer

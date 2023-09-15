@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: <16
 =====================TEXTO======================
 Hasta el fin de la segunda guerra mundial asistimos a una batalla entre dos
 poderosas ideologías. Para los colectivismos (nazismo, comunismo), lo esencial era la

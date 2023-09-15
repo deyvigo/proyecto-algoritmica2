@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 79
 =====================TEXTO======================
 El filósofo español Fernando Savater abogó hoy en Ginebra por “declarar ilegal la
 pobreza” dado que considera que es una realidad que debería ser inaceptable para una

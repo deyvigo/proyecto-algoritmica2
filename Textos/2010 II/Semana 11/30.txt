@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 73
 =====================TEXTO======================
 Según un estudio auspiciado por la Escuela de Salud Pública John Hopkins
 Bloomberg, el plomo inhibe una proteína indispensable para el desarrollo cerebral y

@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 107
 =====================TEXTO======================
 La doctrina de los ciclos, que su más reciente inventor llama del Eterno Retorno, se puede formular así:
 El número de todos los átomos que componen el mundo es, aunque desmesurado, finito, y solo capaz como tal de un número finito (aunque desmesurado también) de permutaciones. En un tiempo infinito, el número de las permutaciones posibles debe ser alcanzado, y el universo tiene que repetirse. De nuevo nacerás de un vientre, de nuevo crecerá tu esqueleto, de nuevo arribará esta misma página a tus manos iguales, de nuevo cursarás todas las horas hasta la de tu muerte increíble.

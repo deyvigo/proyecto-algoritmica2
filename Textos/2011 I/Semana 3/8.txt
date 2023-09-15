@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 129
 =====================TEXTO======================
 La ironía es la característica peculiar de la dialéctica socrática y no solo desde el punto
 de vista formal, sino también desde una perspectiva substancial. En general, «ironía»

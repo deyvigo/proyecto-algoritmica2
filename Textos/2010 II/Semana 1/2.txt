@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 2
 =====================TEXTO======================
 Son tres los criterio s que definen la raza social de una persona, con hincapié distinto
 según la región en que se apliquen: ascendientes, apariencia física y estatus

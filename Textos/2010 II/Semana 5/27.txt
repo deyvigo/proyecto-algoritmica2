@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 27
 =====================TEXTO======================
 Una buena ley científica o teoría es falsable justamente porque hace afirmaciones
 definidas acerca del mundo. Par a el falsacionista, de ello se sigue bastante claramente

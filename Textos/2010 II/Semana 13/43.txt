@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 86
 =====================TEXTO======================
 Se ha convertido en una moda sostener que la filosofía no está enferma sino acabada
 de una vez por todas. Esta visión se remonta a Comte y Wittgenstein. Aquel sostuvo que la

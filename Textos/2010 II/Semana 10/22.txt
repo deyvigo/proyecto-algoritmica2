@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 65
 =====================TEXTO======================
 Platón (427-347 a. C.) consideraba que las matemáticas eran la forma suprema del
 conocimiento. Su influencia ha contribuido considerablemente a la difundida concepción

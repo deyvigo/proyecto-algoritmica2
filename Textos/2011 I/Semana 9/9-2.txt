@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 160
 =====================TEXTO======================
 Galileo puso en duda la tesis aristotélica de que cuerpos de peso diferente caen
 con velocidades diferentes. Se dice que Galileo refutó el aristotelismo al dejar caer

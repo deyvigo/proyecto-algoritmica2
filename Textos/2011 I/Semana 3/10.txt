@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 131
 =====================TEXTO======================
 Bajo la denominación genérica de «afasias» se engloban las alteraciones del lenguaje
 que se producen como consecuencia de una lesión focal en el cerebro (en concreto, en las

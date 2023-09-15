@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 8
 =====================TEXTO======================
 ¿Pensamos con el cerebro o con el corazón? Como tantos otros enigmas
 científicos podemos rastrear el debate en la antigua Grecia, y los adalides de uno y otro

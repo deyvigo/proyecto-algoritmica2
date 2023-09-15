@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 148
 =====================TEXTO======================
 Pertenecer a una civilización es compartir una concepción del mundo, tener fe en
 determinado s valores morales, aceptar ciertos símbolos, participar en recuerdos,

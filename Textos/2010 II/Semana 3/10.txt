@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 10
 =====================TEXTO======================
 Aunque el término genio se utilizó muchas veces de forma gratuita y discutible –lo
 que resulta muy evidente en el mundo de las manifestaciones artísticas –, es totalmente

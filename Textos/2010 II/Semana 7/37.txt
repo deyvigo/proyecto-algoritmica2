@@ -1,4 +1,4 @@
-﻿ID: <Id del texto>
+﻿ID: 38
 =====================TEXTO======================
 En la tradición del pensamiento socialista, la reflexión sobre la justicia ha ido
 generalmente ligada a la búsqueda de la igualdad entendida como abolición de los

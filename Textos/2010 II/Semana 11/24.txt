@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 67
 =====================TEXTO======================
 Karl Popper ha sido el defensor más vigoroso de una alternativa al inductivismo, a
 la cual me referiré como “falsacionismo”. Popper recibió su educación en Viena en los

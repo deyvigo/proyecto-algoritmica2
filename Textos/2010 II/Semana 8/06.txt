@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 49
 =====================TEXTO======================
 Uno de los mitos existentes sobre la metáfora es que es propia únicamente de los
 registros formales, de la escritura, y sobre todo de la poesía y de algunos géneros

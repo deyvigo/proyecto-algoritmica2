@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 12
 =====================TEXTO======================
 Poseemos claros indicios de que el aprendizaje del lenguaje viene condicionado
 por disposiciones biológicas que no se limitan de ningún modo a los órganos externos,

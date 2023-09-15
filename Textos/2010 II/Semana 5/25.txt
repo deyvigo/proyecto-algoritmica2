@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 25
 =====================TEXTO======================
 Aunque se usa el término cibernética para referirse a una serie de actividades poco
 relacionadas entre sí, aquí lo emplearemos para denotar una investigación

@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 166
 =====================TEXTO======================
 Para Peirce, la médula del pragmatismo está en su teoría de la significación, es
 decir, en su teoría general de la naturaleza de las ideas o conceptos gracias a los cuales

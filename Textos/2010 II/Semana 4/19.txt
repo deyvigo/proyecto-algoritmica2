@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 19
 =====================TEXTO======================
 Los cuentos de Julio Ramón Ribeyro son notables porque se dedican a explorar,
 con singular maestría, la problemática de la constitución del sujeto en una sociedad tan

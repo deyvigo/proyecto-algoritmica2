@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 47
 =====================TEXTO======================
 En unos meses, los pingüinos de Magallanes del Zoológico de San Francisco
 volverán a ser el centro de atención, para ver si repiten la representación que ofrecieran el

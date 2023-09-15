@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 94
 =====================TEXTO======================
 En la teoría lingüística de Chomsky centrada, fuertemente, en la sintaxis, el
 significado no pudo de ninguna manera haber evolucionado ante s que la sintaxis, ya que

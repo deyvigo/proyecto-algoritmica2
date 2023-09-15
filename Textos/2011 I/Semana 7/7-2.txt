@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 153
 =====================TEXTO======================
 Un microblog revoluciona internet en China desde hace algunos días. Su nombre lo
 dice todo: 'Fotografíe y rescate a los niños mendigos'. El blog y a cuenta con más de un

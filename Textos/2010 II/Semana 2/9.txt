@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 9
 =====================TEXTO======================
 El 26 de octubre de 1811, nació Evariste Galois y su deceso se produjo el 31 de
 mayo de 1832, a causa de un duelo que, a todas luces, fue un ardid preparado por sus

@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 26
 =====================TEXTO======================
 Es interesante la circunstancia de que esta aparentemente vaga (y podría decirse,
 holística) i dea de la relevancia de una teoría pueda ser analizada y clarificada en medida

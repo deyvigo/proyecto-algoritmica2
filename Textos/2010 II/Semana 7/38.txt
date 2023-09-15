@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 38
 =====================TEXTO======================
 El pensamiento filosófico de Ingenieros fue muy cercano al positivismo comtiano,
 aunque no se adhirió dogmáticamente a todos sus puntos de vista. Su reconfortante

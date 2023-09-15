@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 23
 =====================TEXTO======================
 Con el invento de los telescopios, los astrónomos pronto descubrieron que las
 estrellas no son los únicos objetos luminosos del espacio. Hay también algunas manchas

@@ -1,4 +1,4 @@
-ID: <Id del texto>
+ID: 52
 =====================TEXTO======================
 Aunque la herencia de los caracteres biológicos se ha reconocido hace miles de
 años, la primera idea importante sobre el mecanismo implicado se dio hace casi 150
