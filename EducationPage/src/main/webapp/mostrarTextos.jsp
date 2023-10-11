@@ -10,9 +10,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="Styles/mostrarTextos.css"/>
+        <link rel="stylesheet" href="Components/nav.css">
         <title>Textos</title>
     </head>
     <body>
+        <%@include file="Components/nav.jsp" %>
         <h1>Textos</h1>
         
         <%
