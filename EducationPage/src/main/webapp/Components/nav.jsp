@@ -6,6 +6,6 @@
     </div>
     <div class="credenciales">
         <a href="#" class="ingresar">Ingresar</a>
-        <a href="#" class="registrarse">Registrarse</a>
+        <a href="login.jsp" class="registrarse">Registrarse</a>
     </div>
 </nav>
