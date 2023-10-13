@@ -4,6 +4,7 @@
 <html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" href="<%=request.getContextPath()%>/Images/raccoon-with-headphones-and-reading-a-book.svg">
         <title>Registrarse</title>
         <link rel="stylesheet" href="Styles/login.css">
     </head>
@@ -28,8 +29,10 @@
                         <label>Contraseña</label>
                         <input type="password" pattern=".{6,12}" name="password" placeholder="6-12 caracteres">
                     </div>
-                    <div>
-                        <button type="submit">Registrarse</button>
+                    <div class="button">
+                        <a href="search-text.jsp">Registrarse
+                            <!-- <button type="submit">Registrarse</button> -->
+                        </a>
                     </div>
                 </form>
             </div>

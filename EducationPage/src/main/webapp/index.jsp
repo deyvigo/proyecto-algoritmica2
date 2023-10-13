@@ -4,6 +4,7 @@
 <html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" href="<%=request.getContextPath()%>/Images/raccoon-with-headphones-and-reading-a-book.svg">
         <title>Education</title>
         <link rel="stylesheet" href="Styles/index.css">
         <link rel="stylesheet" href="Components/nav.css">

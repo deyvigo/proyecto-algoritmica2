@@ -1,7 +1,3 @@
-
-<%@page import="com.mycompany.educationpage.clases.Texto"%>
-<%@page import="com.mycompany.educationpage.clases.Pregunta"%>
-<%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
@@ -10,7 +6,6 @@
         <link rel="icon" href="<%=request.getContextPath()%>/Images/raccoon-with-headphones-and-reading-a-book.svg">
         <title>Education</title>
         <link rel="stylesheet" href="Styles/search-text.css">
-        <link rel="stylesheet" href="Styles/mostrarTextos.css">
         <script src="https://kit.fontawesome.com/4fb2d199eb.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -38,25 +33,6 @@
                             <input class="busqueda" type="text" name="busqueda">
                             <button class="button-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </form>
-                        <div class="text-content">
-                            <%
-                                List<Texto> textos = (List)request.getSession().getAttribute("textos");
-                                int cont=1;
-                                for(Texto text: textos){
-                            %>
-                            <h3>Texto <%=cont%></h3>
-                            <h4>Contenido <%=text.getTexto()%></h4>
-                            <%  
-                                int c=1;
-                                for(Pregunta preg: text.getPreguntas()){
-                            %>
-                            <h5 class="title-question">Pregunta <%=c%></h5>
-                            <h5><%=preg.getPregunta()%></h5>
-                            <%c++;%>
-                            <%}%>
-                            <%cont++;%>
-                            <% } %>
-                        </div>
                     </div>
                 </div>
             </div>
