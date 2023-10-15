@@ -18,14 +18,16 @@
                 <div class="content-box">
                     <div class="user">
                         <div class="user-info">
-                            <img src="<%=request.getContextPath()%>/Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="user-img">
+                            <div class="imagen-user">
+                                <img src="<%=request.getContextPath()%>/Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="user-img">
+                            </div>
                             <p><strong>Deyvi Gomez</strong></p>
-                        </div>
-                        <div class="user-nav">
-                            <a href="#"><strong>Mis Notas</strong></a>
-                            <a href="#"><strong>Mis Textos Leídos</strong></a>
-                            <a href="#"><strong>Notas</strong></a>
-                            <a href="#"><strong>Notas</strong></a>
+                            <div class="user-nav">
+                                <a href="#"><strong>Mis Notas</strong></a>
+                                <a href="#"><strong>Mis Textos Leídos</strong></a>
+                                <a href="#"><strong>Notas</strong></a>
+                                <a href="#"><strong>Notas</strong></a>
+                            </div>
                         </div>
                     </div>
                     <div class="search-text">

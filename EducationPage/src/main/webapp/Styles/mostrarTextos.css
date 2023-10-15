@@ -4,8 +4,7 @@
     height: auto;
     border: 1px solid red;
     border-radius: 10px;
-    padding: 40px;
-    margin: 8px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -13,11 +12,11 @@
 
 h3{
     text-indent: 5px;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 h4{
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 h5{

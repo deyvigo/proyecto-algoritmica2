@@ -25,12 +25,15 @@
                         <div class="user-info">
                             <img src="<%=request.getContextPath()%>/Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="user-img">
                             <p><strong>Deyvi Gomez</strong></p>
+                            <div class="user-nav">
+                                <a href="#"><strong>Mis Notas</strong></a>
+                                <a href="#"><strong>Mis Textos Leídos</strong></a>
+                                <a href="#"><strong>Notas</strong></a>
+                                <a href="#"><strong>Notas</strong></a>
+                            </div>
                         </div>
-                        <div class="user-nav">
-                            <a href="#"><strong>Mis Notas</strong></a>
-                            <a href="#"><strong>Mis Textos Leídos</strong></a>
-                            <a href="#"><strong>Notas</strong></a>
-                            <a href="#"><strong>Notas</strong></a>
+                        <div class="log-out">
+                            <a href="#"><strong>Salir</strong></a>
                         </div>
                     </div>
                     <div class="search-text">
