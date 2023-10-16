@@ -1,37 +1,50 @@
+<!-- <%@page contentType="text/html" pageEncoding="UTF-8"%> -->
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Registrarse</title>
+    <title>Ingresar</title>
   </head>
-  <body class="bg-blue-200 mx-auto h-screen flex justify-center">
-    <div
-      class="container bg-red-300 shadow-md w-2/5 h-3/4 content-center mx-auto self-center rounded-3xl flex flex-col justify-center p-10 gap-10"
-    >
-      <div class="text-center font-bold text-3xl">
-        <p>REGISTRARSE</p>
+  <body>
+    <section class="bg-cyan-700 min-h-screen flex justify-center items-center">
+      <!-- container -->
+      <div
+        class="bg-sky-500 w-1/2 h-3/4 mx-auto flex justify-between rounded-3xl p-4 shadow-2xl gap-4"
+      >
+        <!-- content -->
+        <form action="" class="flex mx-auto my-auto flex-col gap-5 m-4 p-5">
+          <h1 class="text-center font-bold text-xl">INGRESAR</h1>
+          <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-1">
+              <label for="" class="indent-2">Usuario</label>
+              <input
+                type="text"
+                class="border-2 border-black rounded-lg focus:outline-none indent-3 p-1"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="" class="indent-2">Contraseña</label>
+              <input
+                type="password"
+                class="border-2 border-black rounded-lg focus:outline-none indent-3 p-1"
+              />
+            </div>
+
+            <button type="submit" class="shadow-xl rounded-xl bg-red-500 hover:bg-red-400 p-2 active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02]">Ingresar</button>
+
+          </div>
+        </form>
+        <!-- image -->
+        <div class="w-1/2 h-auto p-4">
+          <img
+            src="Images/books.jpg"
+            alt=""
+            class="rounded-2xl h-full object-cover"
+          />
+        </div>
       </div>
-      <form action="" class="flex flex-col gap-8">
-        <div class="flex flex-col justify-center w-3/4 mx-auto ">
-          <label for="" class="text-lg">Nombres</label>
-          <input type="text" class="border-b-2 border-black bg-transparent h-10 indent-3 focus:outline-none" />
-        </div>
-        <div class="flex flex-col gap-1 justify-center w-3/4 mx-auto ">
-          <label for="" class="text-lg">Apellidos</label>
-          <input type="text" class="border-b-2 border-black bg-transparent h-10 indent-3 focus:outline-none" />
-        </div>
-        <div class="flex flex-col gap-1 justify-center w-3/4 mx-auto ">
-          <label for="" class="text-lg">Usuario</label>
-          <input type="text" class="border-b-2 border-black bg-transparent h-10 indent-3 focus:outline-none" />
-        </div>
-        <div class="flex flex-col gap-1 justify-center w-3/4 mx-auto ">
-          <label for="" class="text-lg">Contraseña</label>
-          <input type="password" class="border-b-2 border-black bg-transparent h-10 indent-3 focus:outline-none" />
-        </div>
-        <button type="submit" class="mx-auto bg-red-400 shadow-xl px-5 py-3 rounded-xl">Registrarse</button>
-      </form>
-    </div>
+    </section>
   </body>
 </html>

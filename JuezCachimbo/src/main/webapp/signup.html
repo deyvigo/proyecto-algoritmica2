@@ -1,0 +1,48 @@
+<!-- <%@page contentType="text/html" pageEncoding="UTF-8"%> -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Registrarse</title>
+  </head>
+  <body">
+    <section class="bg-blue-500 min-h-screen flex justify-center items-center">
+      <form action="" class="flex mx-auto my-auto flex-col gap-5 m-4 bg-sky-500 rounded-2xl py-14 px-20 shadow-2xl">
+        <h1 class="text-center font-bold text-xl">REGISTRARSE</h1>
+        <div class="flex flex-col gap-6">
+          <div class="flex flex-col gap-1">
+            <label for="" class="indent-2">Usuario</label>
+            <input
+              type="text"
+              class="border-2 border-black rounded-lg focus: outline-none indent-3 p-1"
+            />
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="" class="indent-2">Nombres</label>
+            <input
+              type="text"
+              class="border-2 border-black rounded-lg focus: outline-none indent-3 p-1"
+            />
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="" class="indent-2">Apellidos</label>
+            <input
+              type="text"
+              class="border-2 border-black rounded-lg focus: outline-none indent-3 p-1"
+            />
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="" class="indent-2">Contraseña</label>
+            <input
+              type="password"
+              class="border-2 border-black rounded-lg focus: outline-none indent-3 p-1"
+            />
+          </div>
+          <button type="submit" class="shadow-xl rounded-xl bg-red-500 hover:bg-red-400 p-2 active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02]">Registrarse</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
