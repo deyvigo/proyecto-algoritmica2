@@ -39,30 +39,30 @@ public class SearchButtonServ extends HttpServlet {
 
         text.agregarPregunta(p);
 
-        p = new Pregunta("Lorem consectetur proident elit mollit nostrud ullamco incididunt tempor et reprehenderit irure ut nisi laborum.");
-        p.agregarAlternativa("Alskdjasd");
-        p.agregarAlternativa("KASJDLKASJD");
-        p.agregarAlternativa("Deyvi");
-        p.agregarAlternativa("David");
-        p.agregarAlternativa("Deyvi");
+        p = new Pregunta("¿Has ido a alguno de estos lugares?");
+        p.agregarAlternativa("Lima");
+        p.agregarAlternativa("Huaraz");
+        p.agregarAlternativa("Arequipa");
+        p.agregarAlternativa("Trujillo");
+        p.agregarAlternativa("La Libertad");
         
         text.agregarPregunta(p);
 
-        p = new Pregunta("In reprehenderit proident proident magna fugiat dolore tempor laboris.");
-        p.agregarAlternativa("Alskdjasd");
-        p.agregarAlternativa("KASJDLKASJD");
-        p.agregarAlternativa("Deyvi");
-        p.agregarAlternativa("David");
-        p.agregarAlternativa("Deyvi");
+        p = new Pregunta("¿Has jugado alguno de estos juegos?");
+        p.agregarAlternativa("Terraria");
+        p.agregarAlternativa("Dark Souls");
+        p.agregarAlternativa("Hollow Knight");
+        p.agregarAlternativa("Celeste");
+        p.agregarAlternativa("Ori");
         
         text.agregarPregunta(p);
 
-        p = new Pregunta("Aute fugiat anim nostrud sit eiusmod incididunt tempor sit labore sit.");
-        p.agregarAlternativa("Alskdjasd");
-        p.agregarAlternativa("KASJDLKASJD");
-        p.agregarAlternativa("Deyvi");
-        p.agregarAlternativa("David");
-        p.agregarAlternativa("Deyvi");
+        p = new Pregunta("¿Has visto alguna de estas películas?");
+        p.agregarAlternativa("Interestelar");
+        p.agregarAlternativa("Mr. Nobody");
+        p.agregarAlternativa("El Efecto Mariposa");
+        p.agregarAlternativa("Kimi No Na Wa");
+        p.agregarAlternativa("Up: Una aventura de altura");
         
         text.agregarPregunta(p);
 

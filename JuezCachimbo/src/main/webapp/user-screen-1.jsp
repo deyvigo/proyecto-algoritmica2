@@ -32,8 +32,8 @@
       <!-- search bar -->
       <div class="w-[100%]">
         <form action="" class="flex items-center">
-          <input class="w-[95%] h-12 border-black border-2 rounded-lg indent-2 focus:outline-none" type="text">
-          <button class="w-[5%] h-8 scale-[1.5] flex items-center justify-center" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input class="w-[100%] h-12 border-black border-2 rounded-2xl indent-4 focus:outline-none" type="text" placeholder="Palabras clave...">
+          <button class="w-[5%] h-8 scale-[1.5] flex items-center justify-center absolute -right-[0%]" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>
       <!-- text-content -->
@@ -48,27 +48,34 @@
         <h1 class="indent-1 font-semibold">Pregunta</h1>
         <%int cont=1;%>
         <%for (Pregunta p : text.getPreguntas()){%>
-        <div class="flex flex-col gap-2 border-2 rounded-lg py-2 px-4">
-          <h1><%=cont + ". " + p.getPregunta()%></h1>
-          <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
-            <input type="radio" name="1" id="first">
-            <label for="first" class="px-2">Opción 1</label>
+          <div class="flex flex-col gap-2 border-2 rounded-lg py-2 px-4">
+            <h1><%=cont + ". " + p.getPregunta()%></h1>
+            <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
+              <input type="radio" name="pregunta_<%=cont%>" id="first_<%=cont%>">
+              <label for="first_<%=cont%>" class="px-2"><%=p.getAlternativas().get(0)%></label>
+            </div>
+            <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
+              <input type="radio" name="pregunta_<%=cont%>" id="second_<%=cont%>">
+              <label for="second_<%=cont%>" class="px-2"><%=p.getAlternativas().get(1)%></label>
+            </div>
+            <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
+              <input type="radio" name="pregunta_<%=cont%>" id="third_<%=cont%>">
+              <label for="third_<%=cont%>" class="px-2"><%=p.getAlternativas().get(2)%></label>
+            </div>
+            <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
+              <input type="radio" name="pregunta_<%=cont%>" id="fourth_<%=cont%>">
+              <label for="fourth_<%=cont%>" class="px-2"><%=p.getAlternativas().get(3)%></label>
+            </div>
+            <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
+              <input type="radio" name="pregunta_<%=cont%>" id="fifth_<%=cont%>">
+              <label for="fifth_<%=cont%>" class="px-2"><%=p.getAlternativas().get(4)%></label>
+            </div>
           </div>
-          <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
-            <input type="radio" name="1" id="second">
-            <label for="second" class="px-2">Opción 2</label>
+        <%cont++;%>
+        <%}%>
+          <div class="bg-orange-700 w-[15%] mx-auto rounded-2xl text-center shadow-2xl hover:scale-[1.02] font-bold">
+            <button type="submit" class="w-[100%] h-[1005] p-2">Enviar</button>
           </div>
-          <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
-            <input type="radio" name="1" id="third">
-            <label for="third" class="px-2">Opción 3</label>
-          </div>
-          <div class="hover:bg-gray-600 py-1 px-2 rounded-md">
-            <input type="radio" name="1" id="fourth">
-            <label for="fourth" class="px-2">Opción 4</label>
-          </div>
-          <%cont++;%>
-          <%}%>
-        </div>
       </div>
 
   </body>

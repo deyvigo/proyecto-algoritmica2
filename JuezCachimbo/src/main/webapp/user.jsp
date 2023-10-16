@@ -55,9 +55,9 @@
     <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
       <!-- search bar -->
       <div class="w-[100%]">
-        <form action="SearchButtonServ" method="GET" class="flex items-center">
-          <input class="w-[95%] h-12 border-black border-2 rounded-lg indent-2 focus:outline-none" type="text">
-          <button class="w-[5%] h-8 scale-[1.5] flex items-center justify-center" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <form action="SearchButtonServ" class="flex items-center">
+          <input class="w-[100%] h-12 border-black border-2 rounded-2xl indent-4 focus:outline-none" type="text" placeholder="Palabras clave...">
+          <button class="w-[5%] h-8 scale-[1.5] flex items-center justify-center absolute -right-[0%]" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>
       <!-- text-content -->
