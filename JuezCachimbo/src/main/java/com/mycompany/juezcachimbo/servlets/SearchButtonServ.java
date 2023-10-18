@@ -30,12 +30,12 @@ public class SearchButtonServ extends HttpServlet {
         String texto = "Eu occaecat ad esse dolor dolore in ut laborum. Pariatur labore pariatur proident deserunt consequat dolor id officia qui quis dolor amet. Tempor aute eu nisi commodo. Aliqua labore sint eiusmod esse incididunt ut nostrud magna duis tempor exercitation velit. Occaecat fugiat et irure sint reprehenderit exercitation est minim eiusmod occaecat. Incididunt id ad nostrud amet sit eu officia anim commodo adipisicing officia tempor. Ullamco et minim consectetur non occaecat. Reprehenderit id occaecat consequat culpa laborum esse elit veniam ut cupidatat fugiat. Veniam esse incididunt commodo ipsum incididunt quis excepteur voluptate do sint labore cillum ea cupidatat. Ad do enim labore consectetur pariatur sit. Fugiat velit voluptate aute exercitation veniam consequat dolore duis. Elit cupidatat aliquip non voluptate ea consectetur consequat nulla adipisicing est minim non officia. Magna aute commodo cillum occaecat. Sit eu nulla voluptate eu eiusmod non mollit non aliqua do dolore. Laborum dolor Lorem Lorem ea proident elit. Velit officia id minim excepteur ad et ad officia. Minim cupidatat Lorem amet fugiat commodo eu. Cupidatat fugiat sint qui et consectetur consectetur.";
         Texto text = new Texto(1, texto);
         Pregunta p;
-        p = new Pregunta("Qui ipsum ut commodo amet sit magna reprehenderit occaecat.");
-        p.agregarAlternativa("Deyvi");
-        p.agregarAlternativa("David");
-        p.agregarAlternativa("Deyvi");
-        p.agregarAlternativa("David");
-        p.agregarAlternativa("Deyvi");
+        p = new Pregunta("¿Qué lenguaje sabes?");
+        p.agregarAlternativa("JavaScript");
+        p.agregarAlternativa("Dart");
+        p.agregarAlternativa("C++");
+        p.agregarAlternativa("Java");
+        p.agregarAlternativa("Python");
 
         text.agregarPregunta(p);
 
