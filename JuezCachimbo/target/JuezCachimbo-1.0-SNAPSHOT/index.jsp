@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-orange-500">
-    <div class="my-auto flex gap-5 p-20">
+    <div class="my-auto flex gap-5 p-10">
         <img src="Images/raccoon-with-headphones-and-reading-a-book.svg" alt="" class="w-80 h-80 rounded-full mx-auto">
     </div>
     <div
