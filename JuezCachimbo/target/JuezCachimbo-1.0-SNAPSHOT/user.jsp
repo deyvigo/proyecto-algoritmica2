@@ -39,19 +39,37 @@
   <body class="bg-orange-500 flex p-8 gap-8">
     <!-- card user -->
     <div class="w-1/5 flex flex-col items-center bg-gray-400 min-h-[92%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-blue-950 border-2">
-      <div class="p-2 flex-col">
-        <img src="Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="" class="rounded-full w-11/12 h-11/12 mx-auto border-2 border-black">
-        <p class="text-center text-white font-bold pt-2 text-2xl">Alumno: <%=user.getNombres()%></p>
+      <div class="w-full h-[calc(20vw-1rem-2px)] flex flex-col items-center justify-center p-2 gap-1">
+        <img src="Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="" class="object-cover rounded-full">
+        <h1 class="font-semibold">Nombre: <%=user.getNombres()%></h1>
       </div>
-      <div class="flex flex-col gap-1 h-full w-10/12 indent-4">
-        <a href="" class="bg-orange-500 h-12 w-[100%] flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-sm border-2 border-black">Perfil</a>
-        <a href="" class="bg-orange-500 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-sm border-2 border-black">Estadisticas</a>
-        <a href="" class="bg-orange-500 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-sm border-2 border-black">Textos Leidos</a>
-        <a href="" class="bg-orange-500 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-sm border-2 border-black">Notas</a>
+    <!-- menu -->
+    <div class="w-[95%] h-[calc(30vw-0.2rem)] flex flex-col justify-between">
+      <ul class="flex flex-col gap-2">
+        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+          <ion-icon name="person-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Perfil</a>
+        </div>
+        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+          <ion-icon name="stats-chart-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Estadística</a>
+        </div>
+        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+          <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Textos</a>
+        </div>
+        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+          <ion-icon name="caret-forward-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
+        </div>
+      </ul>
+      <div class="w-[95%] flex flex-col justify-between">
+        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+          <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Salir</a>
+        </div>
       </div>
-      <div class="h-full w-[75%] indent-4 absolute top-[90%]" >
-        <a href="" class="bg-orange-500 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-sm border-2 border-black">Salir</a>
-      </div>
+    </div> 
     </div>
     <!-- right bar -->
     <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
@@ -59,14 +77,15 @@
       <div class="w-[100%]">
         <form action="SearchButtonServ" class="flex items-center">
           <input class="w-[100%] h-12 border-black border-2 rounded-2xl indent-4 focus:outline-none" type="text" placeholder="Palabras clave...">
-          <button class="w-[5%] h-8 scale-[1.5] flex items-center justify-center absolute -right-[0%]" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="w-[4%] h-8 scale-[1.5] flex items-center justify-start absolute -right-[0%]" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>
       <!-- text-content -->
-      <div class="w-[100%] bg-gray-400 text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
+      <div class="w-[100%] bg-gray-400 border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
         
         </div>
       </div>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

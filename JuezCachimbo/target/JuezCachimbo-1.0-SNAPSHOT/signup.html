@@ -20,10 +20,12 @@
 
             </div>
         </div> -->
-        <div class="w-[40%] h-[10%] bg-gray-500 border-2 border-black position relative rounded-full flex mx-[60%] items-center justify-center">
+        <div class="w-[40%] h-[8%] bg-gray-500 border-2 border-black position relative rounded-full flex mx-[60%] items-center justify-center">
             <ul class="border-black border-2 h-[70%] w-[90%] rounded-full flex items-center justify-around z-10">
-                <li class="alumnBtn text-white text-center rounded-3xl text-xl font-bold cursor-pointer" onclick="switchAlumn()">Alumno</li>
-                <li class="teacherBtn text-white text-center rounded-3xl text-xl font-bold cursor-pointer" onclick="switchTeacher()">Profesor</li>
+                <label for="alumnRadio" class="alumnBtn text-white text-center rounded-3xl text-xl font-bold cursor-pointer" onclick="switchAlumn()">Alumno</label>
+                <input type="radio" id="alumnRadio" id="" name="loginForm" class="sr-only">
+                <label for="teacherRadio" class="teacherBtn text-white text-center rounded-3xl text-xl font-bold cursor-pointer" onclick="switchTeacher()">Profesor</label>
+                <input type="radio" id="teacherRadio" id="" name="loginForm" class="sr-only">
             </ul>
             <div class="absolute w-[45%] h-[70%] border-2 border-black bg-orange-400 translate-x-[-50%] rounded-full slider z-0 transition-all duration-200"></div>
 
@@ -45,24 +47,24 @@
                         <!-- data -->
                         <div class="flex flex-col gap-4"> 
                             <div class="flex flex-col items-start">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Usuario</label>
-                                <input type="text" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Usuario</label>
+                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                             <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Nombres</label>
-                                <input type="text" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Nombres</label>
+                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                             <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Apellidos</label>
-                                <input type="text" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Apellidos</label>
+                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                             <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Profesión</label>
-                                <input type="text" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Profesión</label>
+                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                             <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Contraseña</label>
-                                <input type="password" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Contraseña</label>
+                                <input type="password" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                         </div>
                         <!-- button -->
@@ -96,20 +98,20 @@
                         <!-- data -->
                         <div class="flex flex-col gap-4"> 
                             <div class="flex flex-col items-start">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Usuario</label>
-                                <input type="text" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Usuario</label>
+                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                             <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Nombres</label>
-                                <input type="text" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Nombres</label>
+                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                             <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Apellidos</label>
-                                <input type="text" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Apellidos</label>
+                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                             <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-3 text-gray-100">Contraseña</label>
-                                <input type="password" class="indent-2 border-black border-2 rounded-xl focus:outline-none">
+                                <label for="" class="font-semibold indent-4 text-gray-100">Contraseña</label>
+                                <input type="password" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
                             </div>
                         </div>
                         <!-- button -->
