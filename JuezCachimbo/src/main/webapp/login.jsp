@@ -1,4 +1,4 @@
-<!-- <%@page contentType="text/html" pageEncoding="UTF-8"%> -->
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -15,20 +15,20 @@
         class="bg-gray-500 w-1/2 h-3/4 mx-auto flex justify-between rounded-3xl p-4 shadow-2xl gap-4"
       >
         <!-- content -->
-        <form action="" class="flex mx-auto my-auto flex-col gap-5 m-4 p-5">
+        <form action="LoginServ" method="POST" class="flex mx-auto my-auto flex-col gap-5 m-4 p-5">
           <h1 class="text-center font-bold text-xl">INGRESAR</h1>
           <div class="flex flex-col gap-6">
             <div class="flex flex-col gap-1">
               <label for="" class="indent-2">Usuario</label>
               <input
-                type="text"
+                type="text" placeholder="mokoko" name="user"
                 class="border-2 border-black rounded-lg focus:outline-none indent-3 p-1"
               />
             </div>
             <div class="flex flex-col gap-1">
               <label for="" class="indent-2">Contraseña</label>
               <input
-                type="password"
+                type="password" placeholder="mokoker" name="contrasena"
                 class="border-2 border-black rounded-lg focus:outline-none indent-3 p-1"
               />
             </div>

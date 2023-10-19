@@ -1,0 +1,5 @@
+com/mycompany/educationpage/JakartaRestConfiguration.class
+com/mycompany/educationpage/resources/JakartaEE8Resource.class
+com/mycompany/educationpage/servlets/TextosPrueba.class
+com/mycompany/educationpage/clases/Pregunta.class
+com/mycompany/educationpage/clases/Texto.class

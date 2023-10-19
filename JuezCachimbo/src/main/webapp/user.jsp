@@ -1,3 +1,4 @@
+<%@page import="com.mycompany.juezcachimbo.clases.Usuario"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
@@ -34,13 +35,13 @@
       <!-- </form> -->
     <!-- </div> -->
   <!-- </body> -->
-
+  <%Usuario user = (Usuario)request.getSession().getAttribute("user");%>
   <body class="bg-orange-500 flex p-8 gap-8">
     <!-- card user -->
     <div class="w-1/5 flex flex-col items-center bg-gray-400 min-h-[92%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-blue-950 border-2">
       <div class="p-2 flex-col">
         <img src="Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="" class="rounded-full w-11/12 h-11/12 mx-auto border-2 border-black">
-        <p class="text-center text-white font-bold pt-2 text-2xl">Alumno: Deyvi Gomez</p>
+        <p class="text-center text-white font-bold pt-2 text-2xl">Alumno: <%=user.getNombres()%></p>
       </div>
       <div class="flex flex-col gap-1 h-full w-10/12 indent-4">
         <a href="" class="bg-orange-500 h-12 w-[100%] flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-sm border-2 border-black">Perfil</a>

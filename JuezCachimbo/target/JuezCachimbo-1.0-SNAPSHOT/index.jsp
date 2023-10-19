@@ -17,8 +17,8 @@
         <a href="login.html" class="mx-auto my-auto active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] font-bold text-xl">ReadoLogic</a>               
     </div>
     <div class="my-auto flex justify-center gap-4 text-center p-4">
-        <a href="login.html" class="bg-gray-400 border-2 border-black rounded-2xl py-2 px-3 shadow-xl my-auto active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] font-bold">Ingresar</a>
-        <a href="signup.html" class="bg-red-500 rounded-2xl py-2 px-3 shadow-xl my-auto border-2 hover:bg-red-400 hover:border-2 hover:border-black active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] border-black border-2 font-bold">Registrarse</a>
+        <a href="login.jsp" class="bg-gray-400 border-2 border-black rounded-2xl py-2 px-3 shadow-xl my-auto active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] font-bold">Ingresar</a>
+        <a href="signup.html" class="bg-red-500 rounded-2xl py-2 px-3 shadow-xl my-auto hover:bg-red-400 hover:border-2 hover:border-black active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] border-black border-2 font-bold">Registrarse</a>
     </div>  
   </body>
 </html>

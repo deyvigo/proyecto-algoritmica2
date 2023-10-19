@@ -1,0 +1,87 @@
+nav{
+    height: 90px;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 30px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 250, 250, 0.3);
+}
+
+.logo{
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.img-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+}
+
+.logo>a{
+    width: 95px;
+}
+
+object{
+    z-index: 1000;
+}
+
+.credenciales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.credenciales>a{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .credenciales{
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.credenciales > a{
+    font-size: 1.2em;
+    height: 80%;
+    border-width: 0px;
+    border-radius: 10px 0px 10px 10px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.ingresar{
+    width: 40%;
+}
+
+.registrarse {
+    width: 60%;
+    background-color: chocolate;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
