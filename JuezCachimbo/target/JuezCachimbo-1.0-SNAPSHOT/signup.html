@@ -1,129 +1,98 @@
-<!-- <%@page contentType="text/html" pageEncoding="UTF-8"%> -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>SignUp</title>
-    <link rel="icon" href="Images/raccoon-with-headphones-and-reading-a-book.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex bg-orange-500 items-center justify-center min-h-screen p-1"> 
-    <form class="w-[50%] h-[700px] rounded-3xl flex flex-col justify-center gap-2">
-        <!-- top -->
-        <!-- <div class="w-[70%] h-[10%] flex justify-center rounded-[2em] bg-gray-500 gap-2 items-center border-2 border-black relative">
-            <div class="border-black border-2 flex justify-center items-center rounded-3xl h-[70%] w-[90%] z-10">
-                <div class="w-[50%] text-white flex justify-center items-center rounded-3xl text-xl font-bold cursor-pointer alumnBtn" onclick="switchAlumn()">Alumno</div>
-                <div class="w-[50%] text-white h-[100%] flex justify-center items-center rounded-3xl text-xl font-bold cursor-pointer teacherBtn" onclick="switchTeacher()">Profesor</div>
+<body class="min-h-screen flex flex-col items-center justify-center bg-[#D8CDB1]">
+    <div class="h-[100%] w-[50%] flex flex-col justify-center items-end gap-2">
+        <!-- Switcher -->
+        <div class="w-[40%] rounded-full border-2 h-[10%] border-black flex items-center p-1 relative" >
+            <div class="w-[100%] h-[90%] flex justify-around border-2 border-black rounded-full z-10">
+                <input type="radio" name="switcher-log" id="alumn" class="sr-only">
+                <label for="alumn" class="text-center p-1 text-white alumnBtn">Alumno</label>
+                <input type="radio" name="switcher-log" id="teacher" class="sr-only">
+                <label for="teacher" class="text-center p-1 text-white teacherBtn">Profesor</label>
             </div>
-            <div class="absolute w-[45%] h-[70%] bg-orange-400 translate-x-[-50%] rounded-full z-0 slider transition-all duration-200">
+            <div class="absolute w-[48.5%] h-[80%] bg-black rounded-full z-0 switcher translate-x-[0%] duration-200 transition-all ease-in-out"></div>
+        </div>
+        <!-- content data -->
+        <div class="relative flex w-full rounded-2xl shadow-2xl bg-black h-[400px] items-center justify-center gap-2 overflow-hidden">
+            <!-- Alumno -->
+            <div class="absolute w-[100%] h-[100%] bg-transparent gap-2 flex flex-row-reverse items-center justify-center">
+                <!-- Imagen -->
+                <div class="w-[48%] h-[100%] flex items-center justify-center imgAlumn duration-200 transition-all ease-in-out">
+                    <img src="https://img.freepik.com/fotos-premium/lofi-aesthetics-illustration-pastel-color_950633-41.jpg" alt="" class="w-[90%] h-[90%] object-cover rounded-xl">
+                </div>
+                <!-- Content -->
+                <div class="w-[48%] h-[100%] flex flex-col items-center justify-center gap-3 cardAlumn duration-200 transition-all ease-in-out">
+                    <h1 class="text-center font-bold text-lg text-white">REGISTRARSE</h1>
+                    <div class="flex flex-col gap-1 w-[75%]">
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Usuario</label>
+                            <input type="text" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Nombres</label>
+                            <input type="text" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Apellidos</label>
+                            <input type="text" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Contraseña</label>
+                            <input type="password" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                    </div>
+                    <div class="w-[100%] flex items-center justify-center">
+                        <button class="w[40%] text-center font-semibold bg-red-500 rounded-full px-3 py-1">Registrarse</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Profesor -->
+            <div class="absolute w-[100%] h-[100%] bg-transparent flex items-center justify-center">
+                <!-- Image -->
+                <div class="w-[48%] h-[100%] flex items-center justify-center translate-x-[-110%] imgTeacher duration-200 transition-all ease-in-out">
+                    <img src="https://img.freepik.com/fotos-premium/lofi-aesthetics-illustration-pastel-color_950633-41.jpg" alt="" class="w-[90%] h-[90%] object-cover rounded-xl">
+                </div>
+                <!-- Content -->
+                <div class="w-[48%] h-[100%] flex flex-col items-center justify-center gap-3 cardTeacher translate-x-[110%] duration-200 transition-all ease-in-out">
+                    <h1 class="text-center font-bold text-lg text-white">REGISTRARSE</h1>
+                    <div class="flex flex-col gap-1 w-[75%]">
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Usuario</label>
+                            <input type="text" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Nombres</label>
+                            <input type="text" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Apellidos</label>
+                            <input type="text" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Profesión</label>
+                            <input type="text" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Contraseña</label>
+                            <input type="password" class="border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                    </div>
+                    <div class="w-[100%] flex items-center justify-center">
+                        <button class="w[40%] text-center font-semibold bg-red-500 rounded-full px-3 py-1">Registrarse</button>
+                    </div>
+                </div>
+
 
             </div>
-        </div> -->
-        <div class="w-[40%] h-[8%] bg-gray-500 border-2 border-black position relative rounded-full flex mx-[60%] items-center justify-center">
-            <ul class="border-black border-2 h-[70%] w-[90%] rounded-full flex items-center justify-around z-10">
-                <label for="alumnRadio" class="alumnBtn text-white text-center rounded-3xl text-xl font-bold cursor-pointer" onclick="switchAlumn()">Alumno</label>
-                <input type="radio" id="alumnRadio" id="" name="loginForm" class="sr-only">
-                <label for="teacherRadio" class="teacherBtn text-white text-center rounded-3xl text-xl font-bold cursor-pointer" onclick="switchTeacher()">Profesor</label>
-                <input type="radio" id="teacherRadio" id="" name="loginForm" class="sr-only">
-            </ul>
-            <div class="absolute w-[45%] h-[70%] border-2 border-black bg-orange-400 translate-x-[-50%] rounded-full slider z-0 transition-all duration-200"></div>
 
         </div>
-        <!-- bottom -->
-        <div class="w-full h-[90%] relative overflow-hidden">
-            
-            <!-- profesor -->
-            <div class="bg-gray-100 w-full h-[90%] absolute text-center rounded-3xl flex flex-row items-center justify-around">
-                <!-- Image -->
-                <!-- <div class="w-[45%] h-[90%] border-black border-[1px] rounded-3xl translate-x-[-100%] z-10 imgTeacher">
-                    <img src="Images/books.jpg" alt="" class="w-full h-full rounded-3xl object-cover z-10">
-                </div> -->
-                <!-- card-data -->
-                <div class="w-[45%] bg-gray-500 h-[90%] rounded-2xl teacher duration-200 transition-all translate-x-[-100%] z-10 invisible">
-                    <div action="" class="h-[100%] flex flex-col items-center justify-center w-[100%] gap-6">
-                        <!-- title -->
-                        <div class="text-center font-bold text-2xl text-gray-50">Registrarse</div>
-                        <!-- data -->
-                        <div class="flex flex-col gap-4"> 
-                            <div class="flex flex-col items-start">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Usuario</label>
-                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                            <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Nombres</label>
-                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                            <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Apellidos</label>
-                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                            <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Profesión</label>
-                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                            <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Contraseña</label>
-                                <input type="password" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                        </div>
-                        <!-- button -->
-                        <div>
-                            <button type="submit" class="shadow-2xl rounded-xl bg-red-500 hover:bg-red-400 p-2 active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] font-semibold text-gray-100 border-black border-2">Registrarse</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-[45%] h-[90%] border-black border-[1px] rounded-3xl translate-x-[100%] z-10 imgTeacher duration-200 transition-all invisible">
-                    <img src="Images/alumna.jpg" alt="" class="w-full h-full rounded-3xl object-cover z-10">
-                </div>
-
-                <!-- Imagen -->
-                
-            </div>
-            <!-- alumno -->
-            <div class="bg-gray-100 w-full h-[90%] absolute rounded-3xl flex flex-row items-center justify-around z-0">
-                <!-- image -->
-                <div class="w-[45%] h-[90%] border-black border-[1px] rounded-3xl imgAlumn duration-200 transition-all">
-                    <img src="Images/alumna.jpg" alt="" class="w-full h-full rounded-3xl object-cover">
-                </div>
-                <!-- <div class="w-[45%] bg-purple-500 h-[90%] rounded-2xl">
-                
-                </div> -->
-                <!-- card-data -->
-                <div class="w-[45%] bg-gray-500 h-[90%] rounded-3xl alumn duration-200 transition-all">
-                    <div action="" class="h-[100%] flex flex-col items-center justify-center w-[100%] gap-6">
-                        <!-- title -->
-                        <div class="text-center font-bold text-2xl text-gray-50">Registrarse</div>
-                        <!-- data -->
-                        <div class="flex flex-col gap-4"> 
-                            <div class="flex flex-col items-start">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Usuario</label>
-                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                            <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Nombres</label>
-                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                            <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Apellidos</label>
-                                <input type="text" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                            <div class="flex flex-col items-start gap-1">
-                                <label for="" class="font-semibold indent-4 text-gray-100">Contraseña</label>
-                                <input type="password" class="indent-4 border-black border-2 rounded-xl focus:outline-none">
-                            </div>
-                        </div>
-                        <!-- button -->
-                        <div>
-                            <button type="submit" class="shadow-2xl rounded-xl bg-red-500 hover:bg-red-400 p-2 active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] font-semibold text-gray-100 border-black border-2">Registrarse</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </form>
-    <script src="utilities/slider.js"></script>
-
-</body>
+    </div>
+    <script src="utilities/switcher.js"></script>
+</body> 
 </html>

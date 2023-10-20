@@ -2,7 +2,6 @@
 package com.mycompany.juezcachimbo.servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -29,7 +28,7 @@ public class LoginServ extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         //Creacion del objeto usuario
-        Usuario user = new Usuario("mokoko", "mokoker", "mokoko", "mokoko");
+        Usuario user = new Usuario("mokoko", "mokoker", "Mokoko", "Mokoko");
 
         String nombre = request.getParameter("user");
         String contrasena = request.getParameter("contrasena");

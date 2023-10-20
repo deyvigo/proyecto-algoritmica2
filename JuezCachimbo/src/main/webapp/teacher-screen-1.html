@@ -1,0 +1,132 @@
+<!-- <%@page contentType="text/html" pageEncoding="UTF-8"%> -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Usuario</title>
+    <link
+      rel="icon"
+      href="Images/raccoon-with-headphones-and-reading-a-book.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/4fb2d199eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-[#8895C0] flex p-8 gap-8">
+    <!-- card user -->
+    <div
+      class="w-1/5 flex flex-col items-center bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
+    >
+      <div
+        class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1"
+      >
+        <img
+          src="Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg"
+          alt=""
+          class="object-cover rounded-full"
+        />
+        <h1 class="font-semibold">Profesor:</h1>
+      </div>
+      <!-- menu -->
+      <div class="w-[95%] h-[48vh] flex flex-col justify-between gap-2">
+        <ul class="flex flex-col gap-1">
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon
+              name="person-outline"
+              class="w-[25px] h-[25px]"
+            ></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Perfil</a
+            >
+          </div>
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon
+              name="people-outline"
+              class="w-[25px] h-[25px]"
+            ></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Alumnos</a
+            >
+          </div>
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon
+              name="document-text-outline"
+              class="w-[25px] h-[25px]"
+            ></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Crear Texto</a
+            >
+          </div>
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon
+              name="stats-chart-outline"
+              class="w-[25px] h-[25px]"
+            ></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Estadísticas</a
+            >
+          </div>
+        </ul>
+        <div class="w-[100%] flex flex-col justify-between">
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Salir</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- right bar -->
+    <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
+      <!-- text-content -->
+      <div
+        class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%]"
+      >
+        <h1 class="font-bold text-center text-lg">GRUPOS</h1>
+        <div
+          class="w-[100%] bg-[#5b6895] h-[25px] indent-2 rounded-lg flex items-center"
+        >
+          <a href="#" class="font-semibold">Grupo 1</a>
+        </div>
+        <div
+          class="w-[100%] bg-[#5b6895] h-[25px] indent-2 rounded-lg flex items-center"
+        >
+          <a href="#" class="font-semibold">Grupo 2</a>
+        </div>
+        <div
+          class="w-[100%] bg-[#5b6895] h-[25px] indent-2 rounded-lg flex items-center justify-between"
+        >
+          <a href="#" class="font-semibold">Grupo 3</a>
+          <ion-icon name="remove-outline"></ion-icon>
+        </div>
+        <div class="flex items-center bg-slate-400 h-[25px] w-[17%] rounded-lg">
+            <ion-icon class="" name="add-outline" ></ion-icon>
+            <label for="">Agregar grupo</label>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

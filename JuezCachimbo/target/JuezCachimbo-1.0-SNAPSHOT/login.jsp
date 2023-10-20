@@ -9,14 +9,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <section class="bg-orange-500 min-h-screen flex justify-center items-center">
+    <section class="bg-[#D8CDB1] min-h-screen flex justify-center items-center">
       <!-- container -->
       <div
-        class="bg-gray-500 w-1/2 h-3/4 mx-auto flex justify-between rounded-3xl p-4 shadow-2xl gap-4"
+        class="bg-[#8895C0] w-1/2 h-3/4 mx-auto flex justify-between rounded-3xl p-4 shadow-2xl gap-4"
       >
         <!-- content -->
         <form action="LoginServ" method="POST" class="flex mx-auto my-auto flex-col gap-5 m-4 p-5">
-          <h1 class="text-center font-bold text-xl">INGRESAR</h1>
+          <h1 class="text-center font-bold text-2xl">INGRESAR</h1>
           <div class="flex flex-col gap-6">
             <div class="flex flex-col gap-1">
               <label for="" class="indent-2">Usuario</label>

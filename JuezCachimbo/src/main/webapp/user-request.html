@@ -1,5 +1,4 @@
-<%@page import="com.mycompany.juezcachimbo.clases.Usuario"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!-- <%@page contentType="text/html" pageEncoding="UTF-8"%> -->
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -10,38 +9,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/4fb2d199eb.js" crossorigin="anonymous"></script>
   </head>
-  <!-- <body class="bg-purple-500 flex justify-center p-8 gap-8"> -->
-  <!-- card user -->
-    <!-- <div class="w-1/5 flex flex-col items-center bg-pink-700 min-h-[92%] p-4 rounded-3xl mb-8 gap-8 fixed left-[10%] border-purple-950 border-2"> -->
-      <!-- <div class="p-2 flex-col"> -->
-        <!-- <img src="Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="" class="rounded-full w-11/12 h-11/12 mx-auto border-2 border-black"> -->
-        <!-- <p class="text-center font-bold pt-2">Alumno: Deyvi Gomez</p> -->
-      <!-- </div> -->
-      <!-- <div class="flex flex-col gap-4 h-full w-10/12 indent-4"> -->
-        <!-- <a href="" class="bg-purple-800 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-lg border-2 border-black">Notas</a> -->
-        <!-- <a href="" class="bg-purple-800 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-lg border-2 border-black">Notas</a> -->
-        <!-- <a href="" class="bg-purple-800 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-lg border-2 border-black">Notas</a> -->
-        <!-- <a href="" class="bg-purple-800 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-lg border-2 border-black">Notas</a> -->
-      <!-- </div> -->
-      <!-- <div class="h-full w-10/12 indent-4 absolute top-[90%]" > -->
-        <!-- <a href="" class="bg-purple-800 h-12 flex items-center rounded-xl active:scale-[0.98] hover:scale-[1.02] transition-all duration-100 font-bold text-lg border-2 border-black">Salir</a> -->
-      <!-- </div> -->
-    <!-- </div> -->
-    <!-- content text -->
-    <!-- <div class="w-[58%] absolute right-[10%]"> -->
-      <!-- <form action="SearchButtonServ" method="GET" class="flex items-center"> -->
-        <!-- <input class="w-11/12 h-10 border-black border-2 rounded-lg indent-2 focus:outline-none" type="text"> -->
-        <!-- <button class="w-1/12 h-8 scale-[1.5] flex items-center justify-center" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
-      <!-- </form> -->
-    <!-- </div> -->
-  <!-- </body> -->
-  <%Usuario user = (Usuario)request.getSession().getAttribute("user");%>
   <body class="bg-[#8895C0] flex p-8 gap-8">
     <!-- card user -->
     <div class="w-1/5 flex flex-col items-center bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2">
       <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
         <img src="Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="" class="object-cover rounded-full">
-        <h1 class="font-semibold">Nombre: <%=user.getNombres()%></h1>
+        <h1 class="font-semibold">Nombre: Mokoko</h1>
       </div>
     <!-- menu -->
     <div class="w-[95%] h-[48vh] flex flex-col justify-between gap-2">
@@ -81,8 +54,34 @@
         </form>
       </div>
       <!-- text-content -->
-      <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
-        
+      <div class="w-[100%] bg-[#D8CDB1] text-black border-2 border-black p-8 text-sm rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto">
+            <h1 class="font-bold text-xl text-center">RESULTADOS</h1>
+            <div>
+                <h1>Pregunta 1: </h1>
+                <p>Respuesta Correcta: <span class="text-red-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                <p><strong>Argumento: </strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quod amet, eveniet beatae corrupti eaque repellendus vel praesentium reiciendis! Labore quae iste officia eligendi explicabo nisi minus laboriosam accusamus molestiae.</p>
+            </div>
+            <div>
+                <h1>Pregunta 2: </h1>
+                <p>Respuesta Correcta: <span class="text-red-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                <p><strong>Argumento: </strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quod amet, eveniet beatae corrupti eaque repellendus vel praesentium reiciendis! Labore quae iste officia eligendi explicabo nisi minus laboriosam accusamus molestiae.</p>
+            </div>
+            <div>
+                <h1>Pregunta 3: </h1>
+                <p>Respuesta Correcta: <span class="text-red-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                <p><strong>Argumento: </strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quod amet, eveniet beatae corrupti eaque repellendus vel praesentium reiciendis! Labore quae iste officia eligendi explicabo nisi minus laboriosam accusamus molestiae.</p>
+            </div>
+            <div>
+                <h1>Pregunta 4: </h1>
+                <p>Respuesta Correcta: <span class="text-red-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                <p><strong>Argumento: </strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quod amet, eveniet beatae corrupti eaque repellendus vel praesentium reiciendis! Labore quae iste officia eligendi explicabo nisi minus laboriosam accusamus molestiae.</p>
+            </div>
+            <div>
+                <h1>Pregunta 5: </h1>
+                <p>Respuesta Correcta: <span class="text-red-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                <p><strong>Argumento: </strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quod amet, eveniet beatae corrupti eaque repellendus vel praesentium reiciendis! Labore quae iste officia eligendi explicabo nisi minus laboriosam accusamus molestiae.</p>
+            </div>
+            
         </div>
       </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

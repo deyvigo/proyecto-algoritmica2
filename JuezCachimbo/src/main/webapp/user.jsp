@@ -36,35 +36,35 @@
     <!-- </div> -->
   <!-- </body> -->
   <%Usuario user = (Usuario)request.getSession().getAttribute("user");%>
-  <body class="bg-orange-500 flex p-8 gap-8">
+  <body class="bg-[#8895C0] flex p-8 gap-8">
     <!-- card user -->
-    <div class="w-1/5 flex flex-col items-center bg-gray-400 min-h-[92%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-blue-950 border-2">
-      <div class="w-full h-[calc(20vw-1rem-2px)] flex flex-col items-center justify-center p-2 gap-1">
+    <div class="w-1/5 flex flex-col items-center bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2">
+      <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
         <img src="Images/raccoon-with-headphones-and-reading-a-book-on-back (1).svg" alt="" class="object-cover rounded-full">
         <h1 class="font-semibold">Nombre: <%=user.getNombres()%></h1>
       </div>
     <!-- menu -->
-    <div class="w-[95%] h-[calc(30vw-0.2rem)] flex flex-col justify-between">
-      <ul class="flex flex-col gap-2">
-        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+    <div class="w-[95%] h-[48vh] flex flex-col justify-between gap-2">
+      <ul class="flex flex-col gap-1">
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
           <ion-icon name="person-outline" class="w-[25px] h-[25px]"></ion-icon>
           <a href="" class="font-bold w-full h-auto border-black p-2">Perfil</a>
         </div>
-        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
           <ion-icon name="stats-chart-outline" class="w-[25px] h-[25px]"></ion-icon>
           <a href="" class="font-bold w-full h-auto border-black p-2">Estadística</a>
         </div>
-        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
           <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
           <a href="" class="font-bold w-full h-auto border-black p-2">Textos</a>
         </div>
-        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
           <ion-icon name="caret-forward-outline" class="w-[25px] h-[25px]"></ion-icon>
           <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
         </div>
       </ul>
-      <div class="w-[95%] flex flex-col justify-between">
-        <div class="flex items-center justify-center hover:bg-orange-300 hover:rounded-lg pl-4">
+      <div class="w-[100%] flex flex-col justify-between">
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
           <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
           <a href="" class="font-bold w-full h-auto border-black p-2">Salir</a>
         </div>
@@ -81,7 +81,7 @@
         </form>
       </div>
       <!-- text-content -->
-      <div class="w-[100%] bg-gray-400 border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
+      <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
         
         </div>
       </div>
