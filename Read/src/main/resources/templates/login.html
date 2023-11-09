@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="icon" th:href="@{img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="bg-[#D8CDB1] min-h-screen flex flex-col justify-center items-center gap-4">
+      <!-- container -->
+      <div
+        class="bg-[#8895C0] w-1/2 h-3/4 mx-auto flex justify-between rounded-3xl p-4 shadow-2xl gap-4"
+      >
+        <!-- content -->
+        <form method="post" th:action="@{/login}" action="/login" class="flex mx-auto my-auto flex-col gap-5 m-4 p-5">
+          <h1 class="text-center font-bold text-2xl">INGRESAR</h1>
+          <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-1">
+              <label for="username" class="indent-2">Usuario</label>
+              <input
+                type="text" placeholder="Usuario" name="username" id="username"
+                class="border-2 border-black rounded-lg focus:outline-none indent-3 p-1"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="password" class="indent-2">Contraseña</label>
+              <input
+                type="password" placeholder="Contraseña" name="password" id="password"
+                class="border-2 border-black rounded-lg focus:outline-none indent-3 p-1"
+              />
+            </div>
+
+            <button type="submit" class="shadow-xl rounded-xl bg-red-500 hover:bg-red-400 p-2 active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] border-2 border-black font-bold text-gray-100">Ingresar</button>
+
+          </div>
+        </form>
+        <!-- image -->
+        <div class="w-1/2 h-auto p-4">
+          <img
+                  th:src="@{/img/books.jpg}"
+            src="../static/img/books.jpg"
+            alt=""
+            class="rounded-2xl h-full object-cover"
+          />
+        </div>
+      </div>
+      <div th:if="${param.error}" class="w-1/2 rounded-3xl shadow-2xl text-xl text-center py-2 bg-red-400">
+        Usuario o contraseña incorrectos
+      </div>
+      <div th:if="${param.logout}" class="w-1/2 rounded-3xl shadow-2xl text-xl text-center py-2 bg-[#8895C0]">
+        Cerraste sesion
+      </div>
+    </section>
+  </body>
+</html>

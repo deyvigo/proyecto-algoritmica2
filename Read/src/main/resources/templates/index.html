@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Inicio</title>
+    <link rel="icon" href="../static/img/mapache-con-audifonos.svg">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#D8CDB1] flex min-h-screen items-center justify-center ">
+    <div class=" w-[40%] flex flex-col items-center justify-center gap-2">
+      <img th:src="@{/img/mapache-con-audifonos.svg}" src="../static/img/mapache-con-audifonos.svg" alt="" class="w-80 h-80 rounded-full mx-auto border-2 border-black">
+      <div class="w-[60%] bg-red-400 text-center p-4 rounded-full">
+        <a th:href="@{/}" href="index.html" class="text-3xl active:duration-100 transition-all ease-in-out hover:scale-[1.02] font-bold">ReadoLogic</a>
+      </div>
+      <div class="my-auto flex justify-center gap-2 text-center p-4">
+        <a th:href="@{/login}" href="login.html" class="bg-[#8895C0] border-2 w-[100px] border-black rounded-2xl py-2 px-3 shadow-xl my-auto active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] font-bold">Ingresar</a>
+        <a th:href="@{/signup}" href="signup.html" class="bg-red-500 w-[100px] rounded-2xl py-2 shadow-xl my-auto hover:bg-red-400 hover:border-2 hover:border-black active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02] border-black border-2 font-bold">Registrarse</a>
+      </div>
+    </div>
+  </body>
+</html>

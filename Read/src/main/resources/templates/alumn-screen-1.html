@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Usuario</title>
+    <link rel="icon" th:href="@{/img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/4fb2d199eb.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-[#8895C0] flex p-8 gap-8">
+    <!-- card user -->
+    <div class="w-1/5 flex flex-col items-center bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2">
+      <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
+        <img src="../static/img/mapache-con-audifonos.svg" th:src="@{/img/mapache-con-audifonos.svg}" alt="alumn-perfil" class="object-cover rounded-full">
+        <h1 class="font-semibold">Alumno: <span th:text="${alumnName}"></span></h1>
+      </div>
+    <!-- menu -->
+    <div class="w-[95%] h-[48vh] flex flex-col justify-between gap-2">
+      <ul class="flex flex-col gap-1">
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="person-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Perfil</a>
+        </div>
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="stats-chart-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Estadística</a>
+        </div>
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Textos</a>
+        </div>
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="caret-forward-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
+        </div>
+      </ul>
+      <div class="w-[100%] flex flex-col justify-between">
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2">Salir</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- right bar -->
+    <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
+      <!-- search bar -->
+      <div class="w-[100%]">
+        <form action="" class="flex items-center">
+          <input class="w-[100%] h-12 border-black border-2 rounded-2xl indent-4 focus:outline-none" type="text" placeholder="Palabras clave...">
+          <button class="w-[4%] h-8 scale-[1.5] flex items-center justify-start absolute -right-[0%]" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+      <!-- text-content -->
+      <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
+        
+        </div>
+      </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

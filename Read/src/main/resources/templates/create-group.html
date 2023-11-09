@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Usuario</title>
+    <link
+      rel="icon"
+      th:href="@{/img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/4fb2d199eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-[#8895C0] flex p-8 gap-8">
+    <!-- card user -->
+    <div
+      class="w-1/5 flex flex-col items-center bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
+    >
+      <div
+        class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1"
+      >
+        <img
+          src="../static/img/mapache-con-audifonos.svg"
+          alt="teacher-perfil"
+          th:src="@{/img/mapache-con-audifonos.svg}"
+          class="object-cover rounded-full"
+        />
+        <h1 class="font-semibold">Profesor: <span th:text="${teacherName}"></span></h1>
+      </div>
+      <!-- menu -->
+      <div class="w-[95%] h-[48vh] flex flex-col justify-between gap-2">
+        <ul class="flex flex-col gap-1">
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon
+              name="person-outline"
+              class="w-[25px] h-[25px]"
+            ></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Perfil</a
+            >
+          </div>
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon
+              name="people-outline"
+              class="w-[25px] h-[25px]"
+            ></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Alumnos</a
+            >
+          </div>
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon
+              name="document-text-outline"
+              class="w-[25px] h-[25px]"
+            ></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Crear Texto</a
+            >
+          </div>
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon
+              name="stats-chart-outline"
+              class="w-[25px] h-[25px]"
+            ></ion-icon>
+            <a href="" class="font-bold w-full h-auto border-black p-2"
+              >Estadísticas</a
+            >
+          </div>
+        </ul>
+        <div class="w-[100%] flex flex-col justify-between">
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+          >
+            <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+            <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2"
+              >Salir</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- right bar -->
+    <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
+      <!-- text-content -->
+      <div
+        class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%]"
+      >
+        <h1 class="font-bold text-center text-lg">CREACIÓN DE GRUPO</h1>
+        <form action="#" th:action="@{/teach/addGroup}" method="post" th:object="${grupo}" class="flex flex-col justify-center items-center gap-4">
+            <div class="flex flex-col">
+                <label for="groupName" class="indent-2 font-semibold">Nombre</label>
+                <input th:field="${grupo.groupName}" class="outline-none border-2 rounded-lg h-[30px] w-[300px] indent-2 border-black" id="groupName" type="text">
+            </div>
+            <button id="add" type="submit" class="flex items-center justify-center font-bold bg-slate-400 h-[35px] w-[17%] rounded-lg cursor-pointer border-2 border-transparent hover:border-2 hover:border-black">
+                Agregar
+            </button>
+        </form>
+        
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
