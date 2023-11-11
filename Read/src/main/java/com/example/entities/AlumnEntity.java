@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
+import java.util.List;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -22,4 +24,7 @@ public class AlumnEntity extends UserEntity{
     @ManyToOne
     @JoinColumn(name = "alumn_group")
     private GroupEntity alumn_group;
+
+    @OneToMany(mappedBy = "alumnSolve")
+    private List<SolveEntity> solutions;
 }

@@ -28,7 +28,7 @@ import java.util.NoSuchElementException;
 
 @Controller
 @RequestMapping("/")
-public class LoginController extends SearchGroupsUtil {
+public class LoginController {
 
     @Autowired
     private AlumnRepository alumnRepository;
@@ -61,8 +61,6 @@ public class LoginController extends SearchGroupsUtil {
         return "login";
     }
 
-
-
     @GetMapping(path = "/logRedirect")
     public String logRedirect(HttpServletRequest request, Model model, Authentication authentication){
         UserDetails userDetails = (UserDetails)authentication.getPrincipal();
@@ -72,7 +70,7 @@ public class LoginController extends SearchGroupsUtil {
             model.addAttribute("alumnName", alumn.getFirstName() + " " + alumn.getLastName());
             if (alumn.getAlumn_group() == null){
                 //List<GroupEntity> grupos = groupRepository.findAll();
-                model.addAttribute("grupos", getAllGroupDates(groupRepository));
+                model.addAttribute("grupos", SearchGroupsUtil.getAllGroupDates(groupRepository));
                 return "group-select";
             }
             return "alumn-screen-1";
@@ -80,7 +78,7 @@ public class LoginController extends SearchGroupsUtil {
             TeacherEntity teacher = teacherRepository.findByUsername(userDetails.getUsername()).orElse(null);
             assert teacher != null;
             model.addAttribute("teacherName", teacher.getFirstName() + " " + teacher.getLastName());
-            model.addAttribute("gruposProfesor", getGroupDatesPerTeacher(groupRepository, userDetails.getUsername()));
+            model.addAttribute("gruposProfesor", SearchGroupsUtil.getGroupDatesPerTeacher(groupRepository, userDetails.getUsername()));
             return "teacher-screen-1";
         }
     }

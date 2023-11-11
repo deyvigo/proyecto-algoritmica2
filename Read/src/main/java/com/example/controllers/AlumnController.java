@@ -18,7 +18,7 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping(path = "/alumn")
-public class AlumnController extends SearchGroupsUtil {
+public class AlumnController {
 
     @Autowired
     private AlumnRepository alumnRepository;
@@ -43,28 +43,22 @@ public class AlumnController extends SearchGroupsUtil {
         }
     }
 
-    @GetMapping(path = "/get/{counter}")
-    public String addToGroup(@PathVariable("counter") int counter, Authentication auth){
-        System.out.println(counter);
-        List<GroupEntity> optionalGroup = groupRepository.findAll();
+    @GetMapping(path = "/get/{id}")
+    public String addToGroup(@PathVariable("id") Long id, Authentication auth){
         Optional<AlumnEntity> optionalAlumn = alumnRepository.findByUsername(getUsernameAlumn(auth));
+        Optional<GroupEntity> optionalGroup = groupRepository.findById(id);
 
-        if (optionalAlumn.isPresent()){
+        if (optionalAlumn.isPresent() && optionalGroup.isPresent()){
 
-            GroupEntity group = optionalGroup.get(counter-1);
             AlumnEntity alumn = optionalAlumn.get();
-            group.getGroup_alumns().add(alumn);
+            GroupEntity group = optionalGroup.get();
+            //group.getGroup_alumns().add(alumn);
             alumn.setAlumn_group(group);
-            groupRepository.save(group);  //Comprobar si se necesita. Volviendo....
+            groupRepository.save(group);
 
             return "alumn-screen-1";
         }
-        return "erorrrrr";
-    }
-
-    @GetMapping("/hola")
-    public void saludar(){
-        System.out.println("Hola");
+        return "/error";   //Luego crear este endpoint
     }
 
 }

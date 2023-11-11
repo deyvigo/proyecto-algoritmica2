@@ -11,7 +11,7 @@
         <div class="text-center text-2xl font-bold"><span class="text-3xl">Bienvenido a ReadoLogic</span><br><span class="text-sky-600">Alumno</span> <span th:text="${alumnName}"></span></div>
         <div class="text-center text-xl mb-2">Debes unirte a un grupo para continuar</div>
         <div class="flex flex-col justify-center items-center bg-[#D8CDB1] rounded-lg pb-2">
-            <a th:each="g, iterStart : ${grupos}" th:with="counter=${iterStart.index + 1}" href="#" th:href="@{'/alumn/get/' + ${counter}}"  class="bg-red-400 rounded-lg w-[90%] flex justify-between px-4 cursor-pointer hover:scale-[1.02] hover:bg-red-500 duration-200 active:scale-[0.98] mt-2 font-semibold">
+            <a th:each="g : ${grupos}" href="#" th:href="@{'/alumn/get/' + ${g.get(3)}}"  class="bg-red-400 rounded-lg w-[90%] flex justify-between px-4 cursor-pointer hover:scale-[1.02] hover:bg-red-500 duration-200 active:scale-[0.98] mt-2 font-semibold">
                 <p th:text="${g.get(0)}">Los Mejores</p>
                 <p>Profesor: <span th:text="${g.get(2)}"></span></p>
             </a>

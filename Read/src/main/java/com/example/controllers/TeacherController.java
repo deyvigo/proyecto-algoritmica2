@@ -15,12 +15,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.naming.directory.SearchControls;
 import java.util.ArrayList;
 import java.util.List;
 
 @Controller
 @RequestMapping(path = "/teach")
-public class TeacherController extends SearchGroupsUtil {
+public class TeacherController {
 
     @Autowired
     private TeacherRepository teacherRepository;
@@ -60,7 +61,7 @@ public class TeacherController extends SearchGroupsUtil {
             groupEntity.setGroup_alumns(new ArrayList<>());
             groupRepository.save(groupEntity);
         }
-        model.addAttribute("gruposProfesor", getGroupDatesPerTeacher(groupRepository, getUsernameTeacher(auth)));
+        model.addAttribute("gruposProfesor", SearchGroupsUtil.getGroupDatesPerTeacher(groupRepository, getUsernameTeacher(auth)));
         return "teacher-screen-1";
     }
 
