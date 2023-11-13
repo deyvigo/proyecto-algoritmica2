@@ -18,8 +18,11 @@
   <body class="bg-[#8895C0] flex p-8 gap-8">
     <!-- card user -->
     <div
-      class="w-1/5 flex flex-col items-center bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
+      class="w-1/5 flex flex-col items-center justify-between bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
     >
+
+    <div>
+    <!-- img -->
       <div
         class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1"
       >
@@ -32,7 +35,7 @@
         <h1 class="font-semibold">Profesor: <span th:text="${teacherName}"></span></h1>
       </div>
       <!-- menu -->
-      <div class="w-[95%] h-[48vh] flex flex-col justify-between gap-2">
+      <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
         <ul class="flex flex-col gap-1">
           <div
             class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
@@ -79,15 +82,18 @@
             >
           </div>
         </ul>
-        <div class="w-[100%] flex flex-col justify-between">
-          <div
-            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+        
+      </div>
+    </div>
+
+      <div class="w-[100%] flex flex-col justify-between">
+        <div
+          class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+        >
+          <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2"
+            >Salir</a
           >
-            <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
-            <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2"
-              >Salir</a
-            >
-          </div>
         </div>
       </div>
     </div>
