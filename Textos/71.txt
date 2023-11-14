@@ -1,0 +1,302 @@
+ID: 71 
+=====================TEXTO====================== 
+Comencemos por definir la expresión “Revolución Copernicana”. Incluso en un 
+sentido descriptivo tales términos han sido aplicados con ambigüedad. Frecuentemente 
+se interpretan como la aceptación por el “gran público” de la creencia de que el Sol y no la 
+Tierra es el centro de nuestro sistema planetario. Pero ni Copérnico ni Newton creían tal 
+cosa. En cualquier caso, los cambios de una creencia popular a otra no forman parte del 
+objeto de la historia de la ciencia en sentido estricto. Por el momento olvidémonos de 
+creencias y estados mentales y consideremos únicamente los enunciados y sus 
+contenidos objetivos (en el sentido de Frege y Popper; en el del “tercer mund o”). En 
+particular consideremos la Revolución Copernicana como la hipótesis de que la Tierra se 
+mueve alrededor del Sol en lugar de suceder al revés; o, con mayor precisión, como la 
+hipótesis de que el marco fijo de referencia del movimiento planetario lo constituyen las 
+estrellas fijas y no la Tierra. Esta interpretación la mantienen principalmente quienes 
+defienden que las unidades apropiadas para la evaluación son las hipótesis aisladas (en 
+lugar de los programas de investigación o los “paradigmas”). Exa minemos sucesivamente 
+diferentes versiones de este enfoque y veamos como fracasan cada una de ellas. 
+En primer término discutiré los puntos de vista de aquellos autores que atribuyen la 
+superioridad de la hipótesis copernicana a simples consideraciones empíricas. Estos 
+“positivistas” son inductivistas, probabilistas o falsacionistas. 
+Según los inductivistas estrictos una teoría es mejor que otra si fue deducida a 
+partir de los hechos, mientras que eso no sucede con la teoría rival (en otro caso 
+ambas teoría s son simples especulaciones y tienen el mismo valor). Pero hasta el 
+inductivista más convencido se ha mostrado cauto al aplicar este criterio a la 
+Revolución Copernicana. No se puede pretender que Copérnico dedujo el 
+heliocentrismo de los hechos. En realidad ahora se acepta que tanto la teoría de 
+Copérnico como la de Tolomeo eran inconsistentes con los resultados observacionales 
+conocidos. Sin embargo, muchos famosos investigadores, como Kepler, afirmaron que 
+Copérnico obtuvo sus resultados “a partir de los fenómenos, de los efectos, de las 
+consecuencias, como un ciego que afianza sus pasos por medio de un bastón”.  
+El inductivismo estricto fue considerado seriamente y criticado por muchos autores, 
+desde Bellarmino a Whewell, y finalmente destruido por Duhe m y Popper, aunque 
+científicos y filósofos de la ciencia como Born, Achinstein y Dorling aun creen en la 
+posibilidad de deducir o inducir válidamente las teorías a partir de hechos 
+(¿seleccionados?). Pero el declinar de la lógica cartesiana y en general, de la lógica 
+psicologista, y la emergencia de la lógica de Bolzano y Tarski decretó la muerte de la 
+“deducción a partir de los fenómenos”. Si las revoluciones científicas consisten en el 
+descubrimiento de nuevos hechos y en las generalizaciones válidas a partir de los 
+mismos, entonces no existió una Revolución (científica) copernicana . 
+Ocupémonos ahora de los inductivistas probabilistas . ¿Pueden explicar por qué la 
+teoría de Copérnico sobre los movimientos celestes era mejor que la de Tolomeo? 
+Según los indu ctivistas probabilistas una teoría es mejor que otra si tiene una 
+probabilidad superior con respecto a la evidencia total disponible en el momento. 
+Conozco varios intentos (no publicados) de calcular la probabilidad de las dos teorías 
+dados los datos disponibles en el siglo XVI para mostrar que la de Copérnico era más 
+probable. Todos estos intentos han fracasado. Me dicen que en la actualidad John 
+Dorling trata de elaborar una nueva teoría bayesiana de la Revolución Copernicana. 
+Fracasará. Si las revolucion es científicas consisten en proponer una teoría científica 
+que es mucho más probable, dada la evidencia disponible, entonces no existió una 
+Revolución (científica) Copernicana. 
+La filosofía falsacionista de la ciencia puede ofrecer dos criterios independientes 
+para probar la superioridad de la teoría de Copérnico sobre los movimientos celestes. 
+Según su versión, la teoría de Tolomeo era irrefutable (esto es, seudocientífica) y la de 
+Copérnico era refutable (osea, científica). Si ello fuera cierto tendríamos una buena 
+razón para identificar la Revolución Copernicana con la Gran Revolución Científica: 
+constituiría la sustitución de la especulación irrefutable por la ciencia refutable. Según 
+esta interpretación la heurística de Tolomeo era inherentemente ad ho c; podía 
+acomodar cualquier hecho nuevo aumentando el cúmulo incoherente de epiciclos y 
+ecuantes. Por otra parte, la teoría copernicana se interpreta como empíricamente 
+refutable (almenos “en principio”). Esta es una reconstrucción histórica bastante 
+dudo sa: la teoría copernicana puede utilizar perfectamente cualquier número de 
+epiciclos sin dificultades. El mito de que la teoría de Tolomeo incorporaba un número 
+indefinido de epiciclos que podían ser manipulados para acomodar cualquier 
+observación planetaria, es un mito inventado tras el descubrimiento de las series de 
+Fourier. Como Gingerich descubrió hace poco tiempo, esta analogía entre “epiciclos 
+sobre epiciclos” y el análisis de Fourier, no fue percibido ni por Tolomeo ni por sus 
+sucesores. En realidad la reconstrucción de las Tablas Alfonsinas realizada por 
+Gingerich prueba que para los cálculos auténticos los astrónomos judíos del rey 
+Alfonso utilizaban la teoría de epiciclo único. 
+Otra versión del falsacionismo pretende que ambas teorías fueron durante mucho 
+tiempo igualmente refutables. Eran rivales mutuamente incompatibles y permanecían 
+irrefutadas; sin embargo, finalmente, algún tardío experimento crucial refutó a Tolomeo 
+y corroboró a Copérnico. Como dice Popper, “el sistema de Tolomeo no fue refutado 
+cuando Copérnico elaboró el suyo…, es en estos casos cuando los experimentos 
+cruciales resultan de una importancia decisiva”. 
+Pero mucho antes de Copérnico era notorio que el sistema de Tolomeo (en 
+cualquiera de sus versiones) estaba refutado y repleto de anomalías. Popper construye 
+la historia para que encaje con su falsacionismo ingenuo. Por supuesto, ahora (en 
+1974) él puede distinguir entre anomalías simples que no refutan, y experimentos 
+cruciales, que sí lo hacen. Pero esa estrategia general ad h oc que utilizó para 
+responder a mis críticas no le servirá para caracterizar en términos generales a los Ciclo 2010 -II 
+supuestos “experimentos cruciales”. Como hemos visto la pretendida superioridad de 
+las tablas Pruténicas de Reinhold con relación a las Alfonsinas no pudo constituir la 
+contrastación crucial. ¿Y las fases de Venus descubiertas por Galileo en 1616? ¿No 
+pudo ser esa la contrastación crucial que mostró la superioridad de Copérnico? 
+Entiendo que tal respuesta podría ser enteramente razonable de no ser por e l mar de 
+anomalías en que se debatían ambos rivales. Las fases de Venus pueden haber 
+establecido la superioridad de la teoría de Copérnico sobre la de Tolomeo, y si tal cosa 
+sucedió, ello haría aún más horrible la decisión católica de prohibir la obra de 
+Copérnico en el momento mismo de su victoria. Pero si aplicamos el criterio 
+falsacionista a la cuestión de decidir cuándo superó la teoría de Copérnico no sólo a la 
+de Tolomeo sino también a la de Tycho Brahe (que era muy conocida en 1616), 
+entonces el fals acionismo sólo suministra una respuesta absurda: ello sucedió en 1838. 
+El descubrimiento de la paralaje estelar por Bessel fue el experimento crucial entre 
+ambas. Pero no podemos pretender que el abandono de la astronomía geocéntrica por 
+toda la comunidad científica sólo pudo defenderse racionalmente después de 1838. 
+Este punto de vista requiere premisas fuertes, y carentes de plausibilidad, de tipo socio - 
+psicológico para explicar el repentino abandono de la teoría de Tolomeo. En realidad el 
+posterior descubrimiento de la paralaje estelar tuvo pocas consecuencias. El 
+descubrimiento se realizó pocos años después de que el libro de Copérnico fuera 
+retirado del Index debido a que la teoría copernicana había resultado probada. 
+=====================PREGUNTA 1====================== 
+¿Cuál es la idea principal del texto? 
+=====================ALTERNATIVAS====================== 
+A) En la comparación entre teorías científicas rivales, una es mejor que otra si es 
+deducida a partir de los hechos. 
+B) La teoría tolemaica erró al sostener que la Tierra es el marco de referencia para 
+los movimientos planetarios. 
+C) El episodio de la revolución copernicana nos permite comprender mejor la historia 
+de la ciencia astronómica. 
+D) El inductivismo, el probabilismo y el falsacionismo fallan al explicar la racionalidad 
+de la revolución copernicana. 
+E) Copérnico formuló que el marco fijo del sistema planetario estaba constituido por 
+las estrellas fijas. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) El inductivismo, el probabilismo y el falsacionismo fallan al explicar la racionalidad 
+de la revolución copernicana. 
+=====================RAZONAMIENTO====================== 
+El autor critica a inductivistas, probabilistas y falsacionistas porque no pueden dar 
+cuenta de la revolución copernicana. 
+=====================PREGUNTA 2====================== 
+En el tercer párrafo el autor dice: “Según los indu ctivistas estrictos una teoría es 
+mejor que otra si fue deducida de los hechos…”, el sentido del término DEDUCIDA 
+se refiere a un proceso de 
+=====================ALTERNATIVAS====================== 
+A) falsación.  
+B) verificación.  
+C) análisis.  
+D) inferencia.  
+E) contrastación. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) inferencia. 
+=====================RAZONAMIENTO====================== 
+El término deducida hace alusión al concepto de inferencia inductiva. 
+=====================PREGUNTA 3====================== 
+En el último párrafo, el término HORRIBLE tiene el sentido contextual de 
+=====================ALTERNATIVAS====================== 
+A) desagradable.  
+B) impoluta.  
+C) execrable. 
+D) absurda.  
+E) ostensible. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) execrable. 
+=====================RAZONAMIENTO====================== 
+El término execrable no cambia el sentido del enunciado. 
+=====================PREGUNTA 4====================== 
+Elimine el término que no guarda relación con el falsacionismo 
+=====================ALTERNATIVAS====================== 
+A) verificación.  
+B) falsación.  
+C) refutación.  
+D) hipótesis.  
+E) corroboración. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) verificación. 
+=====================RAZONAMIENTO====================== 
+El término verificación pertenece al inductivismo. 
+=====================PREGUNTA 5====================== 
+5. Resulta incompatible con el texto sostener que Copérnico 
+=====================ALTERNATIVAS====================== 
+A) se opuso racionalmente a la teoría geocéntrica. 
+B) dio fuertes pruebas inductivas para su teoría. 
+C) explicaba el movimiento del sistema planetario. 
+D) decía que el planeta Tierra gira entorno al Sol. 
+E) predijo la ocurrencia de las fases de Venus. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) dio fuertes pruebas inductivas para su teoría. 
+=====================RAZONAMIENTO====================== 
+No se basó en la inducción. 
+=====================PREGUNTA 6====================== 
+Se infiere del texto que mérito de Tarski es haber eliminado la lógica 
+=====================ALTERNATIVAS====================== 
+A) formalista.  
+B) racional.  
+C) inductiva.  
+D) deductiva.  
+E) matemática. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) inductiva. 
+=====================RAZONAMIENTO====================== 
+La cita: “deducción a partir de fenómenos”, tiene como referencia patente la lógica 
+inductiva. 
+=====================PREGUNTA 7====================== 
+7. Si se probara que la teoría de Copérnico es superior a la de Tolomeo por referencia 
+a enunciados observacionales, 
+=====================ALTERNATIVAS====================== 
+A) se justificaría que ambas posean el mismo paradigma. 
+B) los hechos no corroborarían la superioridad de Copérnico. 
+C) la superioridad probabilística de Copérnico se refutaría. 
+D) se corroboraría la tesis de los inductivistas sobre la ciencia. 
+E) se confirmaría que tienen el mismo programa de investigación. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) se corroboraría la tesis de los inductivistas sobre la ciencia. 
+=====================RAZONAMIENTO====================== 
+Es la posición que tienen los inductivistas en relación a dichas teorías. 
+=====================PREGUNTA 8====================== 
+El autor del texto sostiene “la teoría copernicana puede utilizar perfectamente 
+cualquier número de epiciclos sin dificultades”. De esta afirmación podemos deducir 
+que la teoría copernicana tendría carácter 
+=====================ALTERNATIVAS====================== 
+A) científico.  
+B) contrastable.  
+C) ad hoc.  
+D) refutable.  
+E) falsable. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) ad hoc 
+=====================RAZONAMIENTO====================== 
+Si la teoría de Copérnico se comporta igual que la de Tolomeo, entonces es 
+irrefutable y por tanto seudociencia. 
+=====================PREGUNTA 9====================== 
+Se infiere que para establecer el estatus científico de una disciplina, los popperianos 
+solo toman en cuenta 
+=====================ALTERNATIVAS====================== 
+A) la lógica probabilista.  
+B) los paradigmas.  
+C) las hipótesis refutables. 
+D) la lógica inductiva. 
+E) la verdad científica. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) las hipótesis refutables. 
+=====================RAZONAMIENTO====================== 
+Los falsacio nistas sostienen que las unidades apropiadas para la evaluación son las 
+hipótesis aisladas, y en principio, refutables. 
+=====================PREGUNTA 10====================== 
+Si la teoría de Tolomeo y Copérnico resultaran refutables, según el falsacionismo 
+=====================ALTERNATIVAS====================== 
+A) compartirían el mismo programa.  
+B) ambas te orías serían científicas. 
+C) serían sometidas a verificación.  
+D) las dos teorías serían compatibles. 
+E) se regirían por el mismo paradigma. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) ambas te orías serían científicas. 
+=====================RAZONAMIENTO====================== 
+Si son refutables, ambas teorías serían científicas para el falsacionismo. 
+=====================PREGUNTA 11====================== 
+Sobre la base del texto, se puede sostener que Kepler creía en 
+=====================ALTERNATIVAS====================== 
+A) la paradoja.  
+B) el geocentrismo.  
+C) la circularidad. 
+D) la inducción. 
+E) la falsación. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) la inducción. 
+=====================RAZONAMIENTO====================== 
+Si los resultados se obtuvieron a partir de los hechos como sostiene Kepler, 
+entonces avalaría la lógica in ductiva. 
+=====================PREGUNTA 12====================== 
+Si fuese verdad que el marco de referencia fijo para el movimiento planetario está 
+constituido por las estrellas fijas, se refutaría a 
+=====================ALTERNATIVAS====================== 
+A) Tolomeo.  
+B) Newton.  
+C) Copérnico.  
+D) Kepler.  
+E) Galileo. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) Tolomeo. 
+=====================RAZONAMIENTO====================== 
+Tolomeo consideraba que la Tierra era el marco de referencia. 
+=====================PREGUNTA 13====================== 
+Se deduce del texto que el modelo de Tycho Brahe 
+=====================ALTERNATIVAS======================  
+A) era muy inferior al formulado por Tolomeo. 
+B) era muy superior al de Nicolás Copérnico. 
+C) explicaba la ocurrencia de fases de Venus. 
+D) se adelantó a la teoría planteada por Kepler. 
+E) justifica la validez del modelo inductivista. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) explicaba la ocurrencia de fases de Venus. 
+=====================RAZONAMIENTO====================== 
+Las fases de Venus indicaban la superioridad de Copérnico frente a Tolomeo, pero 
+ello cambiaba con la teoría de Tycho Brahe. 
+=====================PREGUNTA 14====================== 
+A diferencia de una mera anomalía, el experimento crucial tiene para Popper 
+=====================ALTERNATIVAS====================== 
+A) validez probable.  
+B) estatus dogmático.  
+C) carácter ad hoc. 
+D) potencia falsadora.  
+E) fuerza inductiva. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) potencia falsadora. 
+=====================RAZONAMIENTO====================== 
+En respuesta a Lakatos, Popper distingue entre meras anomalías que no refutan y 
+experimentos cruciales que sí lo hacen. 
+=====================PREGUNTA 15====================== 
+Si la Iglesia se hubiese caracterizado por la tolerancia, 
+=====================ALTERNATIVAS====================== 
+A) habría estado en contra de Johannes Kepler. 
+B) no habría anatemizado a Nicolás Copérnico. 
+C) habría condenado al gran Galileo Galilei. 
+D) la verdad tolomeica habría sido un dogma. 
+E) no existirían controversias en la ciencia. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) no habría anatemizado a Nicolás Copérnico. 
+=====================RAZONAMIENTO====================== 
+La Iglesia no habría condenado la obra de Copérnico en el momento de su victoria. 
+

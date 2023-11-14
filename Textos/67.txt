@@ -1,0 +1,177 @@
+ID: 67 
+=====================TEXTO====================== 
+Karl Popper ha sido el defensor más vigoroso de una alternativa al inductivismo, a 
+la cual me referiré como “falsacionismo”. Popper recibió su educación en Viena en los 
+años veinte de este siglo, en un tiempo en que el positivismo lógico estaba siendo 
+articulado por un grupo de filósofos que llegaron a ser conocidos como el Círculo de 
+Viena. Rudolph Carnap era uno de los miembros más famosos; el choque y el debate 
+entre sus seguidores y los de Popper habían de ser un rasgo característico de la filosofía 
+de la ciencia hasta los años sesenta. El propio Popper ha contado cómo llegó a 
+desencantarse con la idea de que la ciencia es especial porque puede derivarse de 
+hechos; de cuantos más, me jor. Recelaba de la manera en que veía a freudianos y 
+marxistas fundar sus teorías interpretando un amplio rango de ejemplos de la conducta 
+humana o del cambio histórico, respectivamente, en términos de sus teorías, suponiendo 
+que de este modo las soportab an. Al parecer de Popper, estas teorías no podían nunca 
+equivocarse porque eran lo suficientemente flexibles como para acomodar y hacer 
+compatible con ellas cualquier ejemplo de conducta humana o de cambio histórico. Por 
+consiguiente, no podían de hecho explicar nada porque no eran capaces de excluir nada, 
+a pesar de que aparentaban ser teorías poderosas confirmadas por un amplio conjunto de 
+hechos. Popper comparó esto con el famoso experimento que hizo Eddington en 1919 
+para comprobar la teoría general de la relatividad de Einstein. La teoría de Einstein 
+implicaba que los rayos de luz deberían curvarse al pasar cerca de objetos de gran masa, 
+tales como el Sol. Por consiguiente, una estrella situada por detrás del Sol tendría que 
+aparecer desplazada respecto de la dirección según la cual sería observada de no existir 
+esta curvatura. Eddington buscó este desplazamiento mirando la estrella en un tiempo en 
+el que la luz del Sol quedara bloqueada por un eclipse. Resultó que el desplazamiento 
+pudo ser observado y la teoría de Einstein recibió su confirmación. Pero Popper insiste en 
+que pudo no haber sido así y en que la teoría general de la relatividad corría un riesgo al 
+hacer una predicción específica y experimentable y eliminar toda observación que entrara 
+en conflicto con dicha predicción. Popper concluyó que las teorías genuinamente 
+científicas, al hacer predicciones definidas, eliminan un cúmulo de situaciones 
+observables de un modo que escapaba, a su parecer, a las teorías freudianas y 
+marxistas. Llegó a la i dea clave de que las teorías científicas son falsables. 
+Los falsacionistas admiten francamente que la observación es guiada por la teoría y 
+la presupone. También se congratulan de abandonar cualquier información que implique 
+que las teorías se pueden esta blecer como verdaderas o probablemente verdaderas a la 
+luz de la evidencia observacional. Las teorías se construyen como conjeturas o 
+suposiciones especulativas y provisionales que el intelecto humano crea libremente en un 
+intento de solucionar los problemas con que tropezaron las teorías anteriores y de 
+proporcionar una explicación adecuada del comportamiento de algunos aspectos del 
+mundo o universo. Una vez propuestas, las teorías especulativas han de ser 
+comprobadas rigurosa e implacablemente por la observación y la experimentación. Las 
+teorías que no superan las pruebas observacionales y experimentales deben ser 
+eliminadas y reemplazadas por otras conjeturas especulativas. La ciencia progresa 
+gracias al ensayo y al error, a las conjeturas y refutaciones. Sólo sobreviven las teorías 
+más aptas. Aunque nunca se puede decir lícitamente de una teoría que es verdadera, se 
+puede decir con optimismo que es la mejor disponible, que es mejor que cualquiera de las 
+que han existido antes. Para los falsacionistas, no surgen problemas acerca de la 
+caracterización y la justificación de la inducción porque, según ellos, la ciencia no implica 
+la inducción. 
+=====================PREGUNTA 1====================== 
+¿Cuál es el tema central del texto? 
+=====================ALTERNATIVAS====================== 
+A) Las teorías y el método inductivo.  
+B) La falsabilidad de las teorías. 
+C) La verosimilitud de las teorías.  
+D) El marxismo como seudociencia. 
+E) El progreso en las ciencias. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) La falsabilidad de las teorías. 
+=====================RAZONAMIENTO====================== 
+El tema centrales el falsacionismo de las teorías que impregna todo el desarrollo del 
+texto. 
+=====================PREGUNTA 2====================== 
+En “La teoría de Einstein implicaba que los rayos de luz deberían curvarse al pasar 
+cerca de objetos de gran masa, tales como el Sol”, el término IMPLICABA significa 
+=====================ALTERNATIVAS====================== 
+A) incluía.  
+B) contenía.  
+C) predecía.  
+D) inducía.  
+E) sostenía. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) predecía. 
+=====================RAZONAMIENTO====================== 
+Como la teoría predecía este hecho y fue contrastado, el término que reemplaza 
+adecuadamente a implicaba es deducía. 
+=====================PREGUNTA 3====================== 
+Es incompatible con el pensamiento de Popper sostener que el marxismo y el 
+freudismo son teorías 
+=====================ALTERNATIVAS====================== 
+A) no falsables.  
+B) refutables.  
+C) inductivas. 
+D) dogmáticas .  
+E) versátiles. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) refutables. 
+=====================RAZONAMIENTO====================== 
+Sólo son falsables las teorías científicas, como la de Einstein. 
+=====================PREGUNTA 4====================== 
+Se infiere que una teoría es científica 
+=====================ALTERNATIVAS====================== 
+A) si es capaz de interpretar los hechos.  
+B) cuando es verdadera y corroborada. 
+C) cuando es refutable por los hechos. 
+D) cuando es capaz de explicarlo todo. 
+E) si lo observado es guiado por la teoría. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) cuando es refutable por los hechos. 
+=====================RAZONAMIENTO====================== 
+Sólo es científica una teoría si se encuentra un hecho que la refute, “las teorías 
+científicas son falsables”. 
+=====================PREGUNTA 5====================== 
+Si las teorías científicas podrían justificarse por los hechos, 
+=====================ALTERNATIVAS====================== 
+A) el falsacionismo estaría validado.  
+B) los marxistas los rechazarían. 
+C) serían deducidas de hipótesis.  
+D) no se podrían contrastar. 
+E) se validaría el inductivismo. 
+=====================ALTERNATIVA CORRECTA====================== 
+E) se validaría el inductivismo. 
+=====================RAZONAMIENTO====================== 
+El inductivismo aboga por una validación fáctica. 
+=====================PREGUNTA 6====================== 
+Si el marxismo predijera algunos hechos y negara otros, 
+=====================ALTERNATIVAS====================== 
+A) sería un seudociencia más.  
+B) sería una teoría científica. 
+C) dejaría de ser científico.  
+D) no se sustentaría en hechos. 
+E) como teoría sería inconsistente. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) sería una teoría científica. 
+=====================RAZONAMIENTO====================== 
+Las teorías científicas se caracterizan por hacer predicciones definidas que al no 
+contrastarse la falsarían. 
+=====================PREGUNTA 7====================== 
+Según Popper, la refutación de la predicción de Einstein habría sido 
+=====================ALTERNATIVAS====================== 
+A) posible. 
+B) inviable.  
+C) ilógica. 
+D) necesaria.  
+E) paradójica. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) posible. 
+=====================RAZONAMIENTO====================== 
+La teoría de Einstein fue confirmada, pero bien podría haber sucedido la falsación. 
+=====================PREGUNTA 8====================== 
+Una teoría genuinamente científica es aquella que 
+=====================ALTERNATIVAS====================== 
+A) está basada en los hechos y estos hechos permiten su veracidad. 
+B) no permite su falsación por un hecho empírico incompatible. 
+C) prohíbe más enunciados incompatibles con los deducidos de la teoría. 
+D) utiliza los métodos inductivos como los deductivos para probarse. 
+E) fue esbozada de manera clara y patente por los de l Círculo de Viena. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) prohíbe más enunciados incompatibles con los deducidos de la teoría. 
+=====================RAZONAMIENTO====================== 
+El marxismo y el freudismo eran flexibles y explicaban todo, por eso es que no eran 
+científicas. 
+=====================PREGUNTA 9====================== 
+Si el freudismo fuese falsable, sería una teoría 
+=====================ALTERNATIVAS====================== 
+A) verdadera.  
+B) falsa.  
+C) inductiva. 
+D) absoluta.  
+E) restrictiva. 
+=====================ALTERNATIVA CORRECTA====================== 
+E) restrictiva. 
+=====================RAZONAMIENTO====================== 
+Una teoría falsable restringe su campo de acción. 
+=====================PREGUNTA 10====================== 
+Entre falsacionismo e inductivismo hay 
+=====================ALTERNATIVAS====================== 
+A) identidad.  
+B) imbricación.  
+C) incompatibilidad. 
+D) deducción.  
+E) afinidad. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) incompatibilidad. 
+=====================RAZONAMIENTO====================== 
+El falsacionismo se opone al inductivismo. 
+

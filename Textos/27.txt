@@ -1,0 +1,103 @@
+ID: 27 
+=====================TEXTO====================== 
+Una buena ley científica o teoría es falsable justamente porque hace afirmaciones 
+definidas acerca del mundo. Par a el falsacionista, de ello se sigue bastante claramente 
+que cuanto más falsable es una teoría, mejor, en un sentido amplio de la palabra más. 
+Cuanto más afirme una teoría, más oportunidades potenciales habrá de demostrar que el 
+mundo no se comporta de hecho como lo establece la teoría. Una teoría muy buena será 
+aquella que haga afirmaciones de muy amplio alcance acerca del mundo y que, en 
+consecuencia, sea sumamente falsable y resista la falsación todas las veces que se la 
+someta a prueba. 
+Esta cuestión se puede aclarar mediante un ejemplo trivial. Consideremos las dos 
+leyes siguientes: 
+ 
+a) Marte se mueve en una elipse alrededor del Sol. 
+b) Todos los planetas se mueven en elipses alrededor del Sol. 
+ 
+Considero que b) tiene un status superior que a) com o elemento del conocimiento 
+científico. La ley b), que es la ley preferible, es más falsable que a). Si las observaciones 
+sobre Marte falsaran a), también falsarían b). Cualquier falsación de a) constituirá también 
+una falsación de b), pero no a la inversa . Los enunciados observacionales referentes a las 
+órbitas de Venus, Júpiter, etc., que posiblemente falsaran b) son irrelevantes respecto de 
+a). Si seguimos a Popper y nos referimos a esos conjuntos de enunciados 
+observacionales que servirían para falsar una ley o teoría como falsadores potenciales de 
+esa ley o teoría, entonces podemos decir que los falsadores potenciales de a) forman una 
+clase que es una subclase de los falsadores potenciales de b). La ley b) es más falsable 
+que la ley a), lo cual equivale a decir que afirma más, que es una ley mejor. 
+Un ejemplo menos artificial se refiere a la relación entre la teoría del sistema solar de 
+Kepler y la de Newton. Considero que la teoría de Kepler consiste en las tres leyes del 
+movimiento planetario. Los fa lsadores potenciales de esa teoría constan de conjuntos de 
+enunciados referentes a las posiciones planetarias en relación con el Sol en un momento 
+especificado. La teoría de Newton, una teoría mejor que desbancó a la de Kepler, es más 
+amplia. Consiste en las leyes del movimiento de Newton más su ley de gravitación, la cual 
+afirma que todos los pares de cuerpos en el universo se atraen entre sí con una fuerza 
+que varía en proporción inversa al cuadrado de la distancia entre ellos. Algunos de los 
+falsadores potenciales de la teoría de Newton son conjuntos de enunciados de las 
+posiciones planetarias en un momento especificado. Pero hay muchos otros, incluidos 
+aquellos que se refieren al comportamiento de los péndulos y de los cuerpos que caen, la 
+correlación entre las mareas y las posiciones del Sol y la Luna, etc. Hay muchas más 
+oportunidades de falsar la teoría de Newton que la de Kepler. 
+=====================PREGUNTA 1====================== 
+El tema central del texto está relacionado con 
+=====================ALTERNATIVAS====================== 
+A) la contrastación de las teorías científicas. 
+B) los grados de falsa bilidad de una teoría. 
+C) la similitud teórica de K epler y Newton. 
+D) los falsadores de la ley de la gravedad. 
+E) las teorías científicas y su verosimilitud. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) los grados de falsa bilidad de una teoría. 
+=====================RAZONAMIENTO====================== 
+Cuanto más falsable una teoría, mejor…. 
+=====================PREGUNTA 2====================== 
+Es incompatible con el desarrollo gradual del texto sostener que 
+=====================ALTERNATIVAS====================== 
+A) el enunciado a es menos falsable que b . 
+B) el enunciado b es más falsable que a . 
+C) una ley es más falsable cuanto más afirma. 
+D) la falsación de Newton y de Kepler es igual. 
+E) los falsadores de a son los falsado res de b . 
+=====================ALTERNATIVA CORRECTA====================== 
+D) la falsación de Newton y de Kepler es igual. 
+=====================RAZONAMIENTO====================== 
+La de Newton es más falsable. 
+=====================PREGUNTA 3====================== 
+Se puede deducir que la ley de gravedad de Newton 
+=====================ALTERNATIVAS====================== 
+A) es igual a cualquiera de sus primeras leyes. 
+B) es imposible de falsar por su poder predictivo. 
+C) incluye a las tres leyes del movimiento de Kepler.  
+D) si es falsada, no llega a falsar las leyes de Kepler. 
+E) tiene menor poder predictivo que las de Kepler. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) incluye a las tres leyes del movimiento de Kepler. 
+=====================RAZONAMIENTO====================== 
+Los falsadores potenciales de la teoría de Newton son conjuntos de 
+enunciados de las posiciones planetarias. (Kepler) 
+=====================PREGUNTA 4====================== 
+En comparación con El oro se dilata por la acción del calor‘, el enunciado Los 
+metales se dilatan por la acción del calor‘ 
+=====================ALTERNATIVAS====================== 
+A) tiene igual contenido.  
+B) es mucho más falsable. 
+C) es menos predictiva.  
+D) tiene menor contenido. 
+E) se mantiene incólume. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) es mucho más falsable. 
+=====================RAZONAMIENTO====================== 
+Un enunciado más general tiene más falsadores potenciales. 
+=====================PREGUNTA 5====================== 
+Dado que la teoría de Einstein es más falsable que la de Newton, podemos sostener 
+que 
+=====================ALTERNATIVAS====================== 
+A) la propuesta teórica de Einstein afirma más que la de Newton. 
+B) ambas propuestas serían irreductibles a una tercera hipótesis. 
+C) la teoría de Einstein sería menos contrastable que la de Newton. 
+D) las leyes de Newton serían verdaderas y las de Einstein posibles 
+E) la de Newton resistiría mejor las falsaciones que la de Einstein. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) la propuesta teórica de Einstein afirma más que la de Newton. 
+=====================RAZONAMIENTO====================== 
+Cuanto más falsable una teoría es mejor y afirma más que otras teorías. 
+

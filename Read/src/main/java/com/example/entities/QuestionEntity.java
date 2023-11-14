@@ -18,12 +18,17 @@ public class QuestionEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(columnDefinition = "TEXT")
     private String pregunta;
 
     @OneToMany(mappedBy = "preg")
     private List<AlternativeEntity> alternativas;
 
+    @Column(columnDefinition = "TEXT")
     private String respuesta;
+
+    @Column(columnDefinition = "TEXT")
+    private String razonamiento;
 
     @ManyToOne
     @JoinColumn(name = "text")

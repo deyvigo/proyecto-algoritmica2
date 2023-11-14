@@ -16,6 +16,7 @@ public class AlternativeEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(columnDefinition = "TEXT")
     private String alternativa;
 
     @ManyToOne

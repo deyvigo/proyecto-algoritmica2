@@ -1,0 +1,136 @@
+ID: 183 
+=====================TEXTO====================== 
+Si Einstein había conseguido transformar el tiempo en espacio, Gödel ejecutó un 
+truco todavía más mágico: hizo desaparecer el tiempo. Tras haber removido el mundo 
+matemático hasta sus cimientos con su teorema de la incompletitud, puso el punto de 
+mira en la relatividad de Einstein. Sin perder tiempo, anunció su descubrimiento de 
+nuevas e insospechadas soluciones cosmológicas a las ecuaciones de campo de la 
+relatividad general, en las cuales el tiempo experimentaría una transformación chocante. 
+Las matemáticas, la física y la filosofía derivadas de la teoría de Gödel eran 
+completamente nuevas. En los mundos posibles gobernados por estas nuevas soluciones 
+cosmológicas –los llamados u niversos en rotación o universos de Gödel -,la estructura del 
+espacio -tiempo está tan enormemente alabeada o curvada por la distribución de la 
+materia, que existen caminos temporales dirigidos hacia el futuro, en los cuales, si una 
+nave espacial viajara lo suficientemente rápido –y Gödel calculó los requerimientos de 
+velocidad necesaria y de combustible, omitiendo tan solo el menú del almuerzo -,podría 
+penetrar en cualquier región del pasado, del presente o del futuro. 
+Esa combinación de Einstein y Kafka llamada Gödel demostró, por primera vez en la 
+historia de la humanidad y a partir de las ecuaciones relativistas, que el viaje a través del 
+tiempo no era la fantasía de un filósofo, sino una posibilidad científica. De nuevo se las 
+había ingeniado para dejar caer, desde el corazón de las matemáticas, una bomba en los 
+refugios de los filósofos. Las consecuencias de esta bomba matemática eran incluso más 
+peligrosas que las del teorema de la incompletitud. Gödel se apresuró a señalar que, si 
+podemos volver a visitar el pasado, entonces este nunca pasó en realidad. Cuando el 
+tiempo deja de transcurrir, no hay tiempo en absoluto. Einstein se dio cuenta de inmediato 
+de que si Gödel estaba en lo cierto, no solo había domesticado al tiempo: lo había 
+matado. El tiempo, ese ser misterioso y aparentemente auto -contradictorio, afirmaba 
+Gödel, que, por otra parte, parece formar la base del mundo y de nuestra propia 
+existencia, se convierte al final en la mayor ilusión del mundo. En pocas palabras, si la 
+relatividad de Einstein era real, el tiempo era meramente ideal. El padre de la relatividad 
+quedó anonadado. Aunque alabó a Gödel por su gran contribución a la teoría de la 
+relatividad, era completamente consciente de que el tiempo, esa esquiva presa, se había 
+escapado otra vez de su red. 
+=====================PREGUNTA 1====================== 
+El texto se refiere fundamentalmete a la 
+=====================ALTERNATIVAS====================== 
+A) geometrización del tiempo.  
+B) curvatura espacio -temporal. 
+C) desaparición del tiempo.  
+D) incompletitud matemática. 
+E) demostración del tiempo. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) desaparición del tiempo. 
+=====================RAZONAMIENTO====================== 
+Einstein geometrizó el espacio, pero el espacio -tiempo está tan curvado que si una nave 
+espacial viajara muy rápido, podría penetrar cualquier región del pasado, presente y 
+futuro, siendo una posibilidad científica. Cuando el tiempo deja de transcurrir no hay 
+tiempo”. 
+=====================PREGUNTA 2====================== 
+El término ANONADADO tiene el significado de 
+=====================ALTERNATIVAS====================== 
+A) eliminado.  
+B) escéptico.  
+C) sorprendido. 
+D) desdeñado.  
+E) infatuado. 
+ 
+=====================ALTERNATIVA CORRECTA====================== 
+C) sorprendido. 
+=====================RAZONAMIENTO====================== 
+Se refiere al impacto de la teoría de Gödel en Einstein. 
+=====================PREGUNTA 3====================== 
+Según el autor, es incompatible afirmar que 
+=====================ALTERNATIVAS====================== 
+A) Einstein había espacializado el tiempo. 
+B) el viaje hacia el pasado ya es una realidad. 
+C) la teoría de Gödel anuncia el viaje al pasado. 
+D) Gödel demostró la inexistencia del tiempo. 
+E) el tiempo tiene una forma autocontradictoria. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) el viaje hacia el pasado ya es una realidad. 
+=====================RAZONAMIENTO====================== 
+El viaje a través del tiempo era una posibilidad científica, no una realidad. 
+=====================PREGUNTA 4====================== 
+Si los universos de Gödel no estuviesen curvados, 
+=====================ALTERNATIVAS====================== 
+A) solamente se viajaría al presente.  
+B) el tiempo sería relativo a un marco. 
+C) se abrirían los caminos temporales.  
+D) el tiempo seguiría siendo ideal. 
+E) sería inviable el viaje al futuro. 
+=====================ALTERNATIVA CORRECTA====================== 
+E) sería inviable el viaje al futuro. 
+=====================RAZONAMIENTO====================== 
+Si los universos están enormemente curvados por la materia, habría la posibilidad 
+científica del viaje al pasado, presente y futuro. 
+=====================PREGUNTA 5====================== 
+El viaje al pasado nos conduce a una 
+=====================ALTERNATIVAS====================== 
+A) inexactitud.  
+B) coincidencia.  
+C) paradoja. 
+D) falsedad.  
+E) concordancia. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) paradoja. 
+=====================RAZONAMIENTO====================== 
+En la relatividad el tiempo es geometrizado, existente, y si el tiempo deducido de la teoría 
+de Gödel es ideal, el enunciado nos lleva a una paradoja. 
+=====================PREGUNTA 6====================== 
+ Es posible inferir del texto que si el tiempo no existiera, 
+=====================ALTERNATIVAS====================== 
+A) el viaje al futuro sería imposible. 
+B) sólo podríamos estar en el presente. 
+C) viajaríamos al pasado sin movernos.  
+D) los viajes al presente serían inviables. 
+E) Gödel se habría equivocado. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) viajaríamos al pasado sin movernos.   
+=====================RAZONAMIENTO====================== 
+Si podemos volver a visitar el pasado, entonces éste nunca “pasó” en realidad. Cuando el 
+tiempo deja de transcurrir, no hay tiempo en absoluto. 
+=====================PREGUNTA 7====================== 
+Gödel combina Einstein y Kafka porque 
+=====================ALTERNATIVAS====================== 
+A) demuestra que la teoría de la relatividad está libre de toda paradoja. 
+B) ha escrito una obra científica utilizando las técnicas de la literatura de ficción. 
+C) demuestra que el mundo se define por ser un sistema completo en sí mismo. 
+D) nos da una visión increíble a partir de una demostración científica rigurosa. 
+E) elimina todas las paradojas de los sistemas lógicos de la ciencia. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) nos da una visión increíble a partir de una demostración científica rigurosa. 
+=====================RAZONAMIENTO====================== 
+Explicito en el texto. 
+=====================PREGUNTA 8====================== 
+El trabajo de Gödel en la teoría de la relatividad einsteiniana nos conduce a 
+=====================ALTERNATIVAS====================== 
+A) postular la existencia de un mundo intemporal. 
+B) refutar el teorema lógico de la incompletud. 
+C) rebatir totalmente la cosmología einsteiniana. 
+D) definir el tiempo como un curso pleno y lineal. 
+E) negar que el cosmos se rija por la relatividad. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) postular la existencia de un mundo intemporal.  
+=====================RAZONAMIENTO====================== 
+Explicito en el texto. 
+

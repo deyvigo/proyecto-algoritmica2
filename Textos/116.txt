@@ -1,0 +1,64 @@
+ID: 116 
+=====================TEXTO====================== 
+Una de las controversias más prolongadas y acaloradas acerca de la evolución humana gira entorno a la relación genética entre los neandertales y sus sucesores europeos. ¿Los sere s humanos modernos que empezaron a desplazarse desde África hace unos 60 000 años sustituyeron por completo a los neandertales o se aparearon con ellos? En 1997 el genetista Svante Pääbo —adscrito en esa época a la Universidad de Múnich — asestó un duro gol pe a la segunda hipótesis, al estudiar un hueso del brazo de un neandertal original. Pääbo y sus colegas lograron extraer un diminuto fragmento de 378 letras químicas de ADN mitocondrial (una especie de breve apéndice al texto genético principal de cada c élula) del espécimen de 40 000 años de antigüedad. Cuando interpretaron el código, hallaron que el ADN del espécimen difería a tal grado del de los seres humanos vivientes que sugería que los linajes de los neandertales y de los hombres modernos habían com enzado a divergir mucho antes de la emigración de los humanos modernos desde África, de suerte que los dos representan ramas geográficas y evolutivas distintas que se derivan de un ancestro común. «Al norte del Mediterráneo, este linaje se convirtió en el hombre de Neandertal —afirma Chris Stringer, director de investigación del Museo de Historia Natural de Londres —, y al sur del Mediterráneo, en nosotros». Si hubo alguna cruza cuando se encontraron posteriormente, fue demasiado esporádica como para dejar rastro de ADN mitocondrial neandertal en las células del ser humano actual. La bomba genética de Pääbo pareció confirmar que los neandertales eran una especie distinta, pero no contribuyó a resolver el enigma de por qué se extinguieron y nosotros sobrevivimos. Probablemente el hombre moderno era más inteligente, más sofisticado, más «humano». De cualquier modo las evidencias no son tan claras. 
+=====================PREGUNTA 1====================== 
+El tema central del texto es 
+=====================ALTERNATIVAS====================== 
+A) el establecimiento en el norte del Mediterráneo y la extinción del hombre de Neandertal, ancestro humano. 
+B) la impugnación de la supuesta proximidad genética entre el Neandertal y el hombre europeo prístino hecha por Pääblo. 
+C) las divergencias evolutivas de los homínidos respecto del hombre de Neandertal y el ser humano actual. 
+D) las causas potenciales por las que el hombre de Neandertal no se constituyó en una especie apta para la vida. 
+E) la rivalidad que existió entre el homo sapiens europeo y los neandertal ubicados al norte del mediterráneo. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) la impugnación de la supuesta proximidad genética entre el Neandertal y el hombre europeo prístino hecha por Pääblo. 
+=====================RAZONAMIENTO====================== 
+El texto parte de la cuestión acerca de la relación génica entre el Neandertal y el hombre actual, relación que ha sido rebatida por una propuesta investigativa de Svante Pääblo. 
+=====================PREGUNTA 2====================== 
+Se deduce del texto que la relación entre el hombre actual y el Neandertal 
+=====================ALTERNATIVAS====================== 
+A) es tan antigua que no puede rastrearse con los métodos actuales. 
+B) ha sido confirmada por los estudios genéticos de Svante Pääblo. 
+C) queda descartada debido a la convergencia geográfica detectada. 
+D) queda validada a partir del inequívoco apareamiento esporádico. 
+E) es un misterio esclarecido por las propiedades del ser humano. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) es tan antigua que no puede rastrearse con los métodos actuales. 
+=====================RAZONAMIENTO====================== 
+En el texto se señala que el Neandertal y el hombre actual derivan de un ancestro común que es imposible fijar, ya que el estudio de Pääblo solamente da evidencia del alejamiento génico entre estas especies. 
+=====================PREGUNTA 3====================== 
+El sentido de la palabra ACALORADO es 
+=====================ALTERNATIVAS====================== 
+A) denodado.  
+B) demente.  
+C) vehemente. 
+D) abrasador.  
+E) cálido. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) vehemente. 
+=====================RAZONAMIENTO====================== 
+El término ACALORADO hace referencia al ímpetu o vehemencia con que se esgrimie ron las hipótesis respecto del emparentamiento entre el hombre de Neandertal y el hombre europeo prístino. 
+=====================PREGUNTA 4====================== 
+Respecto del hombre de Neandertal, resulta incompatible afirmar que 
+=====================ALTERNATIVAS====================== 
+A) conformó una zona geográfica distinta del europeo emigrante. 
+B) evidencia un acervo génico similar al del ser humano actual. 
+C) ha dejado un enigma insondable acerca de su desaparición. 
+D) fue, probablemente, producto de una divergencia evolutiva. 
+E) fue posiblemente desplazado por nuestro ancestro europeo. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) evidencia un acervo génico similar al del ser humano actual. 
+=====================RAZONAMIENTO====================== 
+La propuesta de Pääbo ha confirmado que los neandertales son una especie distinta de la nuestra. 
+=====================PREGUNTA 5====================== 
+Si el estudio genético de Pääbo hubiese arrojado evidencias acerca de la proximidad génica entre el Neandertal y nuestros ancestros europeos, 
+=====================ALTERNATIVAS====================== 
+A) la cruza entre ambas especies habría sido excesivamente infrecuente. 
+B) la extinción del Neandertal sería atribuida a la racionalidad del hombre. 
+C) nuestro ancestro europeo se habría asentado al norte del Mediterráneo. 
+D) la emigración del Neandertal desde África nunca se habría producido. 
+E) se habría confirmado la propuesta acerca del apareamiento entre estos. 
+=====================ALTERNATIVA CORRECTA====================== 
+E) se habría confirmado la propuesta acerca del apareamiento entre estos. 
+=====================RAZONAMIENTO====================== 
+El estudio de Pääbo sirvió para impugnar la propuesta acerca del apareamiento entre nuestro ancestro próximo y el Neandertal, ya que el ADN de este último difería marcadamente del nuestro. En virtud de ello, la consecuencia natural de haber encontrado afinidad génica, hubiese implicado que tal apareamiento fue un suceso palmario. 
+

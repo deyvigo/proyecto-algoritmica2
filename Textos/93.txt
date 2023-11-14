@@ -1,0 +1,109 @@
+ID: 93 
+=====================TEXTO====================== 
+El álgebra ha nacido históricamente del intento de resolver los problemas inversos 
+de la aritmética común, esto es, aquellos en los que tenemos que encontrar un número 
+desconocido tal que realizadas ciertas operaciones sobre él nos lleva a un resultado 
+predeterminado. El razonamiento en estos problemas se sirvió primero del lenguaje 
+ordinario. Por eso esta primera álgebra se llama álgebra retórica. El procedimiento era 
+tan fatigoso que pronto fueron introduciéndose símbolos diversos de las palabras 
+comunes, con finalidades, ante todo, de abreviatura. Esos símbolos no eran, pues, más 
+que abreviaturas aplicadas a algo que esencialmente seguía siendo lenguaje ordinario 
+literario. Se observaban las reglas comunes de la sintaxis natural, pero palabras que se 
+presentaban regular y repetidamente podían sustituirse más concisamente por ciertos 
+símbolos especiales. El resultado fue un tipo de álgebra que se llama álgebra sincopada. 
+La síncopa era útil en la medida en que reducía el trabajo material de escribir expresiones 
+largas, ola lectura de argumentaciones algo extensas, pero no facilitaba el proceso de 
+razonamiento mismo. La mera abreviatura de nombres, o su sustitución por signos y 
+letras, no era suficiente para eso. Era necesaria una ruptura clara con la tradición 
+lingüística común. En aquel momento el verdadero progreso dependía, no de la 
+elaboración de un vocabulario más conveniente, sino de una drástica modificación del 
+modo de combinar las palabras o los signos. Sólo cuando el álgebra desarrolló su propia 
+sintaxis, libre de las irregularidades de la sintaxis del lenguaje común, empezó a alcanzar 
+su madurez. El álgebra moderna, en la que la sintaxis especial está construida de tal 
+modo que cada variación de la estructura lingüística corresponde a un modo de pensar y 
+sólo a uno, de tal modo que la manipulación mecánica del lenguaje puede efectivamente 
+ayudar a elaborar la argumentación, se llama álgebra simbólica. 
+El nacimiento del álgebra simbólica a partir del álgebra retórica de Diofanto, los 
+hindúes y los árabes, ha sido obra colectiva de varios competentes matemáticos 
+renacentistas, principalmente italianos. Los más eminentes de ellos, cuyos nombres vale 
+la pena citar fueron Regiomontanus, Paccioli, Stifel, Tartaglia , Cardano, Record, Ferrari, 
+Bombelli, Stevin y, sobre todo, Vieta. Sus vidas cubren el período 1436 -1620. No pueden 
+compararse con los grandes matemáticos del siglo XVII, pero todos ellos contribuyeron 
+suprema y decisivamente al progreso científico. La matemática moderna sería 
+sencillamente imposible sin su extenso, hermoso y adaptado simbolismo.Aquella pléyade 
+de algebristas del Renacimiento puso los fundamentos de ese simbolismo básico a la 
+matemática moderna. El origen de la matemática moderna puede situarse en Descartes. 
+Pero él y sus inmediatos sucesores pudieron dar las grandes zancadas que dieron gracias 
+al álgebra elemental que encontraron, esencialmente análoga a la nuestra, ya preparada 
+por los matemáticos renacentistas. 
+=====================PREGUNTA 1====================== 
+En el texto, el sentido del término POSICIÓN es 
+=====================ALTERNATIVAS====================== 
+A) cuestión.  
+B) problema.  
+C) momento.  
+D) tesis.  
+E) ubicación. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) tesis.  
+=====================RAZONAMIENTO====================== 
+En la frase „posición conductista, posición se refiere a una postura, a una tesis. 
+=====================PREGUNTA 2====================== 
+En síntesis, el autor expone que Armstrong 
+=====================ALTERNATIVAS====================== 
+A) en su libro titulado A Materialist Theory of the Mind formula una crítica del 
+conductismo y se adhiere a las teorías fisiológicas. 
+B) describe el habla y la acción como efectos del pensamiento, y no son fenómenos 
+puramente conductuales o intersubjetivos. 
+C) defiende una teoría mentalista de índole científica y descarta el análisis lógico de 
+los términos de la conducta de los humanos. 
+D) desarrolla un a teoría materialista de la mente, de clara inspiración fisicalista y 
+basada en los mecanismos de la consciencia. 
+E) sostiene que la mente es la causa interna de la conducta y que los estados 
+mentales son estados fisicoquímicos cerebrales. 
+=====================ALTERNATIVA CORRECTA====================== 
+E) sostiene que la mente es la causa interna de la conducta y que los estados 
+mentales son estados fisicoquímicos cerebrales. 
+=====================RAZONAMIENTO====================== 
+En síntesis, la postura de Amstrong se puede resumir en dos etapas: el causalismo mental 
+y la identidad mente -cerebro. 
+=====================PREGUNTA 3====================== 
+Resulta incompatible con el texto aseverar que 
+=====================ALTERNATIVAS====================== 
+A) la teoría de la identidad mente -cerebro es de tipo materialista. 
+B) el materialismo torna implausible la explicación conductista. 
+C) Armstrong recusa la explicación dada por los conductistas. 
+D) el habla se concibe como un tipo de conducta del ser humano. 
+E) Armstrong desarrolla el análisis causal de los conceptos mentales. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) el materialismo torna implausible la explicación conductista. 
+=====================RAZONAMIENTO====================== 
+Conductismo y materialismo son posiciones compatibles. 
+=====================PREGUNTA 4====================== 
+Se infiere del texto que entre mentalismo y espiritualismo hay una relación de 
+=====================ALTERNATIVAS====================== 
+A) exclusión.  
+B) implicación.  
+C) antítesis.  
+D) compatiblidad. 
+E) indeterminación. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) compatiblidad. 
+=====================RAZONAMIENTO====================== 
+El mentalismo puede ser materialista (el caso de Amstrong) o espiritualista (como en 
+Descartes). 
+=====================PREGUNTA 5====================== 
+Si un filósofo sostuviera que los fenómenos mentales son irreductibles a los procesos 
+neuroquímicos, 
+=====================ALTERNATIVAS====================== 
+A) tendría que defender necesariamente el enfoque conductista. 
+B) sería un crítico radical del planteamiento de René Descartes. 
+C) recusaría con vigor la hipótesis de la identidad mente -cerebro. 
+D) suscribiría el contenido de A Materialist Theory of the Mind . 
+E) plantearía que los procesos mentales son causas físicas. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) recusaría con vigor la hipótesis de la identidad mente -cerebro. 
+=====================RAZONAMIENTO====================== 
+Si la mente no se puede reducir a fenómenos químicos del cerebro, la identidad mente - 
+cerebro se vería fuertemente cuestionada. 
+

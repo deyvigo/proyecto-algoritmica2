@@ -1,0 +1,99 @@
+ID: 26 
+=====================TEXTO====================== 
+Es interesante la circunstancia de que esta aparentemente vaga (y podría decirse, 
+holística) i dea de la relevancia de una teoría pueda ser analizada y clarificada en medida 
+considerable mediante términos puramente lógicos con ayuda de la idea del contenido de 
+un enunciado o de una teoría. 
+Principalmente, hay en uso dos ideas de contenido que son m uy diferentes 
+intuitivamente, pero casi idénticas lógicamente y a las que a veces he llamado contenido 
+lógico y contenido informativo ;a un caso especial de la última lo he llamado también 
+contenido empírico . 
+El contenido lógico de un enunciado o te oría puede ser identificado con lo que Tarski 
+ha denominado su clase consecuencia; es decir, la clase de todas las consecuencias 
+(no tautológicas) que pueden ser derivadas del enunciado o de la teoría. 
+En cuanto al contenido informativo (como lo he llamado), hemos de considerar la 
+idea intuitiva de que los enunciados o teorías nos dicen tanto más cuanto más prohíben 
+o excluyen. Esta idea intuitiva conduce a una definición del contenido informativo que ha 
+parecido absurda a algunas personas: el contenido informativo de una teoría es el 
+conjunto de enunciados que son incompatibles con la teoría . 
+Puede verse enseguida, empero, que los elementos de este conjunto y los 
+elementos del contenido lógico están en una correspondencia de uno -a-uno: para cada 
+elemento que esté en uno de los conjuntos, hay en el otro conjunto un elemento 
+correspondiente, a saber, su negación. 
+Por tanto, hallamos que siempre que se incrementa o disminuye la fuerza lógica, o el 
+poder, ola cantidad de información de una teoría, deben incrementar o disminuir 
+igualmente tanto su contenido lógico como su contenido informativo. Lo cual muestra que 
+ambas ideas son muy similares: hay una correspondencia de uno -a-uno entre lo que 
+pueda decirse sobre la una y lo que puede decirse sobre la otra. Lo cual muestra que mi 
+definición del contenido informativo no es enteramente absurda. 
+Pero hay también diferencias. Por ejemplo, respecto al contenido lógico vale la 
+siguiente regla de transitividad : si b es un elemento del contenido de a, y c es un elemento 
+del contenido de b, entonces c es también un elemento del contenido de a. Aunque existe, 
+sin duda, una regla correspondiente para el contenido informativo ,no se trata de una 
+simple regla de transitividad como ésta. 
+=====================PREGUNTA 1====================== 
+Medularmente, el texto está relacionado con 
+=====================ALTERNATIVAS====================== 
+A) el contenido lógico e informativo de una teoría. 
+B) Tarski y su clase consecuencia de la teoría. 
+C) la absurda idea de contenido empírico teórico. 
+D) el contenido informativo y su incompatibilidad. 
+E) la regla de transitividad del contenido lógico. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) el contenido lógico e informativo de una teoría. 
+=====================RAZONAMIENTO====================== 
+La idea principal se expresa en el primer párrafo y es desarrollada en todo el 
+texto. 
+=====================PREGUNTA 2====================== 
+En el siguiente enunciado el contenido informativo de una teoría es el conjunto de 
+enunciados que son incompatibles con la teoría, el antónimo de INCOMPATIBLE es 
+=====================ALTERNATIVAS====================== 
+A) contradictorio.  
+B) contrario.  
+C) incluido. 
+D) antitético .  
+E) inducido. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) incluido. 
+=====================RAZONAMIENTO====================== 
+Las teorías nos dicen más cuanto más prohíben o excluyen, por eso se usa el 
+término incompatibilidad , y su antónimo sería incluido . 
+=====================PREGUNTA 3====================== 
+Es incompatible sostener que 
+=====================ALTERNATIVAS====================== 
+A) a un incremento de la demostración lógica hay un incremento informativo. 
+B) existe total equivalencia entre contenido lógico y contenido informativo. 
+C) existe una correspondencia entre el contenido lógico y el empírico . 
+D) la lógica puede clarificar la relevancia de una propuesta científica. 
+E) el contenido lógico se puede identificar con su clase consecuencia. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) existe total equivalencia entre contenido lógico y contenido informativo. 
+=====================RAZONAMIENTO====================== 
+Las dos ideas son intuitivamente diferentes y lógicamente casi idénticas. 
+=====================PREGUNTA 4====================== 
+Se puede deducir que en las ciencias empíricas unas teorías son mejores que otras 
+porque sus leyes 
+=====================ALTERNATIVAS====================== 
+A) evidencian un mismo contenido lógico. 
+B) son equivalentes si muestran generalidad. 
+C) tienden a tener mayor contenido empírico. 
+D) son tautológicas porque expresan similitud . 
+E) no permiten deducir un enunciado existencial. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) tienden a tener mayor contenido empírico. 
+=====================RAZONAMIENTO====================== 
+Las teorías son mejores que otras porque tienen mayor contenido empírico. 
+=====================PREGUNTA 5====================== 
+Si la teoría de la evolución no pudiera predecir la aparición de una nueva especie, 
+=====================ALTERNATIVAS====================== 
+A) su clase consecuencia sería muy reducida. 
+B) no existiría diferencia entre ciertos contenidos. 
+C) la regla de transitividad tendría que validarla. 
+D) no habría diferencia entre lo lógico y empírico. 
+E) no sería tan absurda la idea de contenido lógico. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) su clase consecuencia sería muy reducida. 
+=====================RAZONAMIENTO====================== 
+La clase consecuencia es la clase de todas las consecuencias que pueden 
+derivarse de la teoría; sino puede predecir, es porque no se puede derivar. 
+

@@ -1,0 +1,87 @@
+ID: 112 
+=====================TEXTO====================== 
+Un sabio inició el interroga torio de Beremiz. Este ulema era historiador famoso que había dado lecciones durante veinte años en Córdoba y más tarde, por cuestiones políticas, se trasladó a El Cairo, donde pasó a residir bajo la protección del Califa. Era un hombre bajo, cuyo rostro b ronceado aparecía enmarcado en una barba elíptica. Tenía los ojos mortecinos, sin brillo. 
+He aquí las preguntas que el sabio historiador dirigió a Beremiz: 
+–¡En nombre de Al á, Clemente y Misericordioso ! ¡Se engañan quienes aprecian el valor de un matemático por la mayor o menor habilidad con que efectúa las operaciones o aplica las reglas banales del cálculo! A mi ver, el verdadero geómetra es el que conoce con absoluta seguridad el desarrollo y el progreso de la Matemática a través de los siglos. Estudiar la Historia de la Matemática es rendir homenaje a los ingenios maravillosos que enaltecieron y dignificaron a las antiguas civilizaciones que por su esfuerzo e ingenio pudieron desvelar algunos de los misterios más profundos de la inmensa Naturaleza, consiguiendo, por la ciencia, elevar y mejorar la miserable condición humana. Logramos además, por medio de las páginas de la Historia, honrar a los gloriosos antepasados que trabajaron en la formación de la Matemática, y conservamos el nombre de las obras que dejaron. Quiero, pues, interrogar al Calculador sobre un hecho interesante de la Historia de la Matemática. ¿Cuál fue el c élebre geómetra que se suicidó al no poder mirar al cielo?. 
+Beremiz meditó unos instantes y exclamó: 
+–Fue Eratóstenes, matemático de Cirenaica y educado al principio en Alejandría y más tarde en la Escuela de Atenas, donde aprendió las doctrinas de Platón. 
+Y completando la respuesta prosiguió: 
+–Eratóstenes fue elegido para dirigir la gran Biblioteca de la Universidad de Alejandría, car go que ejerció hasta el fin de sus días. Además de poseer envidiables conocimientos científicos y literarios que lo distinguieron entre los mayores sabios de su tiempo, era Eratóstenes poeta, orador, filósofo y un completo atleta. Basta decir que conquistó el título excepcional de vencedor del pentatlón, las cinco pruebas máximas de los Juegos Olímpicos. Grecia se hallaba entonces en el periodo áureo de su desarrollo científico y literario. Era la patria de los aedos, poetas que declamaban, con acompañamiento musical, en los banquetes y en las reuniones de los reyes y de los grandes jerarcas. 
+No sería prolijo decir que, entre los griegos de mayor cultura y valor , el sabio Eratóstenes era considerado como un hombre extraordinario que tiraba la jabalina, escribía poemas, vencía a los grandes corredores y r esolvía problemas astronómicos. Eratóstenes legó a la posteridad varias obras. Al rey Ptolomeo III de Egipto le presentó una tabla de números primos hechos sobre una plancha metálica en la que los números múltiplos estaban marcados con un pequeño agujero. Se dio por eso el nombre de Criba de Eratóstenes al proceso de que se servía el sabio astrónomo para formar su tabla. 
+A consecuencia de una enfermedad en los ojos, adquirida a orillas del Nilo durante un viaje, Eratóstenes quedó ciego. Él, que cultivaba con pasión la a stronomía, se hallaba impedido de mirar al cielo y de admirar la belleza incomparable del firmamento en las noches estrelladas. 
+La luz azulada de Al-Schira jamás podría vencer aquella nube negra que le cubría los ojos. Abrumado por tan enorme desgracia, y no pudiendo resistir el pesar que le causaba la ceguera, el sabio y atleta se suicidó dejándose morir de hambre, encerrado en su biblioteca. 
+El sabio historiador de ojos mortecinos, se volvió hacia el Califa y declaró, tras breve silencio: 
+–Me considero plenamente satisfecho con la brillante exposición histórica hecha por el sabio calculador persa. El único geómetra célebre que se suicidó fue realmente el griego Eratóstenes, poeta, astrónomo y at leta, amigo fraternal del famosísimo Arquímedes de Siracusa. 
+=====================PREGUNTA 1====================== 
+La expresión ojos mortecinos‘ quiere decir ojos 
+=====================ALTERNATIVAS====================== 
+A) turbios.  
+B) cerrados.  
+C) apagados. 
+D) mortales.  
+E) perecederos. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) apagados. 
+=====================RAZONAMIENTO====================== 
+El sabio tenía ojos mortecinos, esto es, apagados. 
+=====================PREGUNTA 2====================== 
+El ulema le plantea al calculista un problema de …………… matemática. 
+=====================ALTERNATIVAS====================== 
+A) invención.  
+B) erudición. 
+C) lógica. 
+D) disciplina.  
+E) habilidad. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) erudición. 
+=====================RAZONAMIENTO====================== 
+El sabio le plantea una cuestión que implica un conocimiento erudito. 
+=====================PREGUNTA 3====================== 
+Se deduce que la muerte de Eratóstenes fue 
+=====================ALTERNATIVAS====================== 
+A) violenta.  
+B) súbita.  
+C) irracional. 
+D) lenta. 
+E) accidental. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) lenta. 
+=====================RAZONAMIENTO====================== 
+Murió de inanición, no fue una muerte súbita ni accidental. 
+=====================PREGUNTA 4====================== 
+El suicidio de Eratóstenes se presenta como un acto 
+=====================ALTERNATIVAS====================== 
+A) ilógico.  
+B) protervo.  
+C) frenético. 
+D) comprensible. 
+E) indefendible. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) comprensible. 
+=====================RAZONAMIENTO====================== 
+Resulta comprensible que ya no quiera vivir un hombre que tenía tanta pasión por la astronomía, una ciencia visual por excelencia. 
+=====================PREGUNTA 5====================== 
+Resulta incompatible con el texto decir que Eratóstenes fue 
+=====================ALTERNATIVAS====================== 
+A) bibliotecario.  
+B) plató nico.  
+C) calculista. 
+D) poeta.  
+E) ágrafo. 
+=====================ALTERNATIVA CORRECTA====================== 
+E) ágrafo. 
+=====================RAZONAMIENTO====================== 
+Era autor de diversas obras. 
+=====================PREGUNTA 6====================== 
+El texto anterior se puede interpretar, medularmente, como 
+=====================ALTERNATIVAS====================== 
+A) una prolija crítica de la historia matemática. 
+B) una revaloración total de la cultura griega. 
+C) una apología del gran sabio Eratóstenes. 
+D) una demostración de la habilidad de cálculo. 
+E) una censura contra los métodos del cálculo. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) una apología del gran sabio Eratóstenes. 
+=====================RAZONAMIENTO====================== 
+La pregunta del ulema conlleva a presentar a Eratóstenes en toda su áurea magnitud. 
+

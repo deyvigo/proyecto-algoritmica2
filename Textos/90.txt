@@ -1,0 +1,88 @@
+ID: 90 
+=====================TEXTO====================== 
+En la época de Galileo, y ya desde antes, se sabía que en un pozo la bomba no 
+puede elevar la columna de agua mucho más de 10 m. por encima de la superficie. 
+Algunos aristotélicos explicaban el fenómeno apelando al horror vacui . Galileo ensayó 
+contra ellos cierta explicación, pero no tuvo éxito. Torricelli, discípulo de Galileo, propuso – 
+siguiendo a Baliani – la siguiente explicación: el mar de aire que rodea la tierra ejerce, por 
+su peso, una presión sobre la superficie del pozo, que es la que empuja el agua hacia 
+arriba cuando se libera el pistón; el límite de altura se debe a que para esa altura la 
+presión del agua iguala la del aire. Para contrastar su conjetura, predijo que un tubo lleno 
+de mercurio, al invertirse y sumergirse en un recipiente con esa sustancia, la columna de 
+mercurio descendería hasta alcanzar 1/14 de altura para el agua, pues la densidad del 
+mercurio es 14 veces la del agua. La prueba resultó exactamente como había predicho. 
+Años más tarde, Pascal (que había repetido el experimento de Torricelli con vino 
+obteniendo la altura predicha de aproximadamente 18 m) realizó una confirmación 
+adicional. Según la hipótesis de Torricelli, la columna de mercurio debe ser mayor en la 
+base de una montaña que en su cima, pues la columna de aire envolvente decrece con la 
+altura. Predijo que la diferencia debería ser aproximadamente de 1cm por cada 200 m de  
+desnivel. En 1648 su cuñado Périer (Pascal era un enfermo crónico) realizó la prueba en 
+el Puy -de-Dôme y observó los resultados esperados. Pascal consideró el resultado una 
+refutación decisiva de la teoría aristotélica y una confirmación de la de Torricelli. Sin 
+embargo, algunos ar istotélicos se defendieron apelando a una supuesta disminución del 
+horror vacui con la altura. 
+=====================PREGUNTA 1====================== 
+Medularmente el texto trata acerca de 
+=====================ALTERNATIVAS====================== 
+A) cómo combatió Galileo Galilei la teoría aristotélica del horror vacui . 
+B) la refutación experimental de la teoría aristotélica del horror vacui . 
+C) una bomba de aire que Galileo diseñó con el fin de refutar a Aristóteles. 
+D) la contrastación que Blas Pascal realizó ascendiendo al Puy -de-Dòme. 
+E) la refutación de Aristóteles por parte de Galileo y su discípulo Pé rier. 
+=====================ALTERNATIVA CORRECTA====================== 
+B) la refutación experimental de la teoría aristotélica del horror vacui . 
+=====================RAZONAMIENTO====================== 
+Torricelli y, luego, Pascal refutan con un adecuado diseño experimental la tesis aristotélica 
+del horror vacui. 
+=====================PREGUNTA 2====================== 
+¿Cuál es el enunciado incompatible con lo expuesto en la lectura? 
+=====================ALTERNATIVAS====================== 
+A) Pascal estaba en contra del aristotelismo. 
+B) El aire ejerce presión sobre la superficie. 
+C) La presión disminuye 1 cm. cada 200 m. 
+D) Torricelli formuló una hipótesis incontrastable .  
+E) Galileo falló en explicar la presión del aire. 
+=====================ALTERNATIVA CORRECTA====================== 
+D) Torricelli formuló una hipótesis incontrastable .  
+=====================RAZONAMIENTO====================== 
+La conjetura de Torricelli permitía formular predicciones. Era, por ello, contrastable. 
+=====================PREGUNTA 3====================== 
+En la hipótesis de Torricelli, la altura de la columna de mercurio está determinada por 
+la 
+=====================ALTERNATIVAS====================== 
+A) relación de presión entre el mercurio y el aire. 
+B) mayor presión de os elementos en la superficie. 
+C) menor presión de los elementos en la atmósfera. 
+D) antigua teoría del horror vacui y su veracidad. 
+E) igualdad de la masa del mercurio con su peso. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) relación de presión entre el mercurio y el aire. 
+=====================RAZONAMIENTO====================== 
+La elevación de la columna de mercurio está determinada por la presión atmosférica. No 
+hay horror vacui. 
+=====================PREGUNTA 4====================== 
+4. Si Pascal no hubiera contrastad ola hipótesis de Torricelli, 
+=====================ALTERNATIVAS====================== 
+A) la explicación del horror vacui seguiría vigente. 
+B) se habría abandonado la hipótesis de Torricelli. 
+C) la hipótesis de T orricelli mantendría su estatus . 
+D) se habría consolidado la falsa teoría aristotélica. 
+E) actualmente no se mediría la presión atmosférica. 
+=====================ALTERNATIVA CORRECTA====================== 
+C) la hipótesis de T orricelli mantendría su estatus . 
+=====================RAZONAMIENTO====================== 
+Ya Torricelli había dado confirmación para su teoría. Pascal añade evidencia, pero no 
+cambia su estatus ganado . 
+=====================PREGUNTA 5====================== 
+De acuerdo con e l texto, podemos afirmar que la presión del 
+=====================ALTERNATIVAS====================== 
+A) aire es mayor a orillas del mar. 
+B) agua es inconmensurable con la del aire. 
+C) aire se incrementa con la altura. 
+D) agua es idéntica a la del aire. 
+E) no juega ningún rol importante. 
+=====================ALTERNATIVA CORRECTA====================== 
+A) aire es mayor a orillas del mar. 
+=====================RAZONAMIENTO====================== 
+El peso del aire disminuye con la altura. A nivel de mar, debe ser mayor . 
+

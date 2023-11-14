@@ -1,0 +1,26 @@
+ID: 170 
+=====================TEXTO====================== 
+Galileo puso en duda la tesis aristotélica de que cuerpos de peso diferente caen 
+con velocidades diferentes. Se dice que Galileo refutó el aristotelismo al dejar caer 
+objetos de pesos diferentes desde la célebre torre inclinada de Pisa. Aunque esta 
+narración es una leyenda, Galileo sí hizo algo equivalente: dejó rodar por una suave 
+pendiente bolas de pesos distintos. La ventaja de este procedimiento experimental es 
+que se trabaja con velocidades menores. Las medidas de Galileo indicaron que la tasa 
+de aumento de la velocidad era la misma para todos los cuerpos, independientemente de 
+su peso. Obviamente, una bola de plomo caerá más rápido que una pluma, pero esto se 
+debe a que la pluma es frenada por la resistencia del aire. En la Luna, donde no hay aire 
+que frene las cosas, el astronauta David R. Scout realizó el experimento de la pluma y la 
+bola de plomo, y comprobó que ambas chocaban con el suelo en el mismo instante. 
+=====================PREGUNTA 1====================== 
+Se colige del texto que David R. Scout 
+=====================ALTERNATIVAS====================== 
+A) sentó las bases para una nueva ciencia dinámica. 
+B) Considera que la historia de Pisa es solo una leyenda. 
+C) no uso procedimientos experimentales en su trabajo . 
+D) tuvo como elemento a su favor la resistencia del aire . 
+E) refuto la tesis aristotélica de la caída de los cuerpos. 
+=====================ALTERNATIVA CORRECTA====================== 
+E) refuto la tesis aristotélica de la caída de los cuerpos. 
+=====================RAZONAMIENTO====================== 
+El experimento en la Luna refuta el aristotelismo. 
+
