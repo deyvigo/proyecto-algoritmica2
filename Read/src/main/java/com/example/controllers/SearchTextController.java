@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.w3c.dom.Text;
+
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
+
 import java.util.Set;
 
 @Controller
@@ -33,8 +33,8 @@ public class SearchTextController {
     @ModelAttribute(name = "alumnName")
     public String getTeacherName(Authentication auth){
         if (auth != null){
-            AlumnEntity teacher = alumnRepository.findByUsername(((UserDetails) auth.getPrincipal()).getUsername()).get();
-            return teacher.getFirstName() + " " + teacher.getLastName();
+            AlumnEntity alumn = alumnRepository.findByUsername(((UserDetails) auth.getPrincipal()).getUsername()).get();
+            return alumn.fullName();
         } else {
             return null;
         }

@@ -67,7 +67,7 @@ public class LoginController {
         if (request.isUserInRole("ROLE_ALUMN")){
             AlumnEntity alumn = alumnRepository.findByUsername(userDetails.getUsername()).orElse(null);
             assert alumn != null;
-            model.addAttribute("alumnName", alumn.getFirstName() + " " + alumn.getLastName());
+            model.addAttribute("alumnName", alumn.fullName());
             if (alumn.getAlumn_group() == null){
                 //List<GroupEntity> grupos = groupRepository.findAll();
                 model.addAttribute("grupos", SearchGroupsUtil.getAllGroupDates(groupRepository));
@@ -77,7 +77,7 @@ public class LoginController {
         } else {
             TeacherEntity teacher = teacherRepository.findByUsername(userDetails.getUsername()).orElse(null);
             assert teacher != null;
-            model.addAttribute("teacherName", teacher.getFirstName() + " " + teacher.getLastName());
+            model.addAttribute("teacherName", teacher.fullName());
             model.addAttribute("gruposProfesor", SearchGroupsUtil.getGroupDatesPerTeacher(groupRepository, userDetails.getUsername()));
             return "teacher-screen-1";
         }

@@ -36,8 +36,8 @@ public class AlumnController {
     @ModelAttribute(name = "alumnName")
     public String getTeacherName(Authentication auth){
         if (auth != null){
-            AlumnEntity teacher = alumnRepository.findByUsername(((UserDetails) auth.getPrincipal()).getUsername()).get();
-            return teacher.getFirstName() + " " + teacher.getLastName();
+            AlumnEntity alumn = alumnRepository.findByUsername(((UserDetails) auth.getPrincipal()).getUsername()).get();
+            return alumn.fullName();
         } else {
             return null;
         }
