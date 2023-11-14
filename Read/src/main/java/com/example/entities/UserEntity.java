@@ -25,4 +25,8 @@ public class UserEntity {
     private String firstName;
 
     private String lastName;
+
+    public String fullName (){
+        return this.getFirstName() + " " + this.getLastName();
+    }
 }

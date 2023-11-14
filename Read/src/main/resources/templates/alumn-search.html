@@ -54,13 +54,20 @@
       <!-- search bar -->
       <div class="w-[100%]">
         <form action="#" th:action="@{/search/text}" method="get" class="flex items-center">
-          <input class="w-[100%] h-12 border-black border-2 rounded-2xl indent-4 focus:outline-none" type="text" placeholder="Palabras clave...">
+          <input class="w-[100%] h-12 border-black border-2 rounded-2xl indent-4 focus:outline-none" type="text" name="searchTokens" placeholder="Palabras clave...">
           <button class="w-[4%] h-8 scale-[1.5] flex items-center justify-start absolute -right-[0%]" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>
       <!-- text-content -->
-      <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
-        
+      <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto">
+        <p th:if="${textDates.isEmpty()}" class="text-black text-sm">No se encontraron resultados...</p>
+          <div class="flex flex-col gap-2" th:each="t : ${textDates}">
+            <p th:text="${t.get(0)}" class="h-[60px] text-black text-sm text-ellipsis overflow-hidden"></p>
+            <a th:href="@{/signup}" href="signup.html" class="w-[20%] text-center bg-red-500 rounded-2xl px-2 py-1 shadow-xl my-auto border-black border-2 font-bold hover:bg-red-400 hover:border-2 hover:border-black active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02]">
+              Seleccionar
+            </a>
+            <hr class=" bg-black">
+          </div>
         </div>
       </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

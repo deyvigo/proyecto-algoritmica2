@@ -27,4 +27,5 @@ public class AlumnEntity extends UserEntity{
 
     @OneToMany(mappedBy = "alumnSolve")
     private List<SolveEntity> solutions;
+
 }

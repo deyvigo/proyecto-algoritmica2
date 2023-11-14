@@ -23,4 +23,5 @@ public class TeacherEntity extends UserEntity{
 
     @OneToMany(mappedBy = "group_teacher")
     private List<GroupEntity> teacher_groups;
+
 }
