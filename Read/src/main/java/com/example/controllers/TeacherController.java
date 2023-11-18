@@ -18,6 +18,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.naming.directory.SearchControls;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 @RequestMapping(path = "/teach")
@@ -65,5 +66,33 @@ public class TeacherController {
         return "teacher-screen-1";
     }
 
+    @GetMapping("/profile")
+    public String showTeacherProfile(Model model, Authentication authentication) {
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        TeacherEntity teacher = teacherRepository.findByUsername(userDetails.getUsername()).orElse(null);
+    
+        if (teacher != null) {
+            model.addAttribute("teacher", teacher);
+            return "teacher-profile";
+        } else {
+            return "/error";
+        }
+}
+
+    @GetMapping("/group/{groupId}/students")
+    public String showGroupStudents(@PathVariable("groupId") Long groupId, Model model) {
+        Optional<GroupEntity> groupOptional = SearchGroupsUtil.getGroupById(groupRepository, groupId);
+
+        if (groupOptional.isPresent()) {
+            GroupEntity group = groupOptional.get();
+            List<AlumnEntity> studentsInGroup = group.getGroup_alumns();
+
+            model.addAttribute("students", studentsInGroup);
+            return "teacher-group-alumnos";
+        } else {
+            
+            return "/error";
+        }
+    }
 
 }
