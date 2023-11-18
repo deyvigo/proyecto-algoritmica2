@@ -19,11 +19,11 @@ public class SolveEntity {
     @JoinColumn(name = "alumn_solve")
     private AlumnEntity alumnSolve;
 
-    private int corrects;
+    private @Getter int corrects;
 
-    private int wrongs;
+    private @Getter int wrongs;
 
-    private double nota;
+    private @Getter double nota;
 
     // Calificar solución
     public void calificar(){
