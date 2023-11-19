@@ -2,7 +2,15 @@ package com.example.entities;
 
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name = "solution")
 public class SolveEntity {
@@ -19,11 +27,11 @@ public class SolveEntity {
     @JoinColumn(name = "alumn_solve")
     private AlumnEntity alumnSolve;
 
-    private @Getter int corrects;
+    private int corrects;
 
-    private @Getter int wrongs;
+    private int wrongs;
 
-    private @Getter double nota;
+    private double nota;
 
     // Calificar solución
     public void calificar(){

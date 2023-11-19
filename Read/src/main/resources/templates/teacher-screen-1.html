@@ -106,7 +106,7 @@
         <h1 class="font-bold text-center text-lg">GRUPOS</h1>
 
 
-              <a th:if="${!gruposProfesor.isEmpty()}" th:each="g : ${gruposProfesor}" href="#" class="font-semibold flex w-full px-4 justify-between w-[100%] bg-[#5b6895] h-[35px] rounded-lg items-center">
+              <a th:if="${!gruposProfesor.isEmpty()}" th:each="g : ${gruposProfesor}" th:href="'/teach/group/' + ${g.get(3) + '/students'}" href="#" class="font-semibold flex w-full px-4 justify-between w-[100%] bg-[#5b6895] h-[35px] rounded-lg items-center">
                 <p class="text-center"> <span th:text="${g.get(0)}"></span> </p>
                 <p class="text-start"> Cantidad de alumnos: <span th:text="${g.get(1)}"></span> </p>
               </a>

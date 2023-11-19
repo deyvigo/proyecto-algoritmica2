@@ -77,7 +77,7 @@ public class TeacherController {
         } else {
             return "/error";
         }
-}
+    }
 
     @GetMapping("/group/{groupId}/students")
     public String showGroupStudents(@PathVariable("groupId") Long groupId, Model model) {
@@ -90,9 +90,7 @@ public class TeacherController {
             model.addAttribute("students", studentsInGroup);
             return "teacher-group-alumnos";
         } else {
-            
             return "/error";
         }
     }
-
 }
