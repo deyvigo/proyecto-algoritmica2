@@ -60,7 +60,23 @@
       </div>
       <!-- text-content -->
       <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
-        
+        <h1 class="text-black text-3xl font-semibold mb-4">Estadísticas del Alumno</h1>
+
+        <div class="bg-slate-300 shadow-md rounded-lg p-6 mb-4">
+            <h2 class="text-xl font-semibold mb-2 text-black">Promedio de notas: <span th:text="${promedioNotas}"></span></h2>
+        </div>
+
+        <div class="bg-slate-300 shadow-md rounded-lg p-6 mb-4">
+            <h2 class="text-xl font-semibold mb-2 text-black">Porcentaje de preguntas correctamente respondidas por texto: <span th:text="${porcentajePreguntasCorrectas}"></span>%</h2>
+        </div>
+
+        <div class="bg-slate-300 shadow-md rounded-lg p-6 mb-4">
+            <h2 class="text-xl font-semibold mb-2 text-black">Porcentaje de textos en los que acertaste todas las preguntas: <span th:text="${porcentajeTextosAcertadosCompletamente}"></span>%</h2>
+        </div>
+
+        <div class="bg-slate-300 shadow-md rounded-lg p-6 mb-4">
+            <h2 class="text-xl font-semibold mb-2 text-black">Porcentaje de textos en los que fallaste todas las preguntas: <span th:text="${porcentajeTextosFalladosCompletamente}"></span>%</h2>
+        </div>
         </div>
       </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

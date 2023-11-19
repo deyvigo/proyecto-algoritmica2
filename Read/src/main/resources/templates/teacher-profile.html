@@ -44,7 +44,7 @@
               name="person-outline"
               class="w-[25px] h-[25px]"
             ></ion-icon>
-            <a th:href="@{/teach/profile}" href="" class="font-bold w-full h-auto border-black p-2"
+            <a th:href="@{/teach/profile}"href="#" class="font-bold w-full h-auto border-black p-2"
               >Perfil</a
             >
           </div>
@@ -103,21 +103,30 @@
       <div
         class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%]"
       >
-        <h1 class="font-bold text-center text-lg">GRUPOS</h1>
+        <h1 class="font-bold text-center text-lg">PERFIL</h1>
+        <div class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
+          <h1 class="font-bold text-center text-lg">Perfil del Profesor</h1>
+          <img src="../static/img/alumna.jpg" th:src="@{/img/alumna.jpg}" alt="teach-perfil" class="w-[200px] object-cover rounded-md mx-auto">
+          <div class="flex flex-col gap-2">
+            <div class=" mx-auto bg-purple-50 rounded-md px-10 py-1">
+              <p class="text-lg text-center"><strong>Nombre:</strong> <span th:text="${teacher.firstName}"></span></p>
+            </div>
+            <div class=" mx-auto bg-purple-50 rounded-md px-10 py-1">
+              <p class="text-lg text-center"><strong>Apellido:</strong> <span th:text="${teacher.lastName}"></span></p>
+            </div>
+            <div class=" mx-auto bg-purple-50 rounded-md px-10 py-1">
+              <p class="text-lg text-center"><strong>Usuario:</strong> <span th:text="${teacher.username}"></span></p>
+            </div>
+            <div class=" mx-auto bg-purple-50 rounded-md px-10 py-1">
+              <p class="text-lg text-center"><strong>Profesión:</strong> <span th:text="${teacher.profession}"></span></p>
+            </div>
 
+            
 
-              <a th:if="${!gruposProfesor.isEmpty()}" th:each="g : ${gruposProfesor}" href="#" class="font-semibold flex w-full px-4 justify-between w-[100%] bg-[#5b6895] h-[35px] rounded-lg items-center">
-                <p class="text-center"> <span th:text="${g.get(0)}"></span> </p>
-                <p class="text-start"> Cantidad de alumnos: <span th:text="${g.get(1)}"></span> </p>
-              </a>
-
-
-
+              
+          </div>
+      </div>
         
-        <a th:href="@{/teach/toAddGroup}" id="add" class="flex items-center justify-center gap-1 bg-slate-400 h-[35px] w-[20%] rounded-lg cursor-pointer border-2 border-transparent hover:border-2 hover:border-black">
-            <ion-icon class="w-4 h-8 cursor-pointer" name="add-outline" ></ion-icon>
-            <label class="font-semibold cursor-pointer" for="add">Agregar grupo</label>
-        </a>
       </div>
     </div>
     <script

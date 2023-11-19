@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.swing.*;
@@ -61,4 +62,39 @@ public class AlumnController {
         return "/error";   //Luego crear este endpoint
     }
 
+    @GetMapping("/profile")
+    public String showAlumnProfile(Model model, Authentication authentication) {
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        AlumnEntity alumn = alumnRepository.findByUsername(userDetails.getUsername()).orElse(null);
+
+        if (alumn != null) {
+            model.addAttribute("alumn", alumn);
+            return "alumn-profile";
+        } else {
+            return "/error";
+        }
+    }
+    @GetMapping("/statistics")
+    public String showAlumnStatistics(Model model, Authentication authentication) {
+    
+    AlumnEntity alumn = alumnRepository.findByUsername(getUsernameAlumn(authentication)).orElse(null);
+
+    if (alumn != null) {
+        // Calcular los porcentajes y promedios
+        double promedioNotas = alumn.calcularPromedio();
+        double porcentajePreguntasCorrectas = alumn.calcularPromedioPreguntasCorrectasPorTexto();
+        double porcentajeTextosAcertadosCompletamente = alumn.calcularPorcentajeTextosAcertadosCompletamente();
+        double porcentajeTextosFalladosCompletamente = alumn.calcularPorcentajeTextosFalladosCompletamente();
+
+        
+        model.addAttribute("promedioNotas", promedioNotas);
+        model.addAttribute("porcentajePreguntasCorrectas", porcentajePreguntasCorrectas);
+        model.addAttribute("porcentajeTextosAcertadosCompletamente", porcentajeTextosAcertadosCompletamente);
+        model.addAttribute("porcentajeTextosFalladosCompletamente", porcentajeTextosFalladosCompletamente);
+
+        return "alumn-statistics";
+    } else {
+        return "/error"; 
+    }
+}
 }

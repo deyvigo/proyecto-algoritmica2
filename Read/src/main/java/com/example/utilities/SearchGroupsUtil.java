@@ -5,6 +5,7 @@ import com.example.repositories.GroupRepository;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class SearchGroupsUtil {
     public static List<List<String>> constructList(List<GroupEntity> groups){
@@ -23,5 +24,8 @@ public class SearchGroupsUtil {
     public static List<List<String>> getAllGroupDates(GroupRepository groupRepository){
         List<GroupEntity> groups = groupRepository.findAll();
         return constructList(groups);
+    }
+    public static Optional<GroupEntity> getGroupById(GroupRepository groupRepository, Long groupId) {
+        return groupRepository.findById(groupId);
     }
 }
