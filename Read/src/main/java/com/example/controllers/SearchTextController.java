@@ -43,7 +43,6 @@ public class SearchTextController {
     @GetMapping(path = "/text")
     public String search(@RequestParam(name = "searchTokens")String keywords, Model model){
         System.out.println(keywords);
-        Long id = 1L;
         Set<TextEntity> setOfTexts = textRepository.findByKeyword(keywords);
         List<List<String>> text = new ArrayList<>();
         if (!setOfTexts.isEmpty()){

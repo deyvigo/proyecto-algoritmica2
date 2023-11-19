@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-/*
+
 
 @Component
 public class Runner implements CommandLineRunner {
@@ -32,9 +32,11 @@ public class Runner implements CommandLineRunner {
             String texto = ReadTextsForTXT.leerArch("../Textos/" + (j) + ".txt");
 
             /////////////////////////////////////////////////////////////////////////////////////
+
             TextEntity textToSave = new TextEntity();
             textToSave.setContent(separarTexto(texto).trim());
             textRepository.save(textToSave);
+
             /////////////////////////////////////////////////////////////////////////////////////
 
             String pat = "==PREGUNTA";
@@ -49,10 +51,12 @@ public class Runner implements CommandLineRunner {
                 String[] partes = separarPregunta(texto, i).split("=====================ALTERNATIVAS======================");
                 String pregunta = partes[0];
                 /////////////////////////////////////////////////////////////////////////////////////
+
                 QuestionEntity questToSave = new QuestionEntity();
                 questToSave.setAlternativas(new ArrayList<>());
                 questToSave.setPregunta(pregunta.trim());
                 questToSave.setText(textToSave);
+
                 /////////////////////////////////////////////////////////////////////////////////////
                 partes = partes[1].split("=====================ALTERNATIVA CORRECTA======================");
                 List<String> alternativas = separarAlternativas(partes[0]);
@@ -62,6 +66,7 @@ public class Runner implements CommandLineRunner {
                 String respuesta = partes[0];
                 String razonamiento = partes[1];
                 /////////////////////////////////////////////////////////////////////////////////////
+
                 questToSave.setRespuesta(respuesta.trim());
                 questToSave.setRazonamiento(razonamiento.trim());
 
@@ -70,12 +75,11 @@ public class Runner implements CommandLineRunner {
 
                 for (String s: alternativas){
                     /////////////////////////////////////////////////////////////////////////////////////
+
                     AlternativeEntity alternativa = new AlternativeEntity();
                     alternativa.setAlternativa(s.trim());
                     alternativa.setPreg(questToSave);
                     alternativeRepository.save(alternativa);
-                    */
-/*quest.getAlternativas().add(alternativa);*//*
 
                     /////////////////////////////////////////////////////////////////////////////////////
                 }
@@ -108,4 +112,4 @@ public class Runner implements CommandLineRunner {
         return alternatives;
     }
 }
-*/
+
