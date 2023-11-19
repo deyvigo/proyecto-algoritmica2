@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/*
 
 @Component
 public class Runner implements CommandLineRunner {
@@ -112,4 +113,5 @@ public class Runner implements CommandLineRunner {
         return alternatives;
     }
 }
+*/
 
