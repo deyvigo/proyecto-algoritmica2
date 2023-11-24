@@ -9,14 +9,20 @@
 <body class="min-h-screen flex flex-col items-center justify-center bg-[#D8CDB1]">
     <div class="h-[100%] w-[50%] flex flex-col justify-center items-end gap-2">
         <!-- Switcher -->
-        <div class="w-[40%] rounded-full border-2 h-[10%] border-black flex items-center p-1 relative" >
-            <div class="w-[100%] h-[90%] flex justify-around border-2 border-black rounded-full z-10">
-                <input type="radio" name="switcher-log" id="alumn" value="alumn" class="sr-only" checked>
-                <label for="alumn" class="text-center p-1 text-white alumnBtn">Alumno</label>
-                <input type="radio" name="switcher-log" id="teacher" value="teacher" class="sr-only">
-                <label for="teacher" class="text-center p-1 text-white teacherBtn">Profesor</label>
+        <div class="flex w-[100%] justify-between items-center">
+            <a th:href="@{/}" class="flex items-center text-lg text-red-500 bg-black rounded-lg px-2 cursor-pointer">
+                <ion-icon name="chevron-back-outline" class="w-[20px] h-[20px]"></ion-icon>
+                <p>INICIO</p>
+            </a>
+            <div class="w-[40%] rounded-full border-2 h-[10%] border-black flex items-center p-1 relative" >
+                <div class="w-[100%] h-[90%] flex justify-around border-2 border-black rounded-full z-10">
+                    <input type="radio" name="switcher-log" id="alumn" value="alumn" class="sr-only" checked>
+                    <label for="alumn" class="w-[50%] h-full cursor-pointer text-center p-1 text-white alumnBtn">Alumno</label>
+                    <input type="radio" name="switcher-log" id="teacher" value="teacher" class="sr-only">
+                    <label for="teacher" class="w-[50%] h-full cursor-pointer text-center p-1 text-white teacherBtn">Profesor</label>
+                </div>
+                <div class="absolute w-[48.5%] h-[80%] bg-black rounded-full z-0 switcher translate-x-[0%] duration-200 transition-all ease-in-out"></div>
             </div>
-            <div class="absolute w-[48.5%] h-[80%] bg-black rounded-full z-0 switcher translate-x-[0%] duration-200 transition-all ease-in-out"></div>
         </div>
         <!-- content data -->
         <div class="relative flex w-full rounded-2xl shadow-2xl bg-black h-[400px] items-center justify-center gap-2 overflow-hidden">
@@ -90,6 +96,8 @@
             </div>
         </div>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script th:src="@{js/switcher.js}" src="../static/js/switcher.js"></script>
 </body> 
 </html>
