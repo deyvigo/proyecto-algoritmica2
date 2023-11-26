@@ -38,6 +38,7 @@
           <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
         </div>
       </ul>
+      
     </div>
   </div>
     <!-- salir -->
@@ -58,16 +59,38 @@
         </form>
       </div>
       <!-- text-content -->
-      <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto">
-        <p th:if="${textDates.isEmpty()}" class="text-black text-sm">No se encontraron resultados...</p>
-          <div class="flex flex-col gap-2" th:each="t : ${textDates}">
-            <p th:text="${t.get(0)}" class="h-[60px] text-black text-sm text-ellipsis overflow-hidden"></p>
-            <a th:href="@{'/enter/text?idText=' + ${t.get(1)}}" class="w-[20%] text-center bg-red-500 rounded-2xl px-2 py-1 shadow-xl my-auto border-black border-2 font-bold hover:bg-red-400 hover:border-2 hover:border-black active:scale-[.98] active:duration-100 transition-all ease-in-out hover:scale-[1.02]">
-                Seleccionar
-            </a>
-            <hr class=" bg-black">
+      
+      
+      <!-- Iteración Principal -->
+      <div th:each="item, iterStat : ${textDates}" class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto mb-4">
+          <!-- Textos -->
+          <div class="w-[100%] bg-[#D8CDB1] text-black border-2 border-black p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto text-sm">
+              <h1 class="text-center text-lg font-bold">TEXTO</h1>
+              <h1 th:text="${item[0]}" class="text-lg "></h1>
+
+              <!-- Iteración de Preguntas -->
+              <form th:action="@{/enter/text}" th:method="post">
+                  <input type="hidden" th:name="idText" th:value="${idText}" />
+
+                  <div th:each="questionInfo, questionIndex : ${item[1]}" class="flex flex-col gap-2 border-2 border-[#5B6895] rounded-lg py-2 px-4 mb-4">
+                      <!-- Mostrar Pregunta -->
+                      <h1 th:text="${questionInfo[0]}" class="font-semibold mb-2"></h1>
+
+                      <!-- Iteración de Alternativas -->
+                      <div th:each="option, optionIndex : ${questionInfo.subList(1, questionInfo.size())}" class="hover:bg-gray-400 py-1 px-2 rounded-md">
+                          <!-- Radio Button -->
+                          <input type="radio" th:id="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" th:name="${'question_' + iterStat.index + '_' + questionIndex.index}" th:value="${option}" />
+                          <!-- Mostrar Alternativa -->
+                          <label th:for="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" th:text="${option}" class="px-2"></label>
+                      </div>
+                  </div>
+
+                  <!-- Botón Enviar -->
+                  <div class="bg-red-500 w-[15%] mx-auto rounded-2xl text-center shadow-2xl hover:scale-[1.02] active:scale-[0.98] duration-100 font-bold text-gray-950">
+                      <button type="submit" class="w-[100%] h-[1005] p-2">Enviar</button>
+                  </div>
+              </form>
           </div>
-        </div>
       </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
