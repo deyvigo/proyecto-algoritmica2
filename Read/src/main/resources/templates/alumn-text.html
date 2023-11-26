@@ -58,6 +58,7 @@
           <button class="w-[4%] h-8 scale-[1.5] flex items-center justify-start absolute -right-[0%]" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>
+      
       <!-- text-content -->
       
       
@@ -69,7 +70,7 @@
               <h1 th:text="${item[0]}" class="text-lg "></h1>
 
               <!-- Iteración de Preguntas -->
-              <form th:action="@{/enter/text}" th:method="post">
+              <form <form action="#" th:action="@{/enter/solvetext}" method="get">
                   <input type="hidden" th:name="idText" th:value="${idText}" />
 
                   <div th:each="questionInfo, questionIndex : ${item[1]}" class="flex flex-col gap-2 border-2 border-[#5B6895] rounded-lg py-2 px-4 mb-4">

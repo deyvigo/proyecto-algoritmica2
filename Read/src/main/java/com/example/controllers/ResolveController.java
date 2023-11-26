@@ -8,6 +8,7 @@ import com.example.repositories.AlumnRepository;
 import com.example.repositories.TextRepository;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -62,12 +63,11 @@ public class ResolveController {
         return "alumn-text";
     }
     
-    /*
-    @PostMapping(path = "/solvetext")
+    
+    @GetMapping(path = "/solvetext")
     public String solvetext(@RequestParam(name = "idText") BigInteger id,
-            @RequestParam(name = "questions") List<String> questions,
             @RequestParam Map<String, String> userAnswers, Model model) {
-        
+
         TextEntity t = textRepository.findById(id);
 
         List<List<Object>> textDates = new ArrayList<>();
@@ -78,12 +78,19 @@ public class ResolveController {
 
             for (QuestionEntity pregunta : t.getPreguntas()) {
                 List<String> questionInfo = new ArrayList<>();
+                List<String> selectedOptions = new ArrayList<>();
+
                 questionInfo.add(pregunta.getPregunta());
 
-                List<String> options = pregunta.getAlternativas().stream()
-                        .map(AlternativeEntity::getAlternativa)
-                        .collect(Collectors.toList());
-                questionInfo.addAll(options);
+                // Filtra las alternativas seleccionadas por el usuario
+                for (AlternativeEntity alternative : pregunta.getAlternativas()) {
+                    if (userAnswers.containsKey("question_" + pregunta.getId() + "_" + alternative.getId())
+                            && userAnswers.get("question_" + pregunta.getId() + "_" + alternative.getId()).equals("on")) {
+                        selectedOptions.add(alternative.getAlternativa());
+                    }
+                }
+
+                questionInfo.addAll(selectedOptions);
                 questionsAndOptions.add(questionInfo);
             }
 
@@ -96,6 +103,4 @@ public class ResolveController {
 
         return "alumn-text-solution";
     }
-    */
-
 }

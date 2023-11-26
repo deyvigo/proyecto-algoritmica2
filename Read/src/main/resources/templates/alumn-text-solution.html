@@ -14,9 +14,8 @@
             <div>
                 <!-- img -->
                 <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
-                    <img src="../static/img/mapache-con-audifonos.svg" th:src="@{/img/mapache-con-audifonos.svg}" alt="alumn-perfil"
-                         class="object-cover rounded-full">
-                    <h1 class="font-semibold">Alumno: <span th:text="${alumnName}"></span></h1>
+                  <img src="../static/img/mapache-con-audifonos.svg" th:src="@{/img/mapache-con-audifonos.svg}" alt="alumn-perfil" class="object-cover rounded-full">
+                  <h1 class="font-semibold">Alumno: <span th:text="${alumnName}"></span></h1>
                 </div>
                 <!-- menu -->
                 <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
@@ -50,11 +49,29 @@
         </div>
         <!-- right bar -->
         <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
-            <!-- Muestra los resultados -->
-            <h1>Resultados:</h1>
-            <div th:each="result, iterStat : ${userResults}">
-                <p th:text="'Pregunta ' + ${iterStat.index + 1} + ': ' + ${result ? 'Correcto' : 'Incorrecto'}"></p>
+            <!-- text-content -->
+
+
+            <!-- Iteración Principal -->
+            <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto mb-4">
+                <!-- Textos -->
+                <div class="w-[100%] bg-[#D8CDB1] text-black border-2 border-black p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto text-sm">
+                    <!-- Muestra los resultados -->
+                    <h1>Resultados:</h1>
+
+                    <!-- Iteración de Preguntas -->
+                    <div th:each="questionInfo, iterStat : ${textDates[0][1]}">
+                        <h2 th:text="${questionInfo[0]}" class="font-bold"></h2>
+                        <!-- Iteración de Alternativas -->
+                        <div th:each="option, optionIndex : ${questionInfo.subList(1, questionInfo.size())}" class="mb-2">
+                            <span th:text="${option}"></span>
+                            <!-- Resaltar opción seleccionada por el usuario -->
+                            <span th:if="${optionIndex.index + 1} in ${userAnswers[iterStat.index]}"> - Seleccionada</span>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         </div>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
