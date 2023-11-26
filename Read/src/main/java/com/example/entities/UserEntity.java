@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
+import java.time.LocalDate;
+
 
 @Getter
 @Setter
@@ -25,6 +27,11 @@ public class UserEntity {
     private String firstName;
 
     private String lastName;
+
+    @Temporal(TemporalType.DATE)
+    private LocalDate birthDate;
+
+    private int age;
 
     public String fullName (){
         return this.getFirstName() + " " + this.getLastName();

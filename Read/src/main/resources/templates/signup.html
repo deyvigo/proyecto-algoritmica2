@@ -25,7 +25,7 @@
             </div>
         </div>
         <!-- content data -->
-        <div class="relative flex w-full rounded-2xl shadow-2xl bg-black h-[400px] items-center justify-center gap-2 overflow-hidden">
+        <div class="relative flex w-full rounded-2xl shadow-2xl bg-black h-[450px] items-center justify-center gap-2 overflow-hidden">
             <!-- Alumno -->
             <div class="absolute w-[100%] h-[100%] bg-transparent gap-2 flex flex-row-reverse items-center justify-center">
                 <!-- Imagen -->
@@ -41,6 +41,10 @@
                             <input th:field="${alumn.username}" required name="userAlumn" type="text" class="inputAlumn text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
                         </div>
                         <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Contraseña</label>
+                            <input th:field="${alumn.password}" required minlength="6" name="passAlumn" type="password" class="inputAlumn text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
                             <label for="" class="indent-2 text-white">Nombres</label>
                             <input th:field="${alumn.firstName}" required name="nameAlumn" type="text" class="inputAlumn text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
                         </div>
@@ -48,10 +52,17 @@
                             <label for="" class="indent-2 text-white">Apellidos</label>
                             <input th:field="${alumn.lastName}" required name="lastNameAlumn" type="text" class="inputAlumn text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
                         </div>
-                        <div class="flex flex-col">
-                            <label for="" class="indent-2 text-white">Contraseña</label>
-                            <input th:field="${alumn.password}" required name="passAlumn" type="password" class="inputAlumn text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        <div class="flex justify-between">
+                            <div class="flex flex-col w-[70%]">
+                                <label for="" class="indent-2 text-white">Cumpleaños</label>
+                                <input th:field="${alumn.birthDate}" required name="birthAlumn" type="date" min="1970-01-01" max="2020-01-01" class="inputAlumn text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                            </div>
+                            <div class="flex flex-col w-[25%]">
+                                <label for="" class="indent-2 text-white">Edad</label>
+                                <input th:field="${alumn.age}" required name="ageAlumn" type="number" max="30" min="7" class="inputAlumn pr-2 text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                            </div>
                         </div>
+
                     </div>
                     <div class="w-[100%] flex items-center justify-center">
                         <button type="submit" class="w[40%] text-center font-semibold bg-red-500 rounded-full px-3 py-1">Registrarse</button>
@@ -70,23 +81,33 @@
                     <div class="flex flex-col gap-1 w-[75%]">
                         <div class="flex flex-col">
                             <label for="" class="indent-2 text-white">Usuario</label>
-                            <input th:field="${teacher.username}" type="text" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
-                        </div>
-                        <div class="flex flex-col">
-                            <label for="" class="indent-2 text-white">Nombres</label>
-                            <input th:field="${teacher.firstName}" type="text" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
-                        </div>
-                        <div class="flex flex-col">
-                            <label for="" class="indent-2 text-white">Apellidos</label>
-                            <input th:field="${teacher.lastName}" type="text" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
-                        </div>
-                        <div class="flex flex-col">
-                            <label for="" class="indent-2 text-white">Profesión</label>
-                            <input th:field="${teacher.profession}" type="text" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                            <input th:field="${teacher.username}" required type="text" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
                         </div>
                         <div class="flex flex-col">
                             <label for="" class="indent-2 text-white">Contraseña</label>
-                            <input th:field="${teacher.password}" type="password" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                            <input th:field="${teacher.password}" required minlength="6" type="password" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Nombres</label>
+                            <input th:field="${teacher.firstName}" required type="text" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Apellidos</label>
+                            <input th:field="${teacher.lastName}" required type="text" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="indent-2 text-white">Profesión</label>
+                            <input th:field="${teacher.profession}" required type="text" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="flex flex-col w-[70%]">
+                                <label for="" class="indent-2 text-white">Cumpleaños</label>
+                                <input th:field="${teacher.birthDate}" required name="birthTeacher" type="date" min="1940-01-01" max="2020-01-01" class="inputTeacher text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                            </div>
+                            <div class="flex flex-col w-[25%]">
+                                <label for="" class="indent-2 text-white">Edad</label>
+                                <input th:field="${teacher.age}" required name="ageTeacher" type="number" max="70" min="20" class="inputTeacher pr-2 text-white border-2 rounded-lg border-white bg-transparent indent-2 focus:outline-none">
+                            </div>
                         </div>
                     </div>
                     <div class="w-[100%] flex items-center justify-center">

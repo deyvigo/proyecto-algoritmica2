@@ -101,7 +101,7 @@
         <form action="#" th:action="@{/teach/addGroup}" method="post" th:object="${grupo}" class="flex flex-col justify-center items-center gap-4">
             <div class="flex flex-col">
                 <label for="groupName" class="indent-2 font-semibold">Nombre</label>
-                <input th:field="${grupo.groupName}" class="outline-none border-2 rounded-lg h-[30px] w-[300px] indent-2 border-black" id="groupName" type="text">
+                <input th:field="${grupo.groupName}" minlength="3" class="outline-none border-2 rounded-lg h-[30px] w-[300px] indent-2 border-black" id="groupName" type="text">
             </div>
             <button id="add" type="submit" class="flex items-center justify-center font-bold bg-slate-400 h-[35px] w-[17%] rounded-lg cursor-pointer border-2 border-transparent hover:border-2 hover:border-black">
                 Agregar

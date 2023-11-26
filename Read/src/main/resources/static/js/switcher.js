@@ -20,12 +20,6 @@ alumnBtn.addEventListener("click", () => {
     imgTeacher.style.transform = "translateX(-110%)"
     cardTeacher.style.transform = "translateX(110%)"
     cardTeacher.style.zIndex = 1;
-    inputsAlumn.forEach(input => {
-        input.required = true
-    });
-    inputsTeacher.forEach(input => {
-        input.required = false
-    })
 })
 
 teacherBtn.addEventListener("click", () => {
@@ -40,10 +34,4 @@ teacherBtn.addEventListener("click", () => {
     imgTeacher.style.transform = "translateX(0%)"
     cardTeacher.style.transform = "translateX(0%)"
     cardTeacher.style.zIndex = 10;
-    inputsAlumn.forEach(input => {
-        input.required = false
-    });
-    inputsTeacher.forEach(input => {
-        input.required = true
-    })
 })
