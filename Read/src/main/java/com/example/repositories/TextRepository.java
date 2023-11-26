@@ -18,4 +18,5 @@ public interface TextRepository extends JpaRepository<TextEntity, Long> {
     
     @Query("SELECT t FROM TextEntity t WHERE t.id = :id")
     TextEntity findById(@Param("id") BigInteger id);
+
 }

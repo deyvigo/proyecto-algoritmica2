@@ -52,12 +52,7 @@
     <!-- right bar -->
     <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
       <!-- search bar -->
-      <div class="w-[100%]">
-        <form action="#" th:action="@{/search/text}" method="get" class="flex items-center">
-          <input class="w-[100%] h-12 border-black border-2 rounded-2xl indent-4 focus:outline-none" type="text" name="searchTokens" placeholder="Palabras clave...">
-          <button class="w-[4%] h-8 scale-[1.5] flex items-center justify-start absolute -right-[0%]" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-      </div>
+
       
       <!-- text-content -->
       
@@ -70,8 +65,7 @@
               <h1 th:text="${item[0]}" class="text-lg "></h1>
 
               <!-- Iteración de Preguntas -->
-              <form <form action="#" th:action="@{/enter/solvetext}" method="get">
-                  <input type="hidden" th:name="idText" th:value="${idText}" />
+              <form action="#" th:action="@{/enter/solvetext}" method="post">
 
                   <div th:each="questionInfo, questionIndex : ${item[1]}" class="flex flex-col gap-2 border-2 border-[#5B6895] rounded-lg py-2 px-4 mb-4">
                       <!-- Mostrar Pregunta -->
@@ -80,11 +74,14 @@
                       <!-- Iteración de Alternativas -->
                       <div th:each="option, optionIndex : ${questionInfo.subList(1, questionInfo.size())}" class="hover:bg-gray-400 py-1 px-2 rounded-md">
                           <!-- Radio Button -->
-                          <input type="radio" th:id="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" th:name="${'question_' + iterStat.index + '_' + questionIndex.index}" th:value="${option}" />
+                          <input type="radio" th:id="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" th:name="${'question_' + questionIndex.index}" th:value="${option}" />
                           <!-- Mostrar Alternativa -->
                           <label th:for="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" th:text="${option}" class="px-2"></label>
                       </div>
                   </div>
+
+                  <!--Para enviar el id del texto al final-->
+                  <input type="hidden" th:name="idText" th:value="${idText}" />
 
                   <!-- Botón Enviar -->
                   <div class="bg-red-500 w-[15%] mx-auto rounded-2xl text-center shadow-2xl hover:scale-[1.02] active:scale-[0.98] duration-100 font-bold text-gray-950">

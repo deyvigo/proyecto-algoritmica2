@@ -5,6 +5,7 @@ import com.example.entities.AlternativeEntity;
 import com.example.entities.QuestionEntity;
 import com.example.entities.TextEntity;
 import com.example.repositories.AlumnRepository;
+import com.example.repositories.QuestionRepository;
 import com.example.repositories.TextRepository;
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -31,6 +32,9 @@ public class ResolveController {
 
     @Autowired
     private TextRepository textRepository;
+
+    @Autowired
+    private QuestionRepository questionRepository;
 
     // Mostrar texto y preguntas
     @GetMapping(path = "/text")
@@ -62,8 +66,28 @@ public class ResolveController {
         model.addAttribute("textDates", textDates);
         return "alumn-text";
     }
-    
-    
+
+
+    @PostMapping(path = "/solvetext")
+    public String solve(@RequestParam(name = "idText") Long id,
+                      @RequestParam Map<String, String> userAnswers){
+        for (Map.Entry<String, String> entry : userAnswers.entrySet()) {
+            String grupo = entry.getKey();                     // <------- numero de pregunta de la forma question_"nroPregunta"
+            String opcionSeleccionada = entry.getValue();   // <------ opcion seleccionada
+            System.out.println("grupo: " + grupo);
+            System.out.println("opcion seleccionada: " + opcionSeleccionada);
+        }
+
+        List<QuestionEntity> questions= questionRepository.findQuestionsByTextId(id);
+        for (QuestionEntity question : questions) {
+            System.out.println("Pregunta: " + question.getPregunta());
+            System.out.println("Respuesta: " + question.getRespuesta());
+            System.out.println("Razonamiento: " + question.getRazonamiento());
+        }
+        return "alumn-screen-1";
+    }
+
+    /*
     @GetMapping(path = "/solvetext")
     public String solvetext(@RequestParam(name = "idText") BigInteger id,
             @RequestParam Map<String, String> userAnswers, Model model) {
@@ -103,4 +127,6 @@ public class ResolveController {
 
         return "alumn-text-solution";
     }
+
+    */
 }
