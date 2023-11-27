@@ -28,4 +28,7 @@ public class SearchGroupsUtil {
     public static Optional<GroupEntity> getGroupById(GroupRepository groupRepository, Long groupId) {
         return groupRepository.findById(groupId);
     }
+    public static List<GroupEntity> getGroupsPerTeacher(GroupRepository groupRepository,String teacherUsername) {
+        return groupRepository.findByTeacherUsername(teacherUsername);
+    }
 }

@@ -18,11 +18,8 @@
   <body class="bg-[#8895C0] flex p-8 gap-8">
     <!-- card user -->
     <div
-      class="w-1/5 flex flex-col items-center justify-between bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
+      class="w-1/5 flex flex-col items-center bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
     >
-
-    <div>
-    <!-- img -->
       <div
         class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1"
       >
@@ -35,7 +32,7 @@
         <h1 class="font-semibold">Profesor: <span th:text="${teacherName}"></span></h1>
       </div>
       <!-- menu -->
-      <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
+      <div class="w-[95%] h-[48vh] flex flex-col justify-between gap-2">
         <ul class="flex flex-col gap-1">
           <div
             class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
@@ -66,7 +63,7 @@
               name="document-text-outline"
               class="w-[25px] h-[25px]"
             ></ion-icon>
-            <a href="create-group.html" th:href="@{/teach/toAddGroup}" class="font-bold w-full h-auto border-black p-2"
+            <a th:href="@{/teach/toAddExercise}" class="font-bold w-full h-auto border-black p-2"
               >Crear Texto</a
             >
           </div>
@@ -77,51 +74,54 @@
               name="stats-chart-outline"
               class="w-[25px] h-[25px]"
             ></ion-icon>
-            <a href="" class="font-bold w-full h-auto border-black p-2"
+            <a th:href="@{/teach/statistics}" class="font-bold w-full h-auto border-black p-2"
               >Estadísticas</a
             >
           </div>
         </ul>
-        
-      </div>
-    </div>
-
-      <div class="w-[100%] flex flex-col justify-between">
-        <div
-          class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
-        >
-          <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
-          <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2"
-            >Salir</a
+        <div class="w-[100%] flex flex-col justify-between">
+          <div
+            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
           >
+            <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+            <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2"
+              >Salir</a
+            >
+          </div>
         </div>
       </div>
     </div>
     <!-- right bar -->
     <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
       <!-- text-content -->
-      <div class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
-        <!-- Title -->
-        <h1 class="font-bold text-center text-lg">ALUMNOS EN EL GRUPO</h1>
-    
-        
-        <div th:if="${students != null && students.size() > 0}" class="flex flex-col gap-2">
-          
-          <div th:each="student : ${students}" class="bg-[#95a6e6] h-[35px] rounded-lg items-center flex justify-between px-4">
-            <p class="text-center" th:text="${student.firstName + ' ' + student.lastName}"></p>
-            <p class="text-start">Nota: <span th:text="${student.calcularPromedio()}"></span></p>
+      <div
+        class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%]"
+      >
+        <h1 class="font-bold text-center text-lg">CREACIÓN DE TEXTO</h1>
+        <form class="min-w-fit w-80 mx-auto mt-8" th:action="@{/teach/addExercise}" method="post">
+          <div class="mb-4">
+              <label for="texto" class="block text-gray-700 font-bold mb-2">Texto:</label>
+              <textarea id="texto" name="content" placeholder="Texto" class="w-full rounded border border-gray-400 p-2 h-28" required></textarea>
           </div>
+          <div class="mb-4">
+              <label for="pregunta" class="block text-gray-700 font-bold mb-2">Pregunta:</label>
+              <input id="pregunta" type="text" name="pregunta" placeholder="Pregunta" class="w-full rounded border border-gray-400 p-2" required>
+          </div>
+          <div class="mb-4">
+              <label for="respuesta" class="block text-gray-700 font-bold mb-2">Respuesta:</label>
+              <input id="respuesta" type="text" name="respuesta" placeholder="Respuesta" class="w-full rounded border border-gray-400 p-2" required>
+          </div>
+          <div class="mb-4">
+            <label for="razonamiento" class="block text-gray-700 font-bold mb-2">Razonamiento:</label>
+            <input id="razonamiento" type="text" name="razonamiento" placeholder="Razonamiento" class="w-full rounded border border-gray-400 p-2" required>
         </div>
-    
-        <div th:if="${students == null || students.size() == 0}">
-          
-          <p class="text-center font-semibold">No se encuentran alumnos en el grupo.</p>
-        </div>
-      </div>
-
-
-
-      
+          <div class="mb-4">
+              <label for="alternativas" class="block text-gray-700 font-bold mb-2">Alternativas (separadas por coma):</label>
+              <input id="alternativas" type="text" name="alternativas" placeholder="Alternativas" class="w-full rounded border border-gray-400 p-2" required>
+          </div>
+          <button type="submit" class="bg-slate-500 hover:bg-slate-600 text-white font-bold py-2 px-4 rounded">Crear ejercicio</button>
+      </form>
+        
       </div>
     </div>
     <script
