@@ -1,82 +1,85 @@
 <!DOCTYPE html>
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Resultados</title>
-        <link rel="icon" th:href="@{/img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://kit.fontawesome.com/4fb2d199eb.js" crossorigin="anonymous"></script>
-    </head>
-    <body class="bg-[#8895C0] flex p-8 gap-8">
-        <!-- card user -->
-        <div class="w-1/5 flex flex-col items-center justify-between bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2">
-            <div>
-                <!-- img -->
-                <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
-                  <img src="../static/img/mapache-con-audifonos.svg" th:src="@{/img/mapache-con-audifonos.svg}" alt="alumn-perfil" class="object-cover rounded-full">
-                  <h1 class="font-semibold">Alumno: <span th:text="${alumnName}"></span></h1>
-                </div>
-                <!-- menu -->
-                <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
-                    <ul class="flex flex-col gap-1">
-                        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-                            <ion-icon name="person-outline" class="w-[25px] h-[25px]"></ion-icon>
-                            <a href="" class="font-bold w-full h-auto border-black p-2">Perfil</a>
-                        </div>
-                        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-                            <ion-icon name="stats-chart-outline" class="w-[25px] h-[25px]"></ion-icon>
-                            <a href="" class="font-bold w-full h-auto border-black p-2">Estadística</a>
-                        </div>
-                        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-                            <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
-                            <a href="" class="font-bold w-full h-auto border-black p-2">Textos</a>
-                        </div>
-                        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-                            <ion-icon name="caret-forward-outline" class="w-[25px] h-[25px]"></ion-icon>
-                            <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <!-- salir -->
-            <div class="w-[100%] flex flex-col justify-between">
-                <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-                    <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
-                    <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2">Salir</a>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Usuario</title>
+    <link rel="icon" th:href="@{/img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/4fb2d199eb.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-[#8895C0] flex p-8 gap-8">
+    <!-- card user -->
+    <div class="w-1/5 flex flex-col items-center justify-between bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2">
+
+      <div>
+      <!-- img -->
+      <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
+        <img src="../static/img/mapache-con-audifonos.svg" th:src="@{/img/mapache-con-audifonos.svg}" alt="alumn-perfil" class="object-cover rounded-full">
+        <h1 class="font-semibold">Alumno: <span th:text="${alumnName}"></span></h1>
+      </div>
+    <!-- menu -->
+    <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
+      <ul class="flex flex-col gap-1">
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="person-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Perfil</a>
         </div>
-        <!-- right bar -->
-        <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
-            <!-- text-content -->
-
-
-            <!-- Iteración Principal -->
-            <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto mb-4">
-                <!-- Textos -->
-                <div class="w-[100%] bg-[#D8CDB1] text-black border-2 border-black p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto text-sm">
-                    <!-- Muestra los resultados -->
-                    <h1>Resultados:</h1>
-
-                    <!-- Iteración de Preguntas -->
-                    <div th:each="questionInfo, iterStat : ${textDates[0][1]}">
-                        <h2 th:text="${questionInfo[0]}" class="font-bold"></h2>
-                        <!-- Iteración de Alternativas -->
-                        <div th:each="option, optionIndex : ${questionInfo.subList(1, questionInfo.size())}" class="mb-2">
-                            <span th:text="${option}"></span>
-                            <!-- Resaltar opción seleccionada por el usuario -->
-                            <span th:if="${optionIndex.index + 1} in ${userAnswers[iterStat.index]}"> - Seleccionada</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="stats-chart-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Estadística</a>
         </div>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    </body>
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Textos</a>
+        </div>
+        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+          <ion-icon name="caret-forward-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
+        </div>
+      </ul>
+      
+    </div>
+  </div>
+    <!-- salir -->
+    <div class="w-[100%] flex flex-col justify-between">
+      <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+        <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+        <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2">Salir</a>
+      </div>
+    </div>
+    </div>
+    <!-- right bar -->
+    <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
+      
+      <!-- Iteración Principal -->
+      <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto mb-4">
+          <!-- Textos -->
+          <div class="w-[100%] bg-[#D8CDB1] text-black border-2 border-black p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto text-sm">
+              <h1 class="text-center text-lg font-bold">RESULTADOS</h1>
+              <!-- Iterar sobre las preguntas y respuestas -->
+              <div th:each="question, questionIndex : ${questions}">
+                  <div class="border-2 border-black rounded-lg p-4 mb-4">
+
+                      <!-- Pregunta -->
+                      <h3 th:text="${question.pregunta}" class="font-bold mb-2"></h3>
+
+                      <!-- Respuesta seleccionada por el usuario -->
+                      <p th:text="${'Respuesta seleccionada: ' + (userAnswers['question_' + (question.id-1)] ?: 'No se ha seleccionado respuesta')}"
+                         th:class="${question.respuesta.equals(userAnswers['question_' + (question.id-1)]) ? 'text-green-500' : 'text-red-500'}"></p>
+
+                      <!-- Razonamiento -->
+                      <p th:text="${'Razonamiento: ' + question.razonamiento}"
+                         th:class="${question.respuesta.equals(userAnswers['question_' + (question.id-1)]) ? 'text-green-500' : 'text-red-500'}"></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
+
 
 
 

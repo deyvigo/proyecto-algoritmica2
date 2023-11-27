@@ -70,63 +70,12 @@ public class ResolveController {
 
     @PostMapping(path = "/solvetext")
     public String solve(@RequestParam(name = "idText") Long id,
-                      @RequestParam Map<String, String> userAnswers){
-        for (Map.Entry<String, String> entry : userAnswers.entrySet()) {
-            String grupo = entry.getKey();                     // <------- numero de pregunta de la forma question_"nroPregunta"
-            String opcionSeleccionada = entry.getValue();   // <------ opcion seleccionada
-            System.out.println("grupo: " + grupo);
-            System.out.println("opcion seleccionada: " + opcionSeleccionada);
-        }
-
-        List<QuestionEntity> questions= questionRepository.findQuestionsByTextId(id);
-        for (QuestionEntity question : questions) {
-            System.out.println("Pregunta: " + question.getPregunta());
-            System.out.println("Respuesta: " + question.getRespuesta());
-            System.out.println("Razonamiento: " + question.getRazonamiento());
-        }
-        return "alumn-screen-1";
-    }
-
-    /*
-    @GetMapping(path = "/solvetext")
-    public String solvetext(@RequestParam(name = "idText") BigInteger id,
-            @RequestParam Map<String, String> userAnswers, Model model) {
-
-        TextEntity t = textRepository.findById(id);
-
-        List<List<Object>> textDates = new ArrayList<>();
-        if (t != null) {
-            List<Object> textInfo = new ArrayList<>();
-            textInfo.add(t.getContent());
-            List<List<String>> questionsAndOptions = new ArrayList<>();
-
-            for (QuestionEntity pregunta : t.getPreguntas()) {
-                List<String> questionInfo = new ArrayList<>();
-                List<String> selectedOptions = new ArrayList<>();
-
-                questionInfo.add(pregunta.getPregunta());
-
-                // Filtra las alternativas seleccionadas por el usuario
-                for (AlternativeEntity alternative : pregunta.getAlternativas()) {
-                    if (userAnswers.containsKey("question_" + pregunta.getId() + "_" + alternative.getId())
-                            && userAnswers.get("question_" + pregunta.getId() + "_" + alternative.getId()).equals("on")) {
-                        selectedOptions.add(alternative.getAlternativa());
-                    }
-                }
-
-                questionInfo.addAll(selectedOptions);
-                questionsAndOptions.add(questionInfo);
-            }
-
-            textInfo.add(questionsAndOptions);
-            textDates.add(textInfo);
-        }
-
-        model.addAttribute("idText", id);
-        model.addAttribute("textDates", textDates);
-
+                      @RequestParam Map<String, String> userAnswers,Model model){
+                       
+        List<QuestionEntity> questions= questionRepository.findQuestionsByTextId(id);        
+        
+        model.addAttribute("userAnswers", userAnswers);
+        model.addAttribute("questions", questions);
         return "alumn-text-solution";
     }
-
-    */
 }
