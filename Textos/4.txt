@@ -199,13 +199,13 @@ inferior al trabajo de Juan de Panonia.
 =====================PREGUNTA 10====================== 
 Se puede i nferir que Aureliano redactó una refutación 
 =====================ALTERNATIVAS====================== 
-A. breve.  
-B. intrincada .  
-C. axiomática. 
-D. adusta.  
-E. profunda . 
+A) breve.  
+B) intrincada .  
+C) axiomática. 
+D) adusta.  
+E) profunda . 
 =====================ALTERNATIVA CORRECTA====================== 
-B. intrincada.  
+B) intrincada.  
 =====================RAZONAMIENTO====================== 
 En la confección de su refutación, Aureliano utilizó períodos inextricables. Ergo, su 
 refutación era intrincada. 
