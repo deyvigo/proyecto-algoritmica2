@@ -2,6 +2,7 @@
 package com.example.controllers;
 
 import com.example.entities.AlternativeEntity;
+import com.example.entities.AlumnEntity;
 import com.example.entities.QuestionEntity;
 import com.example.entities.TextEntity;
 import com.example.repositories.AlumnRepository;
@@ -15,6 +16,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,6 +38,17 @@ public class ResolveController {
 
     @Autowired
     private QuestionRepository questionRepository;
+
+    @ModelAttribute(name = "alumnName")
+    public String getTeacherName(Authentication auth){
+        if (auth != null){
+            AlumnEntity alumn = alumnRepository.findByUsername(((UserDetails) auth.getPrincipal()).getUsername()).get();
+            return alumn.fullName();
+        } else {
+            return null;
+        }
+    }
+
 
     // Mostrar texto y preguntas
     @GetMapping(path = "/text")
