@@ -62,13 +62,13 @@
                   <div class="border-2 border-black rounded-lg p-4 mb-4 flex font-serif">
 
                       <!-- Mostrar imagen correcta o incorrecta -->
-                      <img th:if="${question.respuesta.equals(userAnswers['question_' + (question.id-1)])}" 
+                      <img th:if="${question.respuesta.equals(userAnswers['question_' + questionIndex.index])}"
                            th:src="@{/img/correcto.png}" 
                            src="../static/img/correcto.png" 
                            alt="Correcto" 
                            class="w-10 h-10 mr-4">
 
-                      <img th:unless="${question.respuesta.equals(userAnswers['question_' + (question.id-1)])}" 
+                      <img th:unless="${question.respuesta.equals(userAnswers['question_' + questionIndex.index])}"
                            th:src="@{/img/incorrecto.png}" 
                            src="../static/img/incorrecto.png" 
                            alt="Incorrecto" 
@@ -81,14 +81,14 @@
                           <!-- Alternativas en cursiva -->
                           <p th:each="alternativa, alternativaIndex : ${question.alternativas}" 
                              th:text="${alternativa.alternativa}" 
-                             th:class="${userAnswers['question_' + (question.id-1)] == null ? 'italic' : (userAnswers['question_' + (question.id-1)].equals(alternativa.alternativa) ? (question.respuesta.equals(alternativa.alternativa) ? 'text-teal-900 font-semibold italic' : 'text-red-700 font-semibold italic') : 'italic')}"></p>
+                             th:class="${userAnswers['question_' + questionIndex.index] == null ? 'italic' : (userAnswers['question_' + questionIndex.index].equals(alternativa.alternativa) ? (question.respuesta.equals(alternativa.alternativa) ? 'text-teal-900 font-semibold italic' : 'text-red-700 font-semibold italic') : 'italic')}"></p>
 
                           <!-- Separación -->
                           <div class="mb-2"></div>
                           
                           <!-- Respuesta correcta si la alternativa escogida fue incorrecta -->
-                          <p th:if="${!question.respuesta.equals(userAnswers['question_' + (question.id-1)])}" class="font-semibold text-teal-900">Respuesta correcta:</p>
-                          <p th:if="${!question.respuesta.equals(userAnswers['question_' + (question.id-1)])}" th:text="${question.respuesta}" class="text-yellow-900 font-semibold italic"></p>
+                          <p th:if="${!question.respuesta.equals(userAnswers['question_' + questionIndex.index])}" class="font-semibold text-teal-900">Respuesta correcta:</p>
+                          <p th:if="${!question.respuesta.equals(userAnswers['question_' + questionIndex.index])}" th:text="${question.respuesta}" class="text-yellow-900 font-semibold italic"></p>
 
                           <!-- Separación -->
                           <div class="mb-2"></div>

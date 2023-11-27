@@ -76,6 +76,29 @@ public class ResolveController {
         
         model.addAttribute("userAnswers", userAnswers);
         model.addAttribute("questions", questions);
+
+        //Lo de aquí se puede eliminar, es solo para comprobar
+
+
+        int i=0; //indice de pregunta
+
+        //Iterar sobre las preguntas y comparar con las respuestas del usuario
+        for (Map.Entry<String, String> entry : userAnswers.entrySet()) {
+
+            String grupo = entry.getKey();
+            String opcionSeleccionada = entry.getValue();
+
+            // Imprimir para comprobar cada respuesta
+            System.out.println(grupo + ": " + opcionSeleccionada);
+            System.out.println("Correcta: " + questions.get(i).getRespuesta());
+            System.out.println(opcionSeleccionada.equals(questions.get(i).getRespuesta()));
+            i++;
+            if (questions.size() == i){
+                break;
+            }
+        }
+
+
         return "alumn-text-solution";
     }
 }
