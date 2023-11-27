@@ -60,7 +60,7 @@
       <!-- Iteración Principal -->
       <div th:each="item, iterStat : ${textDates}" class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto mb-4">
           <!-- Textos -->
-          <div class="w-[100%] bg-[#D8CDB1] text-black border-2 border-black p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto text-sm">
+          <div class="w-[100%] bg-[#D8CDB1] text-black border-2 border-black p-8 rounded-3xl flex flex-col gap-2 h-[100%] overflow-auto text-sm font-serif">
               <h1 class="text-center text-lg font-bold">TEXTO</h1>
               <h1 th:text="${item[0]}" class="text-lg "></h1>
 
