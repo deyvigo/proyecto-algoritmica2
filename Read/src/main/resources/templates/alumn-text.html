@@ -64,6 +64,7 @@
               <h1 class="text-center text-lg font-bold">TEXTO</h1>
               <h1 th:text="${item[0]}" class="text-lg "></h1>
 
+              
               <!-- Iteración de Preguntas -->
               <form action="#" th:action="@{/enter/solvetext}" method="post">
 
@@ -74,13 +75,13 @@
                       <!-- Iteración de Alternativas -->
                       <div th:each="option, optionIndex : ${questionInfo.subList(1, questionInfo.size())}" class="hover:bg-gray-400 py-1 px-2 rounded-md">
                           <!-- Radio Button -->
-                          <input type="radio" th:id="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" th:name="${'question_' + questionIndex.index}" th:value="${option}" />
+                          <input type="radio" th:id="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" th:name="${'question_' + questionIndex.index}" th:value="${option}" class="hidden-radio" />
                           <!-- Mostrar Alternativa -->
-                          <label th:for="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" th:text="${option}" class="px-2"></label>
+                          <label th:for="${'radio_' + iterStat.index + '_' + questionIndex.index + '_' + optionIndex.index}" class="px-2 alternative-label" th:text="${option}"></label>
                       </div>
                   </div>
 
-                  <!--Para enviar el id del texto al final-->
+                  <!-- Para enviar el id del texto al final -->
                   <input type="hidden" th:name="idText" th:value="${idText}" />
 
                   <!-- Botón Enviar -->
@@ -88,6 +89,7 @@
                       <button type="submit" class="w-[100%] h-[1005] p-2">Enviar</button>
                   </div>
               </form>
+              
           </div>
       </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
