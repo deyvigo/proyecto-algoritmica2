@@ -30,20 +30,20 @@ import java.util.NoSuchElementException;
 @RequestMapping("/")
 public class LoginController {
 
-    @Autowired
-    private AlumnRepository alumnRepository;
+    private final AlumnRepository alumnRepository;
+    private final TeacherRepository teacherRepository;
+    private final RoleRepository roleRepository;
+    private final GroupRepository groupRepository;
+    private final PasswordEncoder passwordEncoder;
 
     @Autowired
-    private TeacherRepository teacherRepository;
-
-    @Autowired
-    private RoleRepository roleRepository;
-
-    @Autowired
-    private GroupRepository groupRepository;
-
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+    public LoginController(AlumnRepository alumnRepository, TeacherRepository teacherRepository, RoleRepository roleRepository, GroupRepository groupRepository, PasswordEncoder passwordEncoder) {
+        this.alumnRepository = alumnRepository;
+        this.teacherRepository = teacherRepository;
+        this.roleRepository = roleRepository;
+        this.groupRepository = groupRepository;
+        this.passwordEncoder = passwordEncoder;
+    }
 
     @GetMapping(path = "/")
     public String index(HttpServletRequest request){

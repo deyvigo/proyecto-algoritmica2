@@ -1,8 +1,10 @@
 package com.example.controllers;
 
 import com.example.entities.AlumnEntity;
+import com.example.entities.CollectionTextEntity;
 import com.example.entities.TextEntity;
 import com.example.repositories.AlumnRepository;
+import com.example.repositories.SolveRepository;
 import com.example.repositories.TextRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -24,11 +26,19 @@ import java.util.Set;
 @RequestMapping(path = "/search")
 public class SearchTextController {
 
-    @Autowired
-    private AlumnRepository alumnRepository;
+
+    private final AlumnRepository alumnRepository;
+
+    private final TextRepository textRepository;
+
+    private final SolveRepository solveRepository;
 
     @Autowired
-    private TextRepository textRepository;
+    public SearchTextController(AlumnRepository alumnRepository, TextRepository textRepository, SolveRepository solveRepository) {
+        this.alumnRepository = alumnRepository;
+        this.textRepository = textRepository;
+        this.solveRepository = solveRepository;
+    }
 
     @ModelAttribute(name = "alumnName")
     public String getTeacherName(Authentication auth){
@@ -42,11 +52,12 @@ public class SearchTextController {
 
     @GetMapping(path = "/text")
     public String search(@RequestParam(name = "searchTokens")String keywords, Model model){
-        System.out.println(keywords);
-        Set<TextEntity> setOfTexts = textRepository.findByKeyword(keywords);
+        CollectionTextEntity collectionTextEntity = new CollectionTextEntity();
+        collectionTextEntity.setTexts(textRepository.findAll());
+        collectionTextEntity.buscarTextos(keywords, solveRepository.findAll());
         List<List<String>> text = new ArrayList<>();
-        if (!setOfTexts.isEmpty()){
-            for (TextEntity t: setOfTexts){
+        if (!collectionTextEntity.getTexts().isEmpty()){
+            for (TextEntity t: collectionTextEntity.getTexts()){
                 text.add( List.of(t.getContent(), String.valueOf(t.getId())) );
             }
         }

@@ -84,7 +84,7 @@ public class ResolveController {
 
     @PostMapping(path = "/solvetext")
     public String solve(@RequestParam(name = "idText") Long id,
-                      @RequestParam Map<String, String> userAnswers,Model model){
+                      @RequestParam Map<String, String> userAnswers, Model model){
                        
         List<QuestionEntity> questions= questionRepository.findQuestionsByTextId(id);        
         

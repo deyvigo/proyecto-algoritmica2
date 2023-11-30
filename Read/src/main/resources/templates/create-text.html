@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Usuario</title>
-    <link
-      rel="icon"
-      th:href="@{/img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script
-      src="https://kit.fontawesome.com/4fb2d199eb.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body class="bg-[#8895C0] flex p-8 gap-8">
-    <!-- card user -->
-    <div
-      class="w-1/5 flex flex-col items-center bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
+<head>
+  <meta charset="UTF-8" />
+  <title>Usuario</title>
+  <link rel="icon" th:href="@{/img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/4fb2d199eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-[#8895C0] flex p-8 gap-8">
+  <!-- card user -->
+  <div
+      class="w-1/5 flex flex-col items-center justify-between bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
     >
+
+    <div>
+    <!-- img -->
       <div
         class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1"
       >
@@ -32,7 +30,7 @@
         <h1 class="font-semibold">Profesor: <span th:text="${teacherName}"></span></h1>
       </div>
       <!-- menu -->
-      <div class="w-[95%] h-[48vh] flex flex-col justify-between gap-2">
+      <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
         <ul class="flex flex-col gap-1">
           <div
             class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
@@ -41,7 +39,7 @@
               name="person-outline"
               class="w-[25px] h-[25px]"
             ></ion-icon>
-            <a th:href="@{/teach/profile}" class="font-bold w-full h-auto border-black p-2"
+            <a th:href="@{/teach/profile}" href="" class="font-bold w-full h-auto border-black p-2"
               >Perfil</a
             >
           </div>
@@ -63,7 +61,7 @@
               name="document-text-outline"
               class="w-[25px] h-[25px]"
             ></ion-icon>
-            <a th:href="@{/teach/toAddExercise}" class="font-bold w-full h-auto border-black p-2"
+            <a href="create-text.html" th:href="@{/teach/toAddExercise}" class="font-bold w-full h-auto border-black p-2"
               >Crear Texto</a
             >
           </div>
@@ -79,58 +77,97 @@
             >
           </div>
         </ul>
-        <div class="w-[100%] flex flex-col justify-between">
-          <div
-            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
-          >
-            <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
-            <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2"
-              >Salir</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- right bar -->
-    <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
-      <!-- text-content -->
-      <div
-        class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%]"
-      >
-        <h1 class="font-bold text-center text-lg">CREACIÓN DE TEXTO</h1>
-        <form class="min-w-fit w-80 mx-auto mt-8" th:action="@{/teach/addExercise}" method="post">
-          <div class="mb-4">
-              <label for="texto" class="block text-gray-700 font-bold mb-2">Texto:</label>
-              <textarea id="texto" name="content" placeholder="Texto" class="w-full rounded border border-gray-400 p-2 h-28" required></textarea>
-          </div>
-          <div class="mb-4">
-              <label for="pregunta" class="block text-gray-700 font-bold mb-2">Pregunta:</label>
-              <input id="pregunta" type="text" name="pregunta" placeholder="Pregunta" class="w-full rounded border border-gray-400 p-2" required>
-          </div>
-          <div class="mb-4">
-              <label for="respuesta" class="block text-gray-700 font-bold mb-2">Respuesta:</label>
-              <input id="respuesta" type="text" name="respuesta" placeholder="Respuesta" class="w-full rounded border border-gray-400 p-2" required>
-          </div>
-          <div class="mb-4">
-            <label for="razonamiento" class="block text-gray-700 font-bold mb-2">Razonamiento:</label>
-            <input id="razonamiento" type="text" name="razonamiento" placeholder="Razonamiento" class="w-full rounded border border-gray-400 p-2" required>
-        </div>
-          <div class="mb-4">
-              <label for="alternativas" class="block text-gray-700 font-bold mb-2">Alternativas (separadas por coma):</label>
-              <input id="alternativas" type="text" name="alternativas" placeholder="Alternativas" class="w-full rounded border border-gray-400 p-2" required>
-          </div>
-          <button type="submit" class="bg-slate-500 hover:bg-slate-600 text-white font-bold py-2 px-4 rounded">Crear ejercicio</button>
-      </form>
         
       </div>
     </div>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+
+      <div class="w-[100%] flex flex-col justify-between">
+        <div
+          class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
+        >
+          <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+          <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2"
+            >Salir</a
+          >
+        </div>
+      </div>
+    </div>
+  <!-- right bar -->
+  <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
+    <!-- text-content -->
+    <div
+      class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%] overflow-auto">
+      <h1 class="font-bold text-center text-lg">CREACIÓN DE TEXTO</h1>
+      <form class="min-w-fit w-[90%] mx-auto mt-8" th:action="@{/teach/addExercise}" method="post">
+        <div class="mb-4">
+          <label for="texto" class="block text-gray-700 font-bold mb-2 indent-2">Texto:</label>
+          <textarea id="texto" name="content" placeholder="Texto"
+            class="outline-none w-full rounded-lg border border-gray-400 p-2 h-28" required></textarea>
+        </div>
+        <div class="form-container">
+          <div class="content-component">
+            <!-- pregunta -->
+            <div class="mb-4">
+              <label for="pregunta" class="block text-gray-700 font-bold mb-2 indent-2"><span class="text-orange-600">Pregunta:</span></label>
+              <input id="pregunta" type="text" name="pregunta_1" placeholder="Pregunta"
+                class="pregunta outline-none w-full rounded-lg border border-gray-400 p-2" required>
+            </div>
+            <!-- alternativas -->
+            <div class="mb-4">
+              <label for="alternativa_1" class="block text-gray-700 font-bold mb-2 indent-2">Alternativa A:</label>
+              <input id="alternativa_1" type="text" name="alternativas_1_1" placeholder="Alternativas"
+                class="alternativas outline-none w-full rounded-lg border border-gray-400 p-2" required>
+            </div>
+            <div class="mb-4">
+              <label for="alternativa_2" class="block text-gray-700 font-bold mb-2 indent-2">Alternativa B:</label>
+              <input  id="alternativa_2" type="text" name="alternativas_1_2" placeholder="Alternativas"
+                class="alternativas outline-none w-full rounded-lg border border-gray-400 p-2" required>
+            </div>
+            <div class="mb-4">
+              <label for="alternativa_3" class="block text-gray-700 font-bold mb-2 indent-2">Alternativa C:</label>
+              <input id="alternativa_3" type="text" name="alternativas_1_3" placeholder="Alternativas"
+                class="alternativas outline-none w-full rounded-lg border border-gray-400 p-2" required>
+            </div>
+            <div class="mb-4">
+              <label for="alternativa_4" class="block text-gray-700 font-bold mb-2 indent-2">Alternativa D:</label>
+              <input id="alternativa_4" type="text" name="alternativas_1_4" placeholder="Alternativas"
+                class="alternativas outline-none w-full rounded-lg border border-gray-400 p-2" required>
+            </div>
+            <div class="mb-4">
+              <label for="alternativa_5" class="block text-gray-700 font-bold mb-2 indent-2">Alternativa E:</label>
+              <input id="alternativa_5" type="text" name="alternativas_1_5" placeholder="Alternativas"
+                class="alternativas outline-none w-full rounded-lg border border-gray-400 p-2" required>
+            </div>
+            <!-- respuesta -->
+            <div class="mb-4">
+              <label for="respuesta" class="block text-gray-700 font-bold mb-2 indent-2">Respuesta:</label>
+              <input id="respuesta" type="text" name="respuesta_1" placeholder="Respuesta"
+                class="respuesta outline-none w-full rounded-lg border border-gray-400 p-2" required>
+            </div>
+            <!-- razonamiento -->
+            <div class="mb-4">
+              <label for="razonamiento" class="block text-gray-700 font-bold mb-2 indent-2">Razonamiento:</label>
+              <input id="razonamiento" type="text" name="razonamiento_1" placeholder="Razonamiento"
+                class="razonamiento outline-none w-full rounded-lg border border-gray-400 p-2" required>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="flex justify-end">
+          <button type="button" class="add-question-btn w-[140px] p-2 bg-red-500 text-center font-semibold rounded-lg cursor-pointer">
+            Agregar Pregunta</button>
+        </div>
+        <div class="flex justify-center">
+          <button type="submit" class="bg-slate-500 hover:bg-slate-600 text-white font-bold py-2 px-4 rounded">Crear ejercicio</button>
+
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <script th:src="@{/js/addquestion.js}" src="../static/js/addquestion.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
 </html>

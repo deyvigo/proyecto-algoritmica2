@@ -27,32 +27,33 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.naming.directory.SearchControls;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Controller
 @RequestMapping(path = "/teach")
 public class TeacherController {
 
-    @Autowired
-    private TeacherRepository teacherRepository;
+    private final TeacherRepository teacherRepository;
+    private final GroupRepository groupRepository;
+    private final AlumnRepository alumnRepository;
+    private final TextRepository textRepository;
+    private final QuestionRepository questionRepository;
+    private final SolveRepository solveRepository;
+    private final AlternativeRepository alternativeRepository;
 
+    //Constructor
     @Autowired
-    private GroupRepository groupRepository;
+    public TeacherController(TeacherRepository teacherRepository, GroupRepository groupRepository, AlumnRepository alumnRepository, TextRepository textRepository, QuestionRepository questionRepository, SolveRepository solveRepository, AlternativeRepository alternativeRepository) {
+        this.teacherRepository = teacherRepository;
+        this.groupRepository = groupRepository;
+        this.alumnRepository = alumnRepository;
+        this.textRepository = textRepository;
+        this.questionRepository = questionRepository;
+        this.solveRepository = solveRepository;
+        this.alternativeRepository = alternativeRepository;
+    }
 
-    @Autowired
-    private AlumnRepository alumnRepository;
-
-    @Autowired
-    private TextRepository textRepository;
-
-    @Autowired
-    private QuestionRepository questionRepository;
-
-    @Autowired
-    private SolveRepository solveRepository;
-
-    @Autowired
-    private AlternativeRepository alternativeRepository;
 
     //Funcion para obtener el nombre del profesor
     public String getUsernameTeacher(Authentication authentication){
@@ -124,15 +125,13 @@ public class TeacherController {
         }
     }
     @GetMapping(path = "/toAddExercise")
-    public String showExerciseForm(Model model) {
-        model.addAttribute("texto", new TextEntity()); 
-        model.addAttribute("pregunta", new QuestionEntity()); 
-        model.addAttribute("alternativas", new AlternativeEntity());
-        
-        return "create-text"; 
-}
+    public String showExerciseForm() {
+        return "create-text";
+    }
+
+    /*
     @PostMapping("/addExercise")
-    public String crearEjercicio(@RequestParam String content, @RequestParam String pregunta, @RequestParam String respuesta,@RequestParam String razonamiento ,@RequestParam List<String> alternativas) {
+    public String crearEjercicio(@RequestParam String content, @RequestParam String pregunta, @RequestParam String respuesta, @RequestParam String razonamiento, @RequestParam List<String> alternativas) {
         
         TextEntity texto = new TextEntity();
         texto.setContent(content);
@@ -156,7 +155,34 @@ public class TeacherController {
 
         return "create-text";
     }
+*/
 
+    @PostMapping("/addExercise")
+    public String crearEjercicio(@RequestParam Map<String, String> textParams){
+        TextEntity textToSave = TextEntity.builder().content(textParams.get("content").trim()).build();
+        textRepository.save(textToSave);
+        int indexQuestion = 1;
+        while (textParams.get("pregunta_" + indexQuestion) != null){
+            QuestionEntity questToSave = new QuestionEntity();
+            questToSave.setAlternativas(new ArrayList<>());
+            questToSave.setPregunta(textParams.get("pregunta_" + indexQuestion).trim());
+            questToSave.setText(textToSave);
+            questToSave.setRespuesta(textParams.get("respuesta_" + indexQuestion));
+            questToSave.setRazonamiento(textParams.get("razonamiento_" + indexQuestion));
+            questionRepository.save(questToSave);
+            int indexAlternative = 1;
+            while (textParams.get("alternativas_" + indexQuestion + "_" + indexAlternative) != null){
+                AlternativeEntity alternToSave = new AlternativeEntity();
+                alternToSave.setAlternativa(textParams.get("alternativas_" + indexQuestion + "_" + indexAlternative).trim());
+                alternToSave.setPreg(questToSave);
+                alternativeRepository.save(alternToSave);
+                indexAlternative++;
+            }
+            indexQuestion++;
+        }
+
+        return "create-text";
+    }
 
     @GetMapping("/statistics")
     public String showStatistics(Model model, Authentication authentication) {
