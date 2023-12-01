@@ -77,15 +77,9 @@
 
 
       <div th:if="${students != null && students.size() > 0}" th:each="student : ${students}" class="flex gap-2 justify-center items-center">
-
         <p class="w-[35%] py-[2px] text-xl rounded font-bold bg-sky-500 indent-3" th:text="${student.fullName()}"></p>
         <p class="w-[20%] py-[2px] text-xl rounded font-bold bg-orange-600 text-center" th:text="${student.getSolutions().size()}"></p>
         <p class="w-[20%] py-[2px] text-xl rounded font-bold bg-orange-600 pr-3 text-end" th:text="${student.getNota()}"></p>
-        <!-- <div 
-          class="bg-[#95a6e6] font-semibold h-[40px] w-[80%] rounded-lg items-center flex justify-between px-4 text-lg">
-          <p class="text-center" th:text="${student.fullName()}"></p>
-          <p class="text-start">Nota: <span th:text="${student.getNota()}"></span></p>
-        </div> -->
       </div>
 
       <div th:if="${students == null || students.size() == 0}">
