@@ -109,7 +109,9 @@
           <p>Total textos resueltos: <span th:text="${totalTextosResueltosPorGrupo[__${idx.index}__]}"></span></p>
       </div>
       
-    <p class="font-bold mt-2">Total de textos resueltos en todos los grupos: <span th:text="${totalTextosResueltosGlobal}"></span></p>
+    <div class="w-full flex gap-2">
+        <p class="text-xl font-bold w-[75%] bg-white px-2 py-1 rounded">Total de textos resueltos en todos los grupos: </p><span class=" text-xl w-[25%] bg-red-400 rounded px-2 py-1" th:text="${totalTextosResueltosGlobal}"></span>
+      </div>
       </div>
     </div>
     <script
