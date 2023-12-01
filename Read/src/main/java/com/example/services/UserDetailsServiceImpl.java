@@ -40,7 +40,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
                     autority);
         } else {
             TeacherEntity teacher = teacherRepository.findByUsername(username)
-                    .orElseThrow(() -> new UsernameNotFoundException("EL usuario " + username + " no está regustrado."));
+                    .orElseThrow(() -> new UsernameNotFoundException("EL usuario " + username + " no está registrado."));
             Collection<? extends GrantedAuthority> autority = Collections.singleton(new SimpleGrantedAuthority(teacher.getTeacher_rol().getName().toString()));
             return new User(teacher.getUsername(),
                     teacher.getPassword(),

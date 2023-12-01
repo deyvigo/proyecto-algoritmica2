@@ -38,6 +38,7 @@ public class SolveEntity {
     @Temporal(TemporalType.DATE)
     private LocalDate dateOfSolution;
 
+
     // Calificar solución
     public void calificar(){
         int totalRptas = this.corrects + this.wrongs;

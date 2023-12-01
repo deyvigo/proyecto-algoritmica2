@@ -3,6 +3,9 @@ package com.example.entities;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 
 public class CollectionTextEntity {
 
@@ -37,7 +40,8 @@ public class CollectionTextEntity {
 
     public void eliminarResueltos(List<SolveEntity> resueltos){
         if (!resueltos.isEmpty()){
-            Iterator<TextEntity> iterator = this.texts.iterator(); // Iterador para evitar problemas de concurrencia
+            // Iterador para evitar problemas de concurrencia
+            Iterator<TextEntity> iterator = this.texts.iterator(); 
             while (iterator.hasNext()) {
                 TextEntity t = iterator.next();
 
@@ -67,18 +71,28 @@ public class CollectionTextEntity {
                     break;
                 }
             }
-
             if (!esStopword){
+                String pat = "\\b\\w+[aeiou]\\b";
+                Pattern regex = Pattern.compile(pat);
+                Matcher match = regex.matcher(t);
+                //Si termina en vocal, quitar la vocal
+                if (match.find()) {
+                    tokensLimpios.add(t.substring(0, t.length() - 1));
+                    continue;
+                }
+                //Si termina en [aeiou]s, quitar las dos ultimas letras
+                pat = "\\b\\w+(as|es|is|os|us)\\b";
+                regex = Pattern.compile(pat);
+                match = regex.matcher(t);
                 //ver si es plural
-                if (t.charAt(t.length()-1) == 's'){
+                if (match.find()){
                     //si es plural, quitar la s
-                    tokensLimpios.add(t.substring(0, t.length()-1));
+                    tokensLimpios.add(t.substring(0, t.length()-2));
                 } else {
                     tokensLimpios.add(t);
                 }
             }
         }
-
         return tokensLimpios;
     }
 }
