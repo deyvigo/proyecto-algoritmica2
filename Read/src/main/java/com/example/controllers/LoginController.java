@@ -69,7 +69,6 @@ public class LoginController {
             assert alumn != null;
             model.addAttribute("alumnName", alumn.fullName());
             if (alumn.getAlumn_group() == null){
-                //List<GroupEntity> grupos = groupRepository.findAll();
                 model.addAttribute("grupos", SearchGroupsUtil.getAllGroupDates(groupRepository));
                 return "group-select";
             }
@@ -114,6 +113,7 @@ public class LoginController {
         if(teacherRepository.findByUsername(teacher.getUsername()).isEmpty() && alumnRepository.findByUsername(teacher.getUsername()).isEmpty()){
             teacher.setTeacher_rol(roleRepository.findByName(RoleName.ROLE_TEACHER).orElse(null));
             teacher.setPassword(passwordEncoder.encode(teacher.getPassword()));
+            teacher.setAge(teacher.calculateAge());
             teacherRepository.save(teacher);
         }
         return "redirect:/login";

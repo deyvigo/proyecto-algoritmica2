@@ -25,10 +25,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.naming.directory.SearchControls;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 @Controller
 @RequestMapping(path = "/teach")
@@ -190,17 +187,23 @@ public class TeacherController {
         
         List<GroupEntity> groups = SearchGroupsUtil.getGroupsPerTeacher(groupRepository,username);
         List<Integer> totalTextosResueltosPorGrupo = new ArrayList<>();
+        List<AlumnEntity> alumnosConMejorNota = new ArrayList<>();
         
         for (GroupEntity groupDate : groups) {
             Long groupId = groupDate.getId();
             List<AlumnEntity> alumnosDelGrupo = alumnRepository.getAlumnsPerGroup(groupId);
+
             int totalTextosResueltos = 0;
             
             for (AlumnEntity alumno : alumnosDelGrupo) {
                 int textosResueltosPorAlumno = solveRepository.countSolvesByAlumnId(alumno.getId());
                 totalTextosResueltos += textosResueltosPorAlumno;
             }
-            
+
+            Collections.sort(alumnosDelGrupo, Comparator.comparing(AlumnEntity::getNota).reversed());  //Ordena lista de alumnos por nota de mayor a menor
+
+            alumnosConMejorNota.add( !alumnosDelGrupo.isEmpty() ?  alumnosDelGrupo.get(0): null);
+
             totalTextosResueltosPorGrupo.add(totalTextosResueltos);
         }
         int totalTextosResueltosGlobal = totalTextosResueltosPorGrupo.stream().mapToInt(Integer::intValue).sum();
@@ -208,7 +211,21 @@ public class TeacherController {
         model.addAttribute("groupDates", groups);
         model.addAttribute("totalTextosResueltosPorGrupo", totalTextosResueltosPorGrupo);
         model.addAttribute("totalTextosResueltosGlobal", totalTextosResueltosGlobal);
+        model.addAttribute("alumnosConMejorNota", alumnosConMejorNota);
 
         return "teacher-statistics";
+    }
+
+    @GetMapping("/mostEasiestTexts")
+    public String showMostEasiestTexts(Model model, Authentication authentication) {
+        String username = authentication.getName();
+
+        TeacherEntity teacher = teacherRepository.findByUsername(username).get();
+
+        List<Object> easiestTexts = solveRepository.findMostEasiestTextsByTeacherId(teacher.getId());
+
+        model.addAttribute("easiestTexts", easiestTexts);
+
+        return "teacher-most-easiest-texts";
     }
 }

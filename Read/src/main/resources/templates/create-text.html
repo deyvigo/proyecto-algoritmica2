@@ -96,9 +96,9 @@
   <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
     <!-- text-content -->
     <div
-      class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%] overflow-auto">
-      <h1 class="font-bold text-center text-lg">CREACIÓN DE TEXTO</h1>
-      <form class="min-w-fit w-[90%] mx-auto mt-8" th:action="@{/teach/addExercise}" method="post">
+      class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-4 rounded-3xl flex flex-col h-[100%] overflow-auto">
+      <h1 class="font-bold text-center text-xl">CREACIÓN DE TEXTO</h1>
+      <form class="min-w-fit w-[90%] text-lg mx-auto mt-8" th:action="@{/teach/addExercise}" method="post">
         <div class="mb-4">
           <label for="texto" class="block text-gray-700 font-bold mb-2 indent-2">Texto:</label>
           <textarea id="texto" name="content" placeholder="Texto"

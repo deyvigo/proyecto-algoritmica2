@@ -1,132 +1,98 @@
 <!DOCTYPE html>
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Usuario</title>
-    <link
-      rel="icon"
-      th:href="@{/img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script
-      src="https://kit.fontawesome.com/4fb2d199eb.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body class="bg-[#8895C0] flex p-8 gap-8">
-    <!-- card user -->
-    <div
-      class="w-1/5 flex flex-col items-center justify-between bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2"
-    >
+<head>
+  <meta charset="UTF-8" />
+  <title>Usuario</title>
+  <link rel="icon" th:href="@{/img/mapache-con-audifonos.svg}" href="../static/img/mapache-con-audifonos.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/4fb2d199eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-[#8895C0] flex p-8 gap-8">
+  <!-- card user -->
+  <div
+    class="w-1/5 flex flex-col items-center justify-between bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2">
 
     <div>
-    <!-- img -->
-      <div
-        class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1"
-      >
-        <img
-          src="../static/img/mapache-con-audifonos.svg"
-          alt="teacher-perfil"
-          th:src="@{/img/mapache-con-audifonos.svg}"
-          class="object-cover rounded-full"
-        />
+      <!-- img -->
+      <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
+        <img src="../static/img/mapache-con-audifonos.svg" alt="teacher-perfil"
+          th:src="@{/img/mapache-con-audifonos.svg}" class="object-cover rounded-full" />
         <h1 class="font-semibold">Profesor: <span th:text="${teacherName}"></span></h1>
       </div>
       <!-- menu -->
       <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
         <ul class="flex flex-col gap-1">
-          <div
-            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
-          >
-            <ion-icon
-              name="person-outline"
-              class="w-[25px] h-[25px]"
-            ></ion-icon>
-            <a th:href="@{/teach/profile}" href="" class="font-bold w-full h-auto border-black p-2"
-              >Perfil</a
-            >
+          <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+            <ion-icon name="person" class="w-[25px] h-[25px]"></ion-icon>
+            <a th:href="@{/teach/profile}" href="" class="font-bold w-full h-auto border-black p-2">Perfil</a>
           </div>
-          <div
-            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
-          >
-            <ion-icon
-              name="people-outline"
-              class="w-[25px] h-[25px]"
-            ></ion-icon>
-            <a th:href="@{/teach/group}" class="font-bold w-full h-auto border-black p-2"
-              >Alumnos</a
-            >
+          <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+            <ion-icon name="people" class="w-[25px] h-[25px]"></ion-icon>
+            <a th:href="@{/teach/group}" class="font-bold w-full h-auto border-black p-2">Alumnos</a>
           </div>
-          <div
-            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
-          >
-            <ion-icon
-              name="document-text-outline"
-              class="w-[25px] h-[25px]"
-            ></ion-icon>
-            <a href="create-text.html" th:href="@{/teach/toAddExercise}" class="font-bold w-full h-auto border-black p-2"
-              >Crear Texto</a
-            >
+          <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+            <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
+            <a href="create-text.html" th:href="@{/teach/toAddExercise}"
+              class="font-bold w-full h-auto border-black p-2">Crear Texto</a>
           </div>
-          <div
-            class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
-          >
-            <ion-icon
-              name="stats-chart-outline"
-              class="w-[25px] h-[25px]"
-            ></ion-icon>
-            <a th:href="@{/teach/statistics}" class="font-bold w-full h-auto border-black p-2"
-              >Estadísticas</a
-            >
+          <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+            <ion-icon name="stats-chart" class="w-[25px] h-[25px]"></ion-icon>
+            <a th:href="@{/teach/statistics}" class="font-bold w-full h-auto border-black p-2">Estadísticas</a>
+          </div>
+          <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+            <ion-icon name="trending-up" class="w-[25px] h-[25px]"></ion-icon>
+            <a th:href="@{/teach/statistics}" class="font-bold w-full h-auto border-black p-2">Textos más leídos</a>
+          </div>
+          <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+            <ion-icon name="arrow-up" class="w-[25px] h-[25px]"></ion-icon>
+            <a th:href="@{/teach/statistics}" class="font-bold w-full h-auto border-black p-2">Textos más fáciles</a>
+          </div>
+          <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+            <ion-icon name="arrow-down" class="w-[25px] h-[25px]"></ion-icon>
+            <a th:href="@{/teach/statistics}" class="font-bold w-full h-auto border-black p-2">Textos más difíciles</a>
           </div>
         </ul>
-        
+
       </div>
     </div>
 
-      <div class="w-[100%] flex flex-col justify-between">
-        <div
-          class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4"
-        >
-          <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
-          <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2"
-            >Salir</a
-          >
-        </div>
+    <div class="w-[100%] flex flex-col justify-between">
+      <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+        <ion-icon name="exit-outline" class="w-[25px] h-[25px]"></ion-icon>
+        <a th:href="@{/logout}" href="#" class="font-bold w-full h-auto border-black p-2">Salir</a>
       </div>
     </div>
-    <!-- right bar -->
-    <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
-      <!-- text-content -->
-      <div
-        class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl flex flex-col gap-4 h-[100%]"
-      >
-        <h1 class="font-bold text-center text-lg">GRUPOS</h1>
+  </div>
+  <!-- right bar -->
+  <div class="absolute right-[10%] w-[58%] h-[92%] flex flex-col gap-4">
+    <!-- text-content -->
+    <div
+      class="w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black items-center p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
+      <h1 class="font-bold text-center text-xl">GRUPOS</h1>
 
 
-              <a th:if="${!gruposProfesor.isEmpty()}" th:each="g : ${gruposProfesor}" th:href="'/teach/group/' + ${g.get(3) + '/students'}" href="#" class="font-semibold flex w-full px-4 justify-between w-[100%] bg-[#5b6895] h-[35px] rounded-lg items-center">
-                <p class="text-center"> <span th:text="${g.get(0)}"></span> </p>
-                <p class="text-start"> Cantidad de alumnos: <span th:text="${g.get(1)}"></span> </p>
-              </a>
+      <a th:if="${!gruposProfesor.isEmpty()}" th:each="g : ${gruposProfesor}"
+        th:href="'/teach/group/' + ${g.get(3) + '/students'}" href="#"
+        class="font-semibold flex px-6 justify-between w-[80%] bg-[#5b6895] h-[40px] rounded-lg items-center text-lg">
+        <p class="text-center"> <span th:text="${g.get(0)}"></span> </p>
+        <p class="text-start"> Cantidad de alumnos: <span th:text="${g.get(1)}"></span> </p>
+      </a>
 
 
 
-        
-        <a th:href="@{/teach/toAddGroup}" id="add" class="flex items-center justify-center gap-1 bg-slate-400 h-[35px] w-[20%] rounded-lg cursor-pointer border-2 border-transparent hover:border-2 hover:border-black">
-            <ion-icon class="w-4 h-8 cursor-pointer" name="add-outline" ></ion-icon>
-            <label class="font-semibold cursor-pointer" for="add">Agregar grupo</label>
-        </a>
-      </div>
+
+      <a th:href="@{/teach/toAddGroup}" id="add"
+        class="flex text-lg items-center justify-center gap-1 bg-slate-400 h-[40px] w-[20%] rounded-lg cursor-pointer border-2 border-transparent hover:border-2 hover:border-black">
+        <ion-icon class="w-4 h-8 cursor-pointer" name="add-outline"></ion-icon>
+        <label class="font-semibold cursor-pointer" for="add">Agregar grupo</label>
+      </a>
     </div>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
