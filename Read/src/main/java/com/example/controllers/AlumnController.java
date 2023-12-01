@@ -15,6 +15,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.swing.*;
+import java.text.DecimalFormat;
 import java.util.List;
 import java.util.Optional;
 
@@ -81,11 +82,13 @@ public class AlumnController {
         AlumnEntity alumn = alumnRepository.findByUsername(getUsernameAlumn(authentication)).orElse(null);
 
         if (alumn != null) {
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+
             // Calcular los porcentajes y promedios
-            double promedioNotas = alumn.calcularPromedio();
-            double porcentajePreguntasCorrectas = alumn.calcularPromedioPreguntasCorrectasPorTexto();
-            double porcentajeTextosAcertadosCompletamente = alumn.calcularPorcentajeTextosAcertadosCompletamente();
-            double porcentajeTextosFalladosCompletamente = alumn.calcularPorcentajeTextosFalladosCompletamente();
+            double promedioNotas = alumn.getNota();
+            double porcentajePreguntasCorrectas = Double.parseDouble(decimalFormat.format(alumn.calcularPromedioPreguntasCorrectasPorTexto()));
+            double porcentajeTextosAcertadosCompletamente = Double.parseDouble(decimalFormat.format(alumn.calcularPorcentajeTextosAcertadosCompletamente()));
+            double porcentajeTextosFalladosCompletamente = Double.parseDouble(decimalFormat.format(alumn.calcularPorcentajeTextosFalladosCompletamente()));
 
 
             model.addAttribute("promedioNotas", promedioNotas);

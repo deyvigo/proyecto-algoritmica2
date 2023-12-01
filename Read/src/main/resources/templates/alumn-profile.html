@@ -45,10 +45,7 @@
             <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
             <a href="" th:href="@{/alumn/leidos}" class="font-bold w-full h-auto border-black p-2">Textos Leídos</a>
           </div>
-          <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-            <ion-icon name="trophy" class="w-[25px] h-[25px]"></ion-icon>
-            <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
-          </div>
+          
           
         </ul>
 
@@ -68,24 +65,27 @@
     <!-- text-content -->
     <div class="w-[100%] bg-[#D8CDB1] border-2 border-black text-white p-8 rounded-3xl flex flex-col gap-4 h-[100%]">
       <div
-        class="grid grid-cols-[300px] grid-rows-[50px] w-[100%] bg-[#D8CDB1] border-2 text-black text-sm border-black p-8 rounded-3xl gap-4 h-[100%]">
+        class="w-[100%] bg-[#D8CDB1] border-2 flex flex-col text-black text-sm border-black p-8 rounded-3xl gap-4 h-[100%]">
         <!-- title -->
-        <h1 class="col-span-3 font-bold text-center text-xl self-center">Perfil del Alumno</h1>
-        <!-- img profile -->
-        <div>
-          <img src="../static/img/alumna.jpg" th:src="@{/img/alumna.jpg}" alt="alumn-perfil1"
-          class="w-[400px] h-[400px] object-cover rounded-md mx-auto">
+        <h1 class="font-bold text-center text-2xl">Perfil del Alumno</h1>
+        <section class="flex gap-4">
+          <!-- img profile -->
+          <div class="w-[40%] p-4">
+            <img src="../static/img/sabo.png" th:src="@{/img/sabo.png}" alt="alumn-perfil1"
+            class="w-[300px] h-[300px] object-cover rounded-md mx-auto">
+          </div>
+          <!-- profile dates -->
+          <div class="w-[55%] flex flex-col gap-2 p-4 ">
+            <p class="bg-sky-400 py-1 rounded-lg text-lg flex px-4 justify-between"><span class="font-medium">Usuario</span> <span class="font-semibold" th:text="${alumn.username}"></span></p>
+            <p class="bg-sky-400 py-1 rounded-lg text-lg flex px-4 justify-between"><span class="font-medium">Nombre</span> <span class="font-semibold" th:text="${alumn.firstName}"></span></p>
+            <p class="bg-sky-400 py-1 rounded-lg text-lg flex px-4 justify-between"><span class="font-medium">Apellido</span> <span class="font-semibold" th:text="${alumn.lastName}"></span></p>
+            <p class="bg-sky-400 py-1 rounded-lg text-lg flex px-4 justify-between"><span class="font-medium">Grupo</span> <span class="font-semibold" th:text="${alumn.getAlumn_group().getGroupName()}"></span></p>
+            <p class="bg-sky-400 py-1 rounded-lg text-lg flex px-4 justify-between"><span class="font-medium">Promedio</span> <span class="font-semibold" th:text="${alumn.getNota()}"></span></p>
+            <p class="bg-sky-400 py-1 rounded-lg text-lg flex px-4 justify-between"><span class="font-medium">Edad</span> <span class="font-semibold" th:text="${alumn.getAge()}"></span></p>
+            <p class="bg-sky-400 py-1 rounded-lg text-lg flex px-4 justify-between"><span class="font-medium">Fecha de Nacimiento</span> <span class="font-semibold" th:text="${alumn.getBirthDate()}"></span></p>
         </div>
-        <!-- profile dates -->
-        <div class="self-start indent-2 col-start-2 col-end-4" >
-          <p class="text-lg"><strong>Usuario:</strong> <span th:text="${alumn.username}"></span></p>
-          <p class="text-lg"><strong>Nombre:</strong> <span th:text="${alumn.firstName}"></span></p>
-          <p class="text-lg"><strong>Apellido:</strong> <span th:text="${alumn.lastName}"></span></p>
-          <p class="text-lg"><strong>Grupo:</strong> <span th:text="${alumn.lastName}"></span></p>
-          <p class="text-lg"><strong>Promedio:</strong> <span th:text="${alumn.lastName}"></span></p>
-          <p class="text-lg"><strong>Edad:</strong> <span th:text="${alumn.lastName}"></span></p>
-          <p class="text-lg"><strong>Fecha de Nacimiento:</strong> <span th:text="${alumn.lastName}"></span></p>
-      </div>
+
+        </section>
     </div>
   </div>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
