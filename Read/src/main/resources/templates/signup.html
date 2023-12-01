@@ -30,7 +30,7 @@
             <div class="absolute w-[100%] h-[100%] bg-transparent gap-2 flex flex-row-reverse items-center justify-center">
                 <!-- Imagen -->
                 <div class="w-[48%] h-[100%] flex items-center justify-center imgAlumn duration-200 transition-all ease-in-out">
-                    <img src="https://img.freepik.com/fotos-premium/lofi-aesthetics-illustration-pastel-color_950633-41.jpg" alt="" class="w-[90%] h-[90%] object-cover rounded-xl">
+                    <img src="https://img.freepik.com/fotos-premium/lofi-aesthetics-illustration-pastel-color_950633-41.jpg" th:src="@{/img/book.jpg}" alt="" class="w-[90%] h-[90%] object-cover rounded-xl">
                 </div>
                 <!-- Content -->
                 <form method="post" action="/add-alumn" th:action="@{/add-alumn}" th:object="${alumn}" class="w-[48%] h-[100%] flex flex-col items-center justify-center gap-3 cardAlumn duration-200 transition-all ease-in-out z-10">
@@ -67,7 +67,7 @@
             <div class="absolute w-[100%] h-[100%] bg-transparent flex items-center justify-center">
                 <!-- Image -->
                 <div class="w-[48%] h-[100%] flex items-center justify-center translate-x-[-110%] imgTeacher duration-200 transition-all ease-in-out">
-                    <img src="https://img.freepik.com/fotos-premium/lofi-aesthetics-illustration-pastel-color_950633-41.jpg" alt="" class="w-[90%] h-[90%] object-cover rounded-xl">
+                    <img src="https://img.freepik.com/fotos-premium/lofi-aesthetics-illustration-pastel-color_950633-41.jpg" th:src="@{/img/book.jpg}" alt="" class="w-[90%] h-[90%] object-cover rounded-xl">
                 </div>
                 <!-- Content -->
                 <form method="post" action="add-teacher" th:action="@{/add-teacher}" th:object="${teacher}" class="w-[48%] h-[100%] flex flex-col items-center justify-center gap-3 cardTeacher translate-x-[110%] duration-200 transition-all ease-in-out">

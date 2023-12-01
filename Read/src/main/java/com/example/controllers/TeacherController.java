@@ -16,7 +16,6 @@ import com.example.repositories.TextRepository;
 import com.example.utilities.SearchGroupsUtil;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
@@ -24,7 +23,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.naming.directory.SearchControls;
 import java.util.*;
 
 @Controller
@@ -222,10 +220,36 @@ public class TeacherController {
 
         TeacherEntity teacher = teacherRepository.findByUsername(username).get();
 
-        List<Object> easiestTexts = solveRepository.findMostEasiestTextsByTeacherId(teacher.getId());
+        List<Object[]> easiestTexts = solveRepository.findMostEasiestTextsByTeacherId(teacher.getId());
 
-        model.addAttribute("easiestTexts", easiestTexts);
+        model.addAttribute("texts", easiestTexts);
 
-        return "teacher-most-easiest-texts";
+        return "teacher-easy-texts";
+    }
+
+    @GetMapping("/mostHardestTexts")
+    public String showMostHardestTexts(Model model, Authentication authentication) {
+        String username = authentication.getName();
+
+        TeacherEntity teacher = teacherRepository.findByUsername(username).get();
+
+        List<Object[]> hardestTexts = solveRepository.findMostHardestTextsByTeacherId(teacher.getId());
+
+        model.addAttribute("texts", hardestTexts);
+
+        return "teacher-hard-texts";
+    }
+
+    @GetMapping("/mostRead")
+    public String showMostReadTexts(Model model, Authentication authentication) {
+        String username = authentication.getName();
+
+        TeacherEntity teacher = teacherRepository.findByUsername(username).get();
+
+        List<Object[]> mostReadTexts = solveRepository.findMostReadTextsByTeacherId(teacher.getId());
+
+        model.addAttribute("texts", mostReadTexts);
+
+        return "teacher-most-texts";
     }
 }
