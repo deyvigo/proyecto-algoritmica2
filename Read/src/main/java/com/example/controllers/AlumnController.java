@@ -2,6 +2,7 @@ package com.example.controllers;
 
 import com.example.entities.AlumnEntity;
 import com.example.entities.GroupEntity;
+import com.example.entities.SolveEntity;
 import com.example.entities.TeacherEntity;
 import com.example.repositories.AlumnRepository;
 import com.example.repositories.GroupRepository;
@@ -77,24 +78,44 @@ public class AlumnController {
     @GetMapping("/statistics")
     public String showAlumnStatistics(Model model, Authentication authentication) {
     
-    AlumnEntity alumn = alumnRepository.findByUsername(getUsernameAlumn(authentication)).orElse(null);
+        AlumnEntity alumn = alumnRepository.findByUsername(getUsernameAlumn(authentication)).orElse(null);
 
-    if (alumn != null) {
-        // Calcular los porcentajes y promedios
-        double promedioNotas = alumn.calcularPromedio();
-        double porcentajePreguntasCorrectas = alumn.calcularPromedioPreguntasCorrectasPorTexto();
-        double porcentajeTextosAcertadosCompletamente = alumn.calcularPorcentajeTextosAcertadosCompletamente();
-        double porcentajeTextosFalladosCompletamente = alumn.calcularPorcentajeTextosFalladosCompletamente();
+        if (alumn != null) {
+            // Calcular los porcentajes y promedios
+            double promedioNotas = alumn.calcularPromedio();
+            double porcentajePreguntasCorrectas = alumn.calcularPromedioPreguntasCorrectasPorTexto();
+            double porcentajeTextosAcertadosCompletamente = alumn.calcularPorcentajeTextosAcertadosCompletamente();
+            double porcentajeTextosFalladosCompletamente = alumn.calcularPorcentajeTextosFalladosCompletamente();
 
-        
-        model.addAttribute("promedioNotas", promedioNotas);
-        model.addAttribute("porcentajePreguntasCorrectas", porcentajePreguntasCorrectas);
-        model.addAttribute("porcentajeTextosAcertadosCompletamente", porcentajeTextosAcertadosCompletamente);
-        model.addAttribute("porcentajeTextosFalladosCompletamente", porcentajeTextosFalladosCompletamente);
 
-        return "alumn-statistics";
-    } else {
-        return "/error"; 
+            model.addAttribute("promedioNotas", promedioNotas);
+            model.addAttribute("porcentajePreguntasCorrectas", porcentajePreguntasCorrectas);
+            model.addAttribute("porcentajeTextosAcertadosCompletamente", porcentajeTextosAcertadosCompletamente);
+            model.addAttribute("porcentajeTextosFalladosCompletamente", porcentajeTextosFalladosCompletamente);
+
+            return "alumn-statistics";
+        } else {
+            return "/error";
+        }
     }
-}
+
+    @GetMapping("/companeros")
+    public String getCompaneros(Authentication authentication, Model model){
+        AlumnEntity alumn = alumnRepository.findByUsername(getUsernameAlumn(authentication)).get();
+        GroupEntity group = alumn.getAlumn_group();
+
+        List<AlumnEntity> companeros = group.getGroup_alumns();
+        //Eliminar al alumno de la lista
+        companeros.remove(alumn);
+        model.addAttribute("companeros", companeros);
+        return "alumn-companeros";
+    }
+
+    @GetMapping("/leidos")
+    public String getTextosLeidos(Authentication auth, Model model){
+        AlumnEntity alumn = alumnRepository.findByUsername(getUsernameAlumn(auth)).get();
+        List<SolveEntity> solves = alumn.getSolutions();
+        model.addAttribute("solves", solves);
+        return "alumn-textos-leidos";
+    }
 }

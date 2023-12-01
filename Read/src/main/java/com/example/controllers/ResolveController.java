@@ -114,29 +114,24 @@ public class ResolveController {
         int i=0; //indice de pregunta
         //Iterar sobre las preguntas y comparar con las respuestas del usuario
         for (Map.Entry<String, String> entry : userAnswers.entrySet()) {
-
             String grupo = entry.getKey();
             String opcionSeleccionada = entry.getValue();
 
             if (opcionSeleccionada.equals(questions.get(i).getRespuesta())){
                 correctas++;
-            } else {
-                incorrectas++;
             }
-
-            nota = (double) (correctas*20)/(correctas + incorrectas);
-
-            nota = Double.parseDouble(decimalPattern.format(nota)); //Redondear a 2 decimales
-
-            // Imprimir para comprobar cada respuesta
-            System.out.println(grupo + ": " + opcionSeleccionada);
-            System.out.println("Correcta: " + questions.get(i).getRespuesta());
-            System.out.println(opcionSeleccionada.equals(questions.get(i).getRespuesta()));
             i++;
             if (questions.size() == i){
                 break;
             }
         }
+
+        incorrectas = questions.size() - correctas;  //question.size() por si deja preguntas sin marcar
+
+        nota = (double) (correctas*20)/(correctas + incorrectas);
+
+        nota = Double.parseDouble(decimalPattern.format(nota)); //Redondear a 2 decimales
+
         solveEntity.setCorrects(correctas);
         solveEntity.setWrongs(incorrectas);
         solveEntity.setNota(nota);
