@@ -1,19 +1,15 @@
 
 package com.example.controllers;
 
-import com.example.entities.AlternativeEntity;
-import com.example.entities.AlumnEntity;
-import com.example.entities.QuestionEntity;
-import com.example.entities.TextEntity;
+import com.example.entities.*;
 import com.example.repositories.AlumnRepository;
 import com.example.repositories.QuestionRepository;
+import com.example.repositories.SolveRepository;
 import com.example.repositories.TextRepository;
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.text.DecimalFormat;
+import java.time.LocalDate;
+import java.util.*;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -29,18 +25,22 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping (path="/enter")
 public class ResolveController {
-    
-    @Autowired
-    private AlumnRepository alumnRepository;
+
+    private final AlumnRepository alumnRepository;
+    private final TextRepository textRepository;
+    private final QuestionRepository questionRepository;
+    private final SolveRepository solveRepository;
 
     @Autowired
-    private TextRepository textRepository;
-
-    @Autowired
-    private QuestionRepository questionRepository;
+    public ResolveController(AlumnRepository alumnRepository, TextRepository textRepository, QuestionRepository questionRepository, SolveRepository solveRepository) {
+        this.alumnRepository = alumnRepository;
+        this.textRepository = textRepository;
+        this.questionRepository = questionRepository;
+        this.solveRepository = solveRepository;
+    }
 
     @ModelAttribute(name = "alumnName")
-    public String getTeacherName(Authentication auth){
+    public String getAlumnName(Authentication auth){
         if (auth != null){
             AlumnEntity alumn = alumnRepository.findByUsername(((UserDetails) auth.getPrincipal()).getUsername()).get();
             return alumn.fullName();
@@ -52,11 +52,13 @@ public class ResolveController {
 
     // Mostrar texto y preguntas
     @GetMapping(path = "/text")
-    public String show(@RequestParam(name = "idText") BigInteger id, Model model) {
-        TextEntity t = textRepository.findById(id);
+    public String show(@RequestParam(name = "idText") Long id, Model model) {
+        TextEntity t = new TextEntity();
+        Optional<TextEntity> tOptional = textRepository.findById(id);
 
         List<List<Object>> textDates = new ArrayList<>();
-        if (t != null) {
+        if (tOptional.isPresent()) {
+            t = tOptional.get();
             List<Object> textInfo = new ArrayList<>();
             textInfo.add(t.getContent());
             List<List<String>> questionsAndOptions = new ArrayList<>();
@@ -84,23 +86,47 @@ public class ResolveController {
 
     @PostMapping(path = "/solvetext")
     public String solve(@RequestParam(name = "idText") Long id,
-                      @RequestParam Map<String, String> userAnswers, Model model){
-                       
+                      @RequestParam Map<String, String> userAnswers, Model model, Authentication auth){
+
+        SolveEntity solveEntity = new SolveEntity();  //Solución del alumno
+        Optional<TextEntity> text = textRepository.findById(id);
+        text.ifPresent(solveEntity::setSolvedText);
+
+        //Buscar al alumno
+        AlumnEntity existAlum = null;
+
+        if (auth != null){
+            existAlum = alumnRepository.findByUsername(((UserDetails) auth.getPrincipal()).getUsername()).get();
+            solveEntity.setAlumnSolve(existAlum);
+        }
         List<QuestionEntity> questions= questionRepository.findQuestionsByTextId(id);        
         
         model.addAttribute("userAnswers", userAnswers);
         model.addAttribute("questions", questions);
 
-        //Lo de aquí se puede eliminar, es solo para comprobar
+        DecimalFormat decimalPattern = new DecimalFormat("#.##"); //Patron para redondear a 2 decimales
 
+        // Calcula puntaje
+        int correctas = 0;
+        int incorrectas = 0;
+        double nota = 0;
 
         int i=0; //indice de pregunta
-
         //Iterar sobre las preguntas y comparar con las respuestas del usuario
         for (Map.Entry<String, String> entry : userAnswers.entrySet()) {
 
             String grupo = entry.getKey();
             String opcionSeleccionada = entry.getValue();
+
+            if (opcionSeleccionada.equals(questions.get(i).getRespuesta())){
+                correctas++;
+            } else {
+                incorrectas++;
+            }
+
+            nota = (double) (correctas*20)/(correctas + incorrectas);
+
+            nota = Double.parseDouble(decimalPattern.format(nota)); //Redondear a 2 decimales
 
             // Imprimir para comprobar cada respuesta
             System.out.println(grupo + ": " + opcionSeleccionada);
@@ -111,7 +137,21 @@ public class ResolveController {
                 break;
             }
         }
+        solveEntity.setCorrects(correctas);
+        solveEntity.setWrongs(incorrectas);
+        solveEntity.setNota(nota);
+        solveEntity.setDateOfSolution(LocalDate.now());
 
+        solveRepository.save(solveEntity);
+
+        //Actualizar nota del alumno
+        assert existAlum != null;
+        existAlum.setNota(Double.parseDouble(decimalPattern.format(existAlum.calcularPromedio()))); //Redondear a 2 decimales
+        alumnRepository.save(existAlum);
+
+        model.addAttribute("correctas", correctas);
+        model.addAttribute("incorrectas", incorrectas);
+        model.addAttribute("nota", nota);
 
         return "alumn-text-solution";
     }

@@ -5,6 +5,7 @@ import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 import java.time.LocalDate;
+import java.time.Period;
 
 
 @Getter
@@ -35,5 +36,11 @@ public class UserEntity {
 
     public String fullName (){
         return this.getFirstName() + " " + this.getLastName();
+    }
+
+    public int calculateAge(){
+        LocalDate now = LocalDate.now();
+        Period period = Period.between(this.getBirthDate(), now);
+        return period.getYears();
     }
 }

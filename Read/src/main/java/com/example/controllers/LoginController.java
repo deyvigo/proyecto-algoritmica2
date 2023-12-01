@@ -103,6 +103,7 @@ public class LoginController {
         if(teacherRepository.findByUsername(alumn.getUsername()).isEmpty() && alumnRepository.findByUsername(alumn.getUsername()).isEmpty()){
             alumn.setAlumn_rol(roleRepository.findByName(RoleName.ROLE_ALUMN).orElse(null));
             alumn.setPassword(passwordEncoder.encode(alumn.getPassword()));
+            alumn.setAge(alumn.calculateAge());
             alumnRepository.save(alumn);
         }
         return "redirect:/login";

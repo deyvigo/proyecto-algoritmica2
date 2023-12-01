@@ -13,34 +13,44 @@
     <div class="w-1/5 flex flex-col items-center justify-between bg-[#D8CDB1] min-h-[91.5%] p-4 rounded-3xl mb-8 gap-0 fixed left-[10%] border-black border-2">
 
       <div>
-      <!-- img -->
-      <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
-        <img src="../static/img/mapache-con-audifonos.svg" th:src="@{/img/mapache-con-audifonos.svg}" alt="alumn-perfil" class="object-cover rounded-full">
-        <h1 class="font-semibold">Alumno: <span th:text="${alumnName}"></span></h1>
+        <!-- img -->
+        <div class="w-full h-[20%] flex flex-col items-center justify-center p-2 gap-1">
+          <img src="../static/img/mapache-con-audifonos.svg" th:src="@{/img/mapache-con-audifonos.svg}" alt="alumn-perfil"
+            class="object-cover rounded-full">
+          <h1 class="font-semibold">Alumno: <span th:text="${alumnName}"></span></h1>
+        </div>
+        <!-- menu -->
+        <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
+          <ul class="flex flex-col gap-1">
+            <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+              <ion-icon name="person" class="w-[25px] h-[25px]"></ion-icon>
+              <a th:href="@{/alumn/profile}" class="font-bold w-full h-auto border-black p-2">Perfil</a>
+            </div>
+            <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+              <ion-icon name="search-outline" class="w-[25px] h-[25px]"></ion-icon>
+              <a href="" th:href="@{/logRedirect}" class="font-bold w-full h-auto border-black p-2">Buscar</a>
+            </div>
+            <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+              <ion-icon name="people" class="w-[25px] h-[25px]"></ion-icon>
+              <a href="" class="font-bold w-full h-auto border-black p-2">Compañeros</a>
+            </div>
+            <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+              <ion-icon name="stats-chart" class="w-[25px] h-[25px]"></ion-icon>
+              <a th:href="@{/alumn/statistics}" class="font-bold w-full h-auto border-black p-2">Estadística</a>
+            </div>
+            <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+              <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
+              <a href="" class="font-bold w-full h-auto border-black p-2">Textos Leídos</a>
+            </div>
+            <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
+              <ion-icon name="trophy" class="w-[25px] h-[25px]"></ion-icon>
+              <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
+            </div>
+            
+          </ul>
+  
+        </div>
       </div>
-    <!-- menu -->
-    <div class="w-[95%] h-[70%] flex flex-col justify-between gap-2">
-      <ul class="flex flex-col gap-1">
-        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-          <ion-icon name="person-outline" class="w-[25px] h-[25px]"></ion-icon>
-          <a th:href="@{/alumn/profile}" class="font-bold w-full h-auto border-black p-2">Perfil</a>
-        </div>
-        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-          <ion-icon name="stats-chart-outline" class="w-[25px] h-[25px]"></ion-icon>
-          <a th:href="@{/alumn/statistics}" class="font-bold w-full h-auto border-black p-2">Estadística</a>
-        </div>
-        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-          <ion-icon name="document-text-outline" class="w-[25px] h-[25px]"></ion-icon>
-          <a href="" class="font-bold w-full h-auto border-black p-2">Textos</a>
-        </div>
-        <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">
-          <ion-icon name="caret-forward-outline" class="w-[25px] h-[25px]"></ion-icon>
-          <a href="" class="font-bold w-full h-auto border-black p-2">Notas</a>
-        </div>
-      </ul>
-      
-    </div>
-  </div>
     <!-- salir -->
     <div class="w-[100%] flex flex-col justify-between">
       <div class="flex items-center justify-center hover:bg-[#5b6895] hover:rounded-lg pl-4">

@@ -30,64 +30,68 @@ public class Runner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         for (int j = 1; j<=183; j++){
-            String texto = ReadTextsForTXT.leerArch("../Textos/" + (j) + ".txt");
-
-            /////////////////////////////////////////////////////////////////////////////////////
-
-            TextEntity textToSave = new TextEntity();
-            textToSave.setContent(separarTexto(texto).trim());
-            textRepository.save(textToSave);
-
-            /////////////////////////////////////////////////////////////////////////////////////
-
-            String pat = "==PREGUNTA";
-            Pattern regex = Pattern.compile(pat);
-            Matcher match = regex.matcher(texto);
-            int cantPreguntas = 0;
-            while (match.find()) {
-                cantPreguntas++;
-            }
-            for(int i = 1; i<=cantPreguntas; i++){
-
-                String[] partes = separarPregunta(texto, i).split("=====================ALTERNATIVAS======================");
-                String pregunta = partes[0];
-                /////////////////////////////////////////////////////////////////////////////////////
-
-                QuestionEntity questToSave = new QuestionEntity();
-                questToSave.setAlternativas(new ArrayList<>());
-                questToSave.setPregunta(pregunta.trim());
-                questToSave.setText(textToSave);
+            if (j == 122){
+                System.out.println("Text " + j);
+            } else if (j == 123){
+                System.out.println("Text " + j);
+            } else {
+                String texto = ReadTextsForTXT.leerArch("../Textos/" + (j) + ".txt");
 
                 /////////////////////////////////////////////////////////////////////////////////////
-                partes = partes[1].split("=====================ALTERNATIVA CORRECTA======================");
-                List<String> alternativas = separarAlternativas(partes[0]);
 
-                partes = partes[1].split("=====================RAZONAMIENTO======================");
+                TextEntity textToSave = new TextEntity();
+                textToSave.setContent(separarTexto(texto).trim());
+                textRepository.save(textToSave);
 
-                String respuesta = partes[0];
-                String razonamiento = partes[1];
                 /////////////////////////////////////////////////////////////////////////////////////
 
-                questToSave.setRespuesta(respuesta.trim());
-                questToSave.setRazonamiento(razonamiento.trim());
+                String pat = "==PREGUNTA";
+                Pattern regex = Pattern.compile(pat);
+                Matcher match = regex.matcher(texto);
+                int cantPreguntas = 0;
+                while (match.find()) {
+                    cantPreguntas++;
+                }
+                for(int i = 1; i<=cantPreguntas; i++){
 
-                questionRepository.save(questToSave);
-                /////////////////////////////////////////////////////////////////////////////////////
-
-                for (String s: alternativas){
+                    String[] partes = separarPregunta(texto, i).split("=====================ALTERNATIVAS======================");
+                    String pregunta = partes[0];
                     /////////////////////////////////////////////////////////////////////////////////////
 
-                    AlternativeEntity alternativa = new AlternativeEntity();
-                    alternativa.setAlternativa(s.trim());
-                    alternativa.setPreg(questToSave);
-                    alternativeRepository.save(alternativa);
+                    QuestionEntity questToSave = new QuestionEntity();
+                    questToSave.setAlternativas(new ArrayList<>());
+                    questToSave.setPregunta(pregunta.trim());
+                    questToSave.setText(textToSave);
 
                     /////////////////////////////////////////////////////////////////////////////////////
+                    partes = partes[1].split("=====================ALTERNATIVA CORRECTA======================");
+                    List<String> alternativas = separarAlternativas(partes[0]);
+
+                    partes = partes[1].split("=====================RAZONAMIENTO======================");
+
+                    String respuesta = partes[0];
+                    String razonamiento = partes[1];
+                    /////////////////////////////////////////////////////////////////////////////////////
+
+                    questToSave.setRespuesta(respuesta.trim());
+                    questToSave.setRazonamiento(razonamiento.trim());
+
+                    questionRepository.save(questToSave);
+                    /////////////////////////////////////////////////////////////////////////////////////
+
+                    for (String s: alternativas){
+                        /////////////////////////////////////////////////////////////////////////////////////
+
+                        AlternativeEntity alternativa = new AlternativeEntity();
+                        alternativa.setAlternativa(s.trim());
+                        alternativa.setPreg(questToSave);
+                        alternativeRepository.save(alternativa);
+
+                        /////////////////////////////////////////////////////////////////////////////////////
+                    }
                 }
             }
-
         }
-
     }
 
     public static String separarTexto(String content){

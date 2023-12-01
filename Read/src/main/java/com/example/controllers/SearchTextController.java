@@ -51,10 +51,14 @@ public class SearchTextController {
     }
 
     @GetMapping(path = "/text")
-    public String search(@RequestParam(name = "searchTokens")String keywords, Model model){
+    public String search(@RequestParam(name = "searchTokens")String keywords, Model model, Authentication auth){
         CollectionTextEntity collectionTextEntity = new CollectionTextEntity();
         collectionTextEntity.setTexts(textRepository.findAll());
-        collectionTextEntity.buscarTextos(keywords, solveRepository.findAll());
+
+        AlumnEntity alumn =  alumnRepository.findByUsername(((UserDetails) auth.getPrincipal()).getUsername()).get();
+
+        collectionTextEntity.buscarTextos(keywords, solveRepository.findAllSolvesByAlumnId(alumn.getId()));
+
         List<List<String>> text = new ArrayList<>();
         if (!collectionTextEntity.getTexts().isEmpty()){
             for (TextEntity t: collectionTextEntity.getTexts()){

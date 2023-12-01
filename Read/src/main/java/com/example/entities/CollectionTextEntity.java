@@ -1,9 +1,8 @@
 package com.example.entities;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
-import java.util.Objects;
 
 public class CollectionTextEntity {
 
@@ -38,10 +37,13 @@ public class CollectionTextEntity {
 
     public void eliminarResueltos(List<SolveEntity> resueltos){
         if (!resueltos.isEmpty()){
-            for (TextEntity t : this.texts){
-                for (SolveEntity s : resueltos){
-                    if (t.getId() == s.getId()){
-                        this.texts.remove(t);
+            Iterator<TextEntity> iterator = this.texts.iterator(); // Iterador para evitar problemas de concurrencia
+            while (iterator.hasNext()) {
+                TextEntity t = iterator.next();
+
+                for (SolveEntity s : resueltos) {
+                    if (t.getId() == s.getSolvedText().getId()) {
+                        iterator.remove();
                     }
                 }
             }
